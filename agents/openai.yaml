@@ -1,0 +1,4 @@
+interface:
+  display_name: "CAD 彩平与室内摄影"
+  short_description: "核对住宅平面与家具占位，生成多风格彩平并延伸各房间摄影效果图"
+  default_prompt: "使用 $cad-plan-to-room-render 处理我的住宅平面，先核对布局，再按指定风格制作彩平和房间效果图。"

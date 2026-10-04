@@ -1,0 +1,26 @@
+{
+  "schema": "cad-plan-scene/1.0",
+  "title": "匿名合成空间示例",
+  "units": "mm",
+  "coordinates": {"x": "right", "y": "up", "z": "up"},
+  "source": {"kind": "synthetic", "description": "为演示数据格式手工构造，不来自真实住宅或客户图纸"},
+  "assumptions": ["示例墙高 2700mm 仅为设计补全，SVG 不表达高度。"],
+  "unresolved": ["U1 的实际类别未判定；保留原占位，不替换为相近家具。"],
+  "walls": [
+    {"id": "W1", "name": "带内环的合成墙体", "basis": "synthetic geometry",
+     "outer_mm": [[0, 0], [5200, 0], [5200, 4200], [0, 4200]],
+     "holes_mm": [[[200, 200], [5000, 200], [5000, 4000], [200, 4000]]],
+     "height_mm": 2700, "height_basis": "design completion"}
+  ],
+  "openings": [
+    {"id": "O1", "name": "示意窗跨度", "category": "window", "basis": "synthetic span",
+     "a_mm": [1700, 4100], "b_mm": [3400, 4100], "thickness_mm": 200}
+  ],
+  "objects": [
+    {"id": "B1", "name": "示例床", "category": "bed", "basis": "synthetic footprint",
+     "footprint_mm": [[500, 600], [2500, 600], [2500, 2400], [500, 2400]], "front_vector": [1, 0]},
+    {"id": "U1", "name": "保留的未知轮廓", "category": "unidentified_fixture", "basis": "synthetic unclassified outline",
+     "footprint_mm": [[3500, 700], [4400, 700], [4400, 1500], [4000, 1500], [4000, 1200], [3500, 1200]],
+     "front_vector": null}
+  ]
+}
