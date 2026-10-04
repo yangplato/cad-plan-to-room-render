@@ -3,7 +3,7 @@
   "example_note": "这是待宿主填写的适配/运行交接示例，不是某平台已验证的配置；null 与 unverified 不能自动当作可用。",
   "contract_version": "1.0",
   "base_skill_name": "cad-plan-to-room-render",
-  "base_skill_version": "1.1.0",
+  "base_skill_version": "1.2.0",
   "adapter": {
     "id": "my-host-adapter",
     "version": "0.1.0",

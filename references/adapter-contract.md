@@ -1,6 +1,6 @@
 # 宿主适配契约 v1.0
 
-适用于 Skill v1.1.x。它约定 Agent 应交换和保留的信息，**不是可直接调用的 API**。宿主把逻辑动作映射到真实工具；工具名称、模型参数、上传方式与等待机制由宿主确认。示例见 [platform-adapter.example.json](../examples/platform-adapter.example.json)。
+适用于 Skill v1.1–1.2，契约版本仍为1.0。它约定 Agent 应交换和保留的信息，**不是可直接调用的 API**。宿主把逻辑动作映射到真实工具；工具名称、模型参数、上传方式与等待机制由宿主确认。示例见 [platform-adapter.example.json](../examples/platform-adapter.example.json)。
 
 ## 1. 底座与本地适配分开
 
@@ -25,7 +25,7 @@
 
 本阶段预检只包含必需文档、选定的离线风格模块和真实图片。逐项记录存在、可读及传图状态。图片条目包括 `artifact_id`、`revision`、角色、格式和实际 `handle`；handle 可以是当前工具可读取的路径、上传 ID、附件 ID 或已解码内容引用，但必须验证本次工具真能取到。`file_name` 仅为显示标签，不能用它代替图片。可用时保留内容哈希；不能计算则用 `null` 并保留版本/来源，绝不编造哈希。
 
-角色限于实际用途：`source_plan / clean_plan / spatial_guide / approved_design / quality_reference / style_reference / photography_reference`。按最终发送顺序记录。无关样张不加载，质感参考不能提供本案布局。若底图和样张混合，Prompt 必须明确各自权责。
+角色限于实际用途：`source_plan / clean_plan / spatial_guide / approved_design / quality_reference / style_reference / photography_reference`。按最终发送顺序记录。无关样张不加载，质感参考不能提供本案布局。若底图和样张混合，Prompt 必须明确各自权责。按[参考清单](image-references.md)选择，03的一张同风格图用 `style_reference` 角色，可在文字说明中同时承担获准的质感参考；不为同一图片兼具两种作用重复上传。记录选图理由与借鉴/排除项，不需要新增平台API。
 
 ## 3. 最小逻辑请求与返回
 
