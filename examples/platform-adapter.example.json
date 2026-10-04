@@ -1,0 +1,94 @@
+{
+  "example_only": true,
+  "example_note": "这是待宿主填写的适配/运行交接示例，不是某平台已验证的配置；null 与 unverified 不能自动当作可用。",
+  "contract_version": "1.0",
+  "base_skill_name": "cad-plan-to-room-render",
+  "base_skill_version": "1.1.0",
+  "adapter": {
+    "id": "my-host-adapter",
+    "version": "0.1.0",
+    "host": null,
+    "model": null,
+    "overlay_scope": ["tool_bindings", "file_formats", "image_limits", "storage", "confirmation_ui"],
+    "capabilities": {
+      "read_files": {"status": "unverified", "formats": [], "evidence": null},
+      "inspect_images": {"status": "unverified", "evidence": null},
+      "parse_cad": {"status": "unverified", "evidence": null},
+      "execute_code": {"status": "unverified", "evidence": null},
+      "generate_with_images": {"status": "unverified", "max_images": null, "formats": [], "evidence": null},
+      "edit_images": {"status": "unverified", "evidence": null},
+      "inspect_outputs": {"status": "unverified", "evidence": null},
+      "persist_artifacts": {"status": "unverified", "evidence": null},
+      "resume_jobs": {"status": "unverified", "evidence": null},
+      "confirm_with_user": {"status": "unverified", "mode": null, "evidence": null}
+    },
+    "tool_bindings": {
+      "inspect_source": null,
+      "prepare_plan": null,
+      "generate_color_plan": null,
+      "generate_room_render": null,
+      "inspect_result": null,
+      "request_confirmation": null
+    }
+  },
+  "case": {
+    "case_id": "example-home-001",
+    "requested_work": "整理平面，再做一种风格彩平和一个房间效果图",
+    "current_stage": "01-source",
+    "facts_revision": null,
+    "selected_design_revision": null,
+    "confirmation_policy": {
+      "default": "each_stage_requires_user_confirmation",
+      "explicit_delegation": null,
+      "delegated_stages": [],
+      "delegation_evidence": null
+    },
+    "artifacts": [
+      {
+        "artifact_id": "source-plan",
+        "revision": "r1",
+        "file_name": "用户提供的平面.png",
+        "role": "source_plan",
+        "media_type": "image/png",
+        "handle": null,
+        "content_sha256": null,
+        "preflight": {"exists": "unverified", "readable": "unverified", "pixels_supplied": false},
+        "depends_on": []
+      }
+    ],
+    "stages": [
+      {"stage": "01-source", "artifact_id": null, "revision": null, "status": "draft", "self_check": "not_run", "confirmation_evidence": null},
+      {"stage": "02-clean-plan", "artifact_id": null, "revision": null, "status": "draft", "self_check": "not_run", "confirmation_evidence": null},
+      {"stage": "03-color-plan", "artifact_id": null, "revision": null, "status": "draft", "self_check": "not_run", "confirmation_evidence": null},
+      {"stage": "04-room-render", "artifact_id": null, "revision": null, "status": "draft", "self_check": "not_run", "confirmation_evidence": null}
+    ]
+  },
+  "logical_request": {
+    "request_id": "example-request-001",
+    "case_id": "example-home-001",
+    "stage": "01-source",
+    "action": "inspect_source",
+    "inputs": [{"artifact_id": "source-plan", "revision": "r1", "role": "source_plan", "handle": null}],
+    "prompt": null,
+    "constraints": {"facts_revision": null, "selected_design_revision": null},
+    "output": {"kind": "source_summary_and_open_questions", "style": null, "room": null},
+    "confirmation_policy": "展示识别结果并确认当前输入；未确认前不制作整理图。"
+  },
+  "logical_result": {
+    "request_id": "example-request-001",
+    "status": "needs_input",
+    "job_id": null,
+    "outputs": [],
+    "actual_inputs": [],
+    "actual_prompt": null,
+    "provider": null,
+    "model": null,
+    "self_check": {"status": "not_run", "observations": []},
+    "error": {
+      "code": "INPUT_UNREADABLE",
+      "message": "示例尚未填入宿主可访问的真实图片引用，没有执行识别或生成。",
+      "retryable": false,
+      "next_step": "接收真实附件，验证可读并填写 handle，再进行识别。"
+    }
+  }
+}
