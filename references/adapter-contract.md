@@ -25,7 +25,7 @@
 
 本阶段预检只包含必需文档、选定的离线风格模块和真实图片。逐项记录存在、可读及传图状态。图片条目包括 `artifact_id`、`revision`、角色、格式和实际 `handle`；handle 可以是当前工具可读取的路径、上传 ID、附件 ID 或已解码内容引用，但必须验证本次工具真能取到。`file_name` 仅为显示标签，不能用它代替图片。可用时保留内容哈希；不能计算则用 `null` 并保留版本/来源，绝不编造哈希。
 
-角色限于实际用途：`source_plan / clean_plan / spatial_guide / approved_design / quality_reference / style_reference / photography_reference`。按最终发送顺序记录。无关样张不加载，质感参考不能提供本案布局。若底图和样张混合，Prompt 必须明确各自权责。按[参考清单](image-references.md)选择，03的一张同风格图用 `style_reference` 角色，可在文字说明中同时承担获准的质感参考；不为同一图片兼具两种作用重复上传。记录选图理由与借鉴/排除项，不需要新增平台API。
+角色限于实际用途：`source_plan / clean_plan / spatial_guide / approved_design / quality_reference / style_reference / photography_reference`。按最终发送顺序记录。无关样张不加载，参考不能提供本案布局。按[参考清单](image-references.md)选择：03的随包彩平用 `quality_reference`，只参考材质表现、光影、留白和画幅；04的随包摄影用 `photography_reference`，只参考景别、层次、视线和光影。同一图片不重复上传。固定母版与r4模块不因换参考图重写；记录实际选图和角色，不需要新增平台API。
 
 V1.3增加以下交互要求：整理平面只给房间编号；首次制作每种彩平或每个效果图机位前，在当前对话展示真实输入和完整展开提示词，由用户回复确认后执行。所有审阅和确认仅在对话中进行，不另建审阅页或确认文件。同方案纠错按已有授权继续，用户要求逐次确认时遵从。普通文字回复即可，不需要新增 API。
 
