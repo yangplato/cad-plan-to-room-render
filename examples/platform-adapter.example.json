@@ -3,7 +3,7 @@
   "example_note": "这是待宿主填写的适配/运行交接示例，不是某平台已验证的配置；null 与 unverified 不能自动当作可用。",
   "contract_version": "1.0",
   "base_skill_name": "cad-plan-to-room-render",
-  "base_skill_version": "1.3.0",
+  "base_skill_version": "1.3.1",
   "adapter": {
     "id": "my-host-adapter",
     "version": "0.1.0",
@@ -72,7 +72,7 @@
     "prompt": null,
     "constraints": {"facts_revision": null, "selected_design_revision": null},
     "output": {"kind": "source_summary_and_open_questions", "style": null, "room": null},
-    "confirmation_policy": "展示识别结果并确认当前输入；未确认前不制作整理图。"
+    "confirmation_policy": "在当前对话展示识别结果，收到用户回复确认后再制作整理图；不另建审阅页或确认文件。"
   },
   "logical_result": {
     "request_id": "example-request-001",
