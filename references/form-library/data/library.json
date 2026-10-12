@@ -1,0 +1,3956 @@
+{
+  "schema": "interior-form-library/1.0",
+  "version": "v1.0.0-local",
+  "title": "室内设计造型知识库 / Interior Design Form Library",
+  "verified_at": "2026-10-09",
+  "updated_at": "2026-10-12T08:47:39.525522+00:00",
+  "scope": "Visual form references only; no construction specifications, dimensional proof, CAD blocks, or 3D assets.",
+  "visual_analysis": {
+    "method": "Codex multimodal observation of actual online project photos using browser screenshots; observation method retained per image",
+    "human_acceptance": "not_performed",
+    "source_of_truth": "structured data, original project publication and per-image observation"
+  },
+  "image_policy": "Online reference only; no third-party originals downloaded or redistributed. Browser rendering may use transient cache. Rights retained by the original photographer/office.",
+  "recommendation_policy": "Geometry/form and style are separate. Style/space/combination tags are editorial suggestions, not architect statements or construction guidance.",
+  "forms": [
+    {
+      "id": "ceiling-barrel-vault",
+      "category": "ceiling",
+      "name_zh": "筒拱顶",
+      "name_en": "Barrel-Vaulted Ceiling",
+      "aliases": [
+        "拱形顶",
+        "筒形拱顶",
+        "barrel vault"
+      ],
+      "visual_features": [
+        "一个连续圆弧截面沿单一轴线延伸，像长筒内部。",
+        "两侧顶面弯向边界，中央形成最高脊部。",
+        "轴向空间感强，可带有重复拱肋或板纹。"
+      ],
+      "spatial_applications": [
+        "走廊",
+        "书房",
+        "图书馆",
+        "餐厅",
+        "长条客厅"
+      ],
+      "style_tags": [
+        "传统",
+        "北欧风格",
+        "侘寂",
+        "当代"
+      ],
+      "combinations": [
+        "两侧书柜或低柜强化筒拱轴线。",
+        "重复拱肋、轴线吊灯与长桌可共同建立有序节奏。"
+      ],
+      "distinctions": "与穹顶相比，筒拱沿直线方向延伸，通常没有向中心汇聚的旋转对称；与自由曲面拱壳相比，截面及延伸方向更稳定。此例为建筑内部拱形顶面，不推定为石膏悬吊构造。",
+      "source_ids": [
+        "src-ceiling-stanbridge"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-stanbridge",
+          "image_url": "https://images.adsttc.com/media/images/613f/591a/c5a0/d71a/3318/0517/medium_jpg/stanbridgemill-library11848.jpg?1631541621",
+          "gallery_url": "https://www.archdaily.com/968369/the-library-stanbridge-mill-crawshaw-architects",
+          "observation": "图书馆中央中厅是木板圆拱筒面，沿长轴连续延伸；重复拱肋、两侧书架与中央长桌共同强调轴线。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-corrugated-wave",
+      "category": "ceiling",
+      "name_zh": "连续波纹顶",
+      "name_en": "Corrugated Wave Ceiling",
+      "aliases": [
+        "波纹吊顶",
+        "波浪顶",
+        "fluted wave ceiling"
+      ],
+      "visual_features": [
+        "连续面上重复小幅凹凸波纹，横截面接近规则波形。",
+        "平行波峰和波谷形成均匀细密的方向性阴影。",
+        "边缘能看到波形断面，视觉上不是独立条板之间的通透空隙。"
+      ],
+      "spatial_applications": [
+        "走廊",
+        "客餐厅",
+        "卧室",
+        "艺术会客空间"
+      ],
+      "style_tags": [
+        "当代",
+        "意式极简",
+        "现代简约"
+      ],
+      "combinations": [
+        "线性灯可沿波谷或波峰方向布置。",
+        "与弧形墙角、流线家具或曲线石材边缘呼应。"
+      ],
+      "distinctions": "与筒拱顶相比，波纹由很多浅凹凸单元重复；与起伏格栅顶相比，连续表面的小波纹是主角，不是分离条栅形成的大幅曲面。",
+      "source_ids": [
+        "src-ceiling-moscow"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-moscow",
+          "image_url": "https://oss.gooood.cn/uploads/2018/02/010-Moscow-apartment-by-Nicolas-Dahan.jpg",
+          "gallery_url": "https://www.gooood.cn/moscow-apartment-by-nicolas-dahan.htm",
+          "observation": "白色顶面密集重复圆滑浅波纹，靠墙边缘清楚可见波峰和波谷截面；两条线性灯沿顶面方向嵌入，玻璃与弧形石材长凳呼应。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-faceted-cellular",
+      "category": "ceiling",
+      "name_zh": "多面折角蜂窝顶",
+      "name_en": "Faceted Cellular Ceiling",
+      "aliases": [
+        "几何蜂窝顶",
+        "多面体吊顶",
+        "faceted hexagonal coffers"
+      ],
+      "visual_features": [
+        "多边形单元由若干三角形斜面组合，呈晶体般凹凸。",
+        "单元彼此错接或留缝，形成连续的二维几何铺陈。",
+        "同色斜面依靠受光角度显示深浅层次。"
+      ],
+      "spatial_applications": [
+        "餐厅",
+        "商业会客区",
+        "展厅",
+        "高挑空间"
+      ],
+      "style_tags": [
+        "当代",
+        "工业风",
+        "现代简约"
+      ],
+      "combinations": [
+        "可与弯曲柱面、木质分隔和细杆几何吊灯组合。",
+        "平静墙面和地面有助于避免上下同时堆叠复杂图案。"
+      ],
+      "distinctions": "与方形井格顶相比，这里由多面折角构成，单元不是简单方形凹腔；与发光菱格顶相比，几何体本身有明显倾斜和立体厚度。",
+      "source_ids": [
+        "src-ceiling-71above"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-71above",
+          "image_url": "https://oss.gooood.cn/uploads/2017/12/5-71-Above%EF%BC%8DTag-Front.jpg",
+          "gallery_url": "https://www.gooood.cn/71-above-los-angeles-by-tag-front.htm",
+          "observation": "顶部灰色多边单元由三角斜面折合，形成大小不同的凹凸晶体效果；木包覆柱子弯向上方，黑色背景及单元间缝隙可见。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-flat-plane",
+      "category": "ceiling",
+      "name_zh": "连续平顶",
+      "name_en": "Continuous Flat Ceiling",
+      "aliases": [
+        "平顶",
+        "大平顶",
+        "平整顶面"
+      ],
+      "visual_features": [
+        "主体顶面保持同一水平高度，形成连续完整的平面。",
+        "视觉重点是大面积留白与均匀延展，而不是凹腔或体块。",
+        "点状灯具或细窄边槽可以嵌入平面，但不改变整体平顶的主形态。"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "餐厅",
+        "卧室",
+        "书房",
+        "厨房"
+      ],
+      "style_tags": [
+        "现代简约",
+        "意式极简",
+        "北欧风格",
+        "当代"
+      ],
+      "combinations": [
+        "与通顶墙柜或整面墙板共同形成完整边界。",
+        "适合用独立吊灯、家具和材料成为空间主角。"
+      ],
+      "distinctions": "与周边降板顶相比，平顶主体没有用于构图的明显高低落差；照片右侧虽有窄线性槽，不能据此判定双眼皮或悬浮顶。",
+      "source_ids": [
+        "src-ceiling-sinan",
+        "src-ceiling-three-stages"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-sinan",
+          "image_url": "https://oss.gooood.cn/uploads/2024/06/035-east-garden-apartment-of-sinan-mansion-by-lm-960x640.jpg",
+          "gallery_url": "https://www.gooood.cn/east-garden-apartment-of-sinan-mansion-by-lm.htm",
+          "observation": "照片中书房/餐厅顶部是完整浅色水平平面，分布少量嵌灯；右侧沿墙柜有窄黑槽及细边带，整体仍以大平面为主。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "source_id": "src-ceiling-three-stages",
+          "image_url": "https://images.adsttc.com/media/images/60ed/cba3/d05e/f601/6475/0c2c/medium_jpg/10.jpg?1626196943",
+          "gallery_url": "https://www.archdaily.com/965036/three-stages-for-air-pencil-office",
+          "observation": "厨房上方为完整水平白色平顶，少量小型圆筒灯具布于同一平面，下方三面木质柜体齐顶；没有可见井格、条栅或曲面起伏。根任务与本子任务均独立看过像素。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot (root and ceiling research independently observed)",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-floating-islands",
+      "category": "ceiling",
+      "name_zh": "悬浮岛板顶",
+      "name_en": "Floating Ceiling Islands",
+      "aliases": [
+        "岛形吊顶",
+        "悬浮声学云板",
+        "acoustic clouds",
+        "悬浮岛板吊顶",
+        "多块浮岛顶"
+      ],
+      "visual_features": [
+        "多个独立水平板块悬于原顶下方，边缘与墙面分离。",
+        "板与板之间存在清晰空隙，原顶或设备层可以透见。",
+        "板块按网格或功能区排布，通过负空间产生轻盈感。"
+      ],
+      "spatial_applications": [
+        "餐厅",
+        "开放办公",
+        "会客区",
+        "高挑公共空间"
+      ],
+      "style_tags": [
+        "北欧风格",
+        "工业风",
+        "当代",
+        "现代简约"
+      ],
+      "combinations": [
+        "可与裸露顶面、轨道灯和独立吊灯组合。",
+        "板块位置可对应餐桌组团，墙面保留较完整的连续表面。"
+      ],
+      "distinctions": "与整块悬浮大平面相比，该形式由多块分离岛板组成；与井格顶相比，空隙贯通到上方，视觉上不是封闭凹腔。",
+      "source_ids": [
+        "src-ceiling-folk"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-folk",
+          "image_url": "https://www.troldtekt.com/media/j1gl5l2x/troldtekt_restaurant_folk_01-jpg.jpg?width=1080&height=566&v=1d87c156ae13090",
+          "gallery_url": "https://www.troldtekt.com/references/hotel-restaurant/restaurant-folk/",
+          "observation": "餐厅原顶下方排列浅色矩形板，板边之间有贯通空隙，白色轨道和吊点可见；球形吊灯穿过板间空隙悬挂。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-freeform-vaulted-shell",
+      "category": "ceiling",
+      "name_zh": "自由曲面拱壳顶",
+      "name_en": "Freeform Vaulted Shell Ceiling",
+      "aliases": [
+        "沙丘形吊顶",
+        "有机拱顶",
+        "洞穴式曲面顶"
+      ],
+      "visual_features": [
+        "多个半拱状或凹曲面壳体相接，边界和曲率不完全相同。",
+        "曲面交会形成连续但不规则的脊线、谷线和悬垂边缘。",
+        "柔和明暗变化使顶面呈洞穴或沙丘包覆感。"
+      ],
+      "spatial_applications": [
+        "餐厅",
+        "酒店会客区",
+        "艺术空间",
+        "有足够净高的客厅"
+      ],
+      "style_tags": [
+        "当代",
+        "侘寂",
+        "意式极简"
+      ],
+      "combinations": [
+        "沿壳体低边缘布置柔和线光，可强调曲面交界。",
+        "适合搭配平直墙面和简洁桌椅，使不规则顶面成为主要造型。"
+      ],
+      "distinctions": "与规则筒拱相比，曲面方向及截面持续变化；与连续波纹顶相比，采用少数大幅空间壳体，不是许多规则小波纹。",
+      "source_ids": [
+        "src-ceiling-tarentum"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-tarentum",
+          "image_url": "https://oss.gooood.cn/uploads/2022/08/007-Tarentum-Bar-Restaurant-China-by-MARS-Studio.jpg",
+          "gallery_url": "https://www.gooood.cn/tarentum-bar-restaurant-china-by-mars-studio.htm",
+          "observation": "就餐区顶面由多个宽幅弧壳交接，中央圆滑下垂壳体与左右壳体的高度不同；外缘呈不规则曲线，沿墙边线光突出包覆感。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-gable-pitched",
+      "category": "ceiling",
+      "name_zh": "人字坡顶",
+      "name_en": "Gabled Pitched Ceiling",
+      "aliases": [
+        "人字顶",
+        "双坡顶",
+        "cathedral ceiling"
+      ],
+      "visual_features": [
+        "两个倾斜顶面相交于一条较高脊线。",
+        "横截面呈人字形，顶面高度向两侧降低。",
+        "端部可呈三角形边界，形成明确的方向性和高度感。"
+      ],
+      "spatial_applications": [
+        "别墅客厅",
+        "阁楼",
+        "餐厨空间",
+        "书房"
+      ],
+      "style_tags": [
+        "北欧风格",
+        "中古风",
+        "传统",
+        "当代",
+        "现代简约"
+      ],
+      "combinations": [
+        "可与端部三角窗、侧面高窗、简洁木板纹组合。",
+        "低矮家具和水平柜体形成高低对比。"
+      ],
+      "distinctions": "与筒拱相比，主体是两个平面及清晰交线，横截面不是圆弧；与周边降板顶相比，人字形描述中央顶面的整体坡度，周边边带是另一个可组合形式。",
+      "source_ids": [
+        "src-ceiling-sonelo"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-sonelo",
+          "image_url": "https://images.adsttc.com/media/images/646e/06bf/8e31/b81c/d317/1cc2/medium_jpg/gable-clerestory-house-sonelo-design-studio_13.jpg?1684932337",
+          "gallery_url": "https://www.archdaily.com/1001479/gable-clerestory-house-sonelo-design-studio",
+          "observation": "客厅两个白色板纹斜面在中央相交，上方端部三角形高窗完整显出人字轮廓；四周水平低边带围合中央高顶。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-linear-baffles",
+      "category": "ceiling",
+      "name_zh": "平直线性格栅顶",
+      "name_en": "Flat Linear Baffle Ceiling",
+      "aliases": [
+        "格栅顶",
+        "线性格栅吊顶",
+        "平直条栅顶"
+      ],
+      "visual_features": [
+        "细长条状构件平行排列，构成同一标高的平直底面。",
+        "条与条之间的间隙形成稳定的一维节奏。",
+        "后方暗底与亮边产生线条对比，明显引导视线。"
+      ],
+      "spatial_applications": [
+        "玄关",
+        "走廊",
+        "餐厅",
+        "书房",
+        "商业入口"
+      ],
+      "style_tags": [
+        "工业风",
+        "现代简约",
+        "当代新中式",
+        "当代"
+      ],
+      "combinations": [
+        "可与竖向格栅墙形成方向对比或连续折返。",
+        "点状或细线灯具可穿插条栅间，避免过多独立几何语言。"
+      ],
+      "distinctions": "与起伏线性格栅相比，条栅底缘大体位于同一平面；与方形井格相比，主要只有一个方向的平行线。",
+      "source_ids": [
+        "src-ceiling-noodle"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-noodle",
+          "image_url": "https://oss.gooood.cn/uploads/2019/03/008-gao-zhuo-zi-di-ban-deng-noodle-restaurant-china-by-damai-interior-design-960x514.jpg",
+          "gallery_url": "https://www.gooood.cn/gao-zhuo-zi-di-ban-deng-noodle-restaurant-china-by-damai-interior-design.htm",
+          "observation": "入口区域顶部为平行金属色细条，构成平直顶面；与左侧竖向墙栅及中央细杆吊灯建立同材质线性关系。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-luminous-diamond-grid",
+      "category": "ceiling",
+      "name_zh": "发光菱格顶",
+      "name_en": "Luminous Diamond Grid Ceiling",
+      "aliases": [
+        "菱形发光顶",
+        "背光菱格天花",
+        "rhombus light ceiling"
+      ],
+      "visual_features": [
+        "斜交线条形成连续菱形或斜置四边形网格。",
+        "格内为均匀发光面，深色细框与浅色格面相互对比。",
+        "整体更像一张连续光面，单元凹凸相对浅。"
+      ],
+      "spatial_applications": [
+        "餐厅",
+        "吧台区",
+        "会客室",
+        "低自然采光的室内"
+      ],
+      "style_tags": [
+        "中古风",
+        "当代",
+        "意式极简",
+        "传统"
+      ],
+      "combinations": [
+        "与深色墙板、玻璃酒柜和温暖织物形成明暗层次。",
+        "网格方向可区别于家具直角轴线，增强顶部构图。"
+      ],
+      "distinctions": "与方形井格顶相比，视觉重点是斜向菱格和面发光，而不是深方腔；与多面折角蜂窝顶相比，格内面平整、连续发光，没有多组三角折面。",
+      "source_ids": [
+        "src-ceiling-camparino"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-camparino",
+          "image_url": "https://www.lissoniandpartners.com/UPLOAD/work/20200417-4647-Camparino_08.jpg",
+          "gallery_url": "https://www.lissoniandpartners.com/en/interiors/commercial-public/europe/completed/camparino-in-galleria-milano/311",
+          "observation": "吧台上方深色框条斜交形成菱形网格，格内为均匀乳白发光面；下方深色木墙、玻璃杯架和背光酒柜共同强化光面。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-perimeter-bulkhead",
+      "category": "ceiling",
+      "name_zh": "周边降板顶",
+      "name_en": "Perimeter Bulkhead Ceiling",
+      "aliases": [
+        "边带吊顶",
+        "周边跌级顶",
+        "围边吊顶"
+      ],
+      "visual_features": [
+        "沿墙周边设置连续或半连续较低的水平边带。",
+        "中央区域保持较高，使顶面形成高低两层的框景关系。",
+        "边带的直角端面和下沿构成清晰水平线。"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "餐厅",
+        "卧室",
+        "书房"
+      ],
+      "style_tags": [
+        "现代简约",
+        "意式极简",
+        "中古风",
+        "当代"
+      ],
+      "combinations": [
+        "边带可与通顶墙柜顶部或墙面水平分割线对齐。",
+        "中央可搭配平顶、坡顶或其他较高顶面。"
+      ],
+      "distinctions": "与平顶相比，周边有明显低边带；与浮岛顶相比，低边带贴近墙边而非脱离墙面。代表案例中央为人字坡顶，这是围边形式的变化实例，不能当作整套平面托盘顶或双眼皮顶的证据。",
+      "source_ids": [
+        "src-ceiling-sonelo"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-sonelo",
+          "image_url": "https://images.adsttc.com/media/images/646e/06bf/8e31/b81c/d317/1cc2/medium_jpg/gable-clerestory-house-sonelo-design-studio_13.jpg?1684932337",
+          "gallery_url": "https://www.archdaily.com/1001479/gable-clerestory-house-sonelo-design-studio",
+          "observation": "白色水平低边带沿客厅三侧墙顶转折延伸，清楚框住中央较高的人字坡顶；边带端面厚度和水平下沿可见。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-skylight-recess",
+      "category": "ceiling",
+      "name_zh": "顶面天井开口",
+      "name_en": "Skylight Recess in Ceiling",
+      "aliases": [
+        "天顶开口",
+        "顶面采光井",
+        "zenithal opening"
+      ],
+      "visual_features": [
+        "大面积顶面中出现边界清晰的竖向凹入或向上贯通开口。",
+        "开口内壁与周围水平顶面形成显著高度层次。",
+        "顶部自然光将内壁变成明亮的垂直构图面。"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "挑空中厅",
+        "书房",
+        "公共会客空间"
+      ],
+      "style_tags": [
+        "当代",
+        "现代简约",
+        "北欧风格",
+        "意式极简"
+      ],
+      "combinations": [
+        "可与水平木饰面顶、低矮沙发和大面积玻璃形成上下与内外对比。",
+        "开口适合成为空间中轴或中心，其他墙面和家具可保持克制。"
+      ],
+      "distinctions": "这是顶面开口形式，不是悬浮、灯槽或跌级吊顶；与筒拱或坡顶相比，其主要特征是局部开口及垂直内壁，不是整体顶面截面变化。",
+      "source_ids": [
+        "src-ceiling-jd"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-jd",
+          "image_url": "https://www.arthurcasas.com/app/uploads/2021/04/15733-20x30-201214-046a-1920x1280.jpg",
+          "gallery_url": "https://www.arthurcasas.com/projects/jd-house/",
+          "observation": "客厅顶面中央出现高大的矩形天井，白色竖向内壁承接上方采光；两侧较低木饰面水平顶围绕开口，前方玻璃与绿植形成横向展开。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-square-coffers",
+      "category": "ceiling",
+      "name_zh": "方形井格顶",
+      "name_en": "Square Coffered Ceiling",
+      "aliases": [
+        "井字顶",
+        "方井顶",
+        "格腔顶",
+        "waffle ceiling"
+      ],
+      "visual_features": [
+        "两个正交方向的较厚框梁构成规则方格。",
+        "每格内面向上退入，凹腔深度产生明显阴影。",
+        "格腔以二维重复覆盖空间，构图稳定且有秩序。"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "书房",
+        "餐厅",
+        "会客厅",
+        "展厅"
+      ],
+      "style_tags": [
+        "当代",
+        "现代简约",
+        "工业风",
+        "传统",
+        "当代新中式"
+      ],
+      "combinations": [
+        "可与竖向柱、通顶玻璃和整面平墙组合。",
+        "简洁低矮家具有助于突出顶面的格腔尺度。"
+      ],
+      "distinctions": "与平直线性格栅相比，方井格具有两个正交方向和封闭凹腔；与发光菱格顶相比，方格与空间轴线对齐，凹腔阴影而非面发光成为主视觉。此例是显露结构的顶面形式，不推定悬吊工艺。",
+      "source_ids": [
+        "src-ceiling-grid"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-grid",
+          "image_url": "https://images.adsttc.com/media/images/58ce/fef9/e58e/ce29/c100/028d/medium_jpg/GRID_10.jpg?1489960691",
+          "gallery_url": "https://www.archdaily.com/867503/grid-apollo-architects-and-associates",
+          "observation": "室内灰色顶面以正交厚框梁重复成方形凹腔，凹腔中央布有少量点灯；两侧高窗与平整白墙、低矮家具使顶面格网突出。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-staggered-boxes",
+      "category": "ceiling",
+      "name_zh": "错位悬挂块体顶",
+      "name_en": "Staggered Suspended Box Ceiling",
+      "aliases": [
+        "盒子吊顶",
+        "悬挂体块顶",
+        "sculptural box ceiling"
+      ],
+      "visual_features": [
+        "多个有厚度的矩形盒子以不规则位置和不同长度错位排列。",
+        "盒体与上方平面间出现阴影缝，边缘清晰。",
+        "造型从顶面延伸到墙面或家具，形成连续体块语言。"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "开放客餐厅",
+        "展厅",
+        "会客空间"
+      ],
+      "style_tags": [
+        "当代",
+        "现代简约",
+        "意式极简"
+      ],
+      "combinations": [
+        "与块状墙面、嵌入柜和低矮几何家具重复相同体块比例。",
+        "采用统一浅色时可用阴影区分上下关系。"
+      ],
+      "distinctions": "与周边跌级顶的连续框带不同，这里是多个错开的独立或相接盒体；与浮岛薄板相比，盒体厚度和竖向面是主要视觉特征。",
+      "source_ids": [
+        "src-ceiling-paris"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-paris",
+          "image_url": "https://images.adsttc.com/media/images/5007/0c2c/28ba/0d41/4800/0c53/medium_jpg/stringio.jpg?1426866735",
+          "gallery_url": "https://www.archdaily.com/104101/apartment-in-paris-pascal-grasso-architectures",
+          "observation": "客厅白色矩形盒体密集但错位悬挂，盒体后方有深阴影；右墙的储物块体与天花方盒保持同一几何语言。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-undulating-baffles",
+      "category": "ceiling",
+      "name_zh": "起伏线性格栅顶",
+      "name_en": "Undulating Linear Baffle Ceiling",
+      "aliases": [
+        "波浪格栅顶",
+        "曲线条栅顶",
+        "undulating slatted ceiling"
+      ],
+      "visual_features": [
+        "平行细条保持可辨认的间隙，但底缘整体出现宽幅起伏。",
+        "多个凹凸区连续连接，条栅轮廓共同描述波面。",
+        "远近透视下细条密度变化明显，曲面具有轻薄和流动感。"
+      ],
+      "spatial_applications": [
+        "餐厅",
+        "长条客餐厅",
+        "商业会客区"
+      ],
+      "style_tags": [
+        "当代",
+        "工业风",
+        "当代新中式"
+      ],
+      "combinations": [
+        "连续起伏可对应餐桌组团或视觉中心。",
+        "与平整深色墙和简洁吊灯组合，突出顶部曲线。"
+      ],
+      "distinctions": "与连续波纹顶相比，这是由分离细条构成的大尺度起伏包络面；与平直格栅相比，底缘高低变化明显。案例正文说人字顶为原型，但照片不能按原型误标为锐角折板。",
+      "source_ids": [
+        "src-ceiling-noodle"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-noodle",
+          "image_url": "https://oss.gooood.cn/uploads/2019/03/018-gao-zhuo-zi-di-ban-deng-noodle-restaurant-china-by-damai-interior-design-960x640.jpg",
+          "gallery_url": "https://www.gooood.cn/gao-zhuo-zi-di-ban-deng-noodle-restaurant-china-by-damai-interior-design.htm",
+          "observation": "餐厅主厅顶面由密集平行细条构成，左右及中央高低变化形成连续柔和起伏；曲面没有锐角折线，细条间可见暗缝。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "wall-continuous-curve",
+      "category": "wall",
+      "name_zh": "连续弧形墙面",
+      "name_en": "Continuous Curved Wall",
+      "aliases": [
+        "弧形墙面",
+        "圆弧包裹墙",
+        "curved wall"
+      ],
+      "visual_features": [
+        "墙体在平面上以连续圆弧转折，替代直角折线",
+        "曲面从一个区域延续到相邻区域并引导视线",
+        "表面可带细密纹理，但决定形式的是整体弯曲轮廓"
+      ],
+      "spatial_applications": [
+        "餐厅",
+        "客厅",
+        "走廊",
+        "玄关"
+      ],
+      "style_tags": [
+        "当代",
+        "现代简约",
+        "意式极简",
+        "中古风"
+      ],
+      "combinations": [
+        "与圆角餐桌、弧形柜体和圆形灯具呼应",
+        "可整合隐藏门并平顺过渡到走道",
+        "邻接直线地面和顶面可形成曲直对比"
+      ],
+      "distinctions": "区别于仅把墙角倒圆的圆角收口，这种形式有明显展开的曲面；也区别于表面圆肋，它的整体墙轮廓弯曲。",
+      "source_ids": [
+        "src-wall-burgatoi"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-wall-burgatoi",
+          "image_url": "https://images.adsttc.com/media/images/64d2/8c5b/7647/c46f/a9b1/b007/medium_jpg/renovacion-burgatoi-tenka_20.jpg?1691520156",
+          "gallery_url": "https://www.archdaily.com/1005187/burgatoi-renovation-tenka",
+          "observation": "餐厅右侧蓝色墙面向画面远处缓慢弯曲并连续进入过道，表面的竖向纹理随曲面延伸；邻近木餐桌带圆角。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "wall-deep-niche-composition",
+      "category": "wall",
+      "name_zh": "深凹龛框景墙面",
+      "name_en": "Deep Recessed-niche Wall",
+      "aliases": [
+        "凹龛墙",
+        "壁龛",
+        "recessed niche"
+      ],
+      "visual_features": [
+        "完整墙面中挖出较深矩形开口，四边边界明确",
+        "开口有侧面与顶面，产生厚墙和包裹感",
+        "龛内可用不同颜色或灯光突出深度"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "卧室",
+        "餐厅",
+        "厨房"
+      ],
+      "style_tags": [
+        "现代简约",
+        "当代",
+        "北欧风格",
+        "中古风"
+      ],
+      "combinations": [
+        "可与坐榻、展示架或工作台组合",
+        "龛边与柜门对齐保持整体秩序",
+        "局部灯带强调口袋状空间"
+      ],
+      "distinctions": "区别于浅表框线，凹龛具有能看到侧壁的真实视觉深度；区别于坐榻一体柜，墙面凹龛不必具有座位和收纳功能。",
+      "source_ids": [
+        "src-cabinet-function-walls"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-cabinet-function-walls",
+          "image_url": "https://images.adsttc.com/media/images/5c17/94ed/08a5/e5c8/b900/00c8/newsletter/-_Featured_Image.jpg?1545049310",
+          "gallery_url": "https://www.archdaily.com/907814/function-walls-lookofsky-architecture",
+          "observation": "黄色厨房开口及坐榻开口都可以看到侧壁和顶部，深度明显；右侧龛内的层板、靠垫与灯光构成被边界框起的区域。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "wall-half-height-wainscot",
+      "category": "wall",
+      "name_zh": "半高平板墙裙",
+      "name_en": "Half-height Flat Wainscot",
+      "aliases": [
+        "半墙板",
+        "墙裙",
+        "dado"
+      ],
+      "visual_features": [
+        "下半墙独立成连续板带，上部保留浅色墙面",
+        "水平收边成为空间统一基准线",
+        "板面平整，可跨越转角并与家具背后延续"
+      ],
+      "spatial_applications": [
+        "餐厅",
+        "客厅",
+        "卧室",
+        "走廊"
+      ],
+      "style_tags": [
+        "中古风",
+        "北欧风格",
+        "传统",
+        "当代"
+      ],
+      "combinations": [
+        "与低柜、长凳或餐桌保持横向联系",
+        "上部可放置画作或镜子",
+        "用细圆角顶边柔化分带"
+      ],
+      "distinctions": "区别于全高墙板，墙裙只占下部并保留大面积上墙；区别于框线墙，案例是平板与水平顶边为主。",
+      "source_ids": [
+        "src-wall-somerset"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-wall-somerset",
+          "image_url": "https://media.architecturaldigest.com/photos/6ab3eb7e88bdd989e8853558/master/w_1600%2Cc_limit/Dinningroom36850013%2520copy.jpg",
+          "gallery_url": "https://www.architecturaldigest.com/story/somerset-house-brooklyn-apartment-design",
+          "observation": "餐厅背后墙面下部是一条木色平板墙裙，上部大面积米白色；墙裙有细薄水平顶边并延伸到右侧转角。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "wall-horizontal-board-bands",
+      "category": "wall",
+      "name_zh": "横向条板分层墙面",
+      "name_en": "Horizontal Board-band Wall",
+      "aliases": [
+        "横向分割",
+        "横向条板墙",
+        "horizontal slat wall"
+      ],
+      "visual_features": [
+        "长条板沿水平方向重复，接缝形成连续横线",
+        "同一高度的板带跨越门洞与墙面区段保持基准",
+        "可用条间疏密变化区分上下带，整体强调宽度与延伸"
+      ],
+      "spatial_applications": [
+        "走廊",
+        "客厅",
+        "多功能厅",
+        "室内活动空间"
+      ],
+      "style_tags": [
+        "北欧风格",
+        "当代",
+        "现代简约"
+      ],
+      "combinations": [
+        "与竖向门框或结构柱形成方向对比",
+        "可与连续踢脚、长凳及窗台保持横向一致",
+        "控制条板密度与家具比例以避免过多细线"
+      ],
+      "distinctions": "与竖向格栅相比主线方向横向展开；与半高墙裙相比可覆盖整墙高度并用多条水平接缝分层。代表案例是体育馆，居住空间适用性为造型迁移建议，尚非住宅案例验证。",
+      "source_ids": [
+        "src-wall-sunny-gymnasium"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-wall-sunny-gymnasium",
+          "image_url": "https://images.adsttc.com/media/images/5089/78cb/28ba/0d75/2500/0199/newsletter/GymnaseStMartin-Ht021.jpg?1414100180",
+          "gallery_url": "https://www.archdaily.com/286338/sunny-gymnasium-tekhne-architectes",
+          "observation": "体育馆左侧与尽端室内墙面为成排水平木条，越向高处条间阴影更明显；门洞保留在同一组水平覆墙下。图证是室内 Ht021，外观 Ht005 未作为室内证据。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "wall-perforated-square-grid",
+      "category": "wall",
+      "name_zh": "方孔花墙隔断",
+      "name_en": "Square-opening Perforated Wall",
+      "aliases": [
+        "镂空花墙",
+        "方格孔洞墙",
+        "perforated partition"
+      ],
+      "visual_features": [
+        "较厚墙面中有规则方形或矩形孔洞",
+        "实面和透空并存，正视形成格阵",
+        "孔洞边缘的深阴影显示厚度，视线穿过孔洞连接两侧"
+      ],
+      "spatial_applications": [
+        "客厅与餐厅之间",
+        "玄关",
+        "茶室",
+        "走廊"
+      ],
+      "style_tags": [
+        "当代",
+        "当代新中式",
+        "侘寂",
+        "北欧风格"
+      ],
+      "combinations": [
+        "与浅色实墙及低木柜组合",
+        "孔洞可兼作少量展示但不完全填满",
+        "侧向光可强化孔壁厚度"
+      ],
+      "distinctions": "与开放书柜相比，主体是连续厚墙体而非薄层板框架；与条状格栅相比透空是二维方孔阵列。",
+      "source_ids": [
+        "src-wall-leisure"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-wall-leisure",
+          "image_url": "https://oss.gooood.cn/uploads/2024/10/097-leisure-residence-by-yumalin-studio.jpg",
+          "gallery_url": "https://www.gooood.cn/leisure-residence-by-yumalin-studio.htm",
+          "observation": "客厅沙发左侧的浅色墙体有三列规则矩形孔，孔内有明显厚壁阴影，顶端有一个更宽横向开口与后方空间相连。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "wall-rectangular-frame-moulding",
+      "category": "wall",
+      "name_zh": "矩形框线墙面",
+      "name_en": "Rectangular Picture-frame Wall Moulding",
+      "aliases": [
+        "框线",
+        "法式框线",
+        "boiserie",
+        "picture frame panelling"
+      ],
+      "visual_features": [
+        "细线条围成大矩形框，内外底面颜色一致",
+        "上下或相邻框块以比例和间距建立秩序",
+        "框边具有轻微凸起与阴影，平面装饰感强"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "餐厅",
+        "卧室",
+        "玄关"
+      ],
+      "style_tags": [
+        "传统",
+        "中古风",
+        "当代"
+      ],
+      "combinations": [
+        "可与同样框线的门扇、柜门呼应",
+        "与格井顶或顶角线共同建立节奏",
+        "结合现代家具可减少繁复感"
+      ],
+      "distinctions": "框线围出平面矩形，而格栅靠密集单向条纹形成节奏；与墙裙相比这里的框线扩展到整幅墙面。",
+      "source_ids": [
+        "src-wall-fairlight"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-wall-fairlight",
+          "image_url": "https://intrimmouldings.com.au/wp-content/uploads/2023/07/mattmicheldesign_LivingRoom_1-1024x682.jpg",
+          "gallery_url": "https://intrimmouldings.com.au/our-work/residential/wainscoting-contemporary-apartment-reno/",
+          "observation": "客餐厅白墙上可见大矩形框线，中央凸出的墙柱上有上大下小两块框；墙面、柜门和顶面格井互相呼应。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "wall-seamless-plane",
+      "category": "wall",
+      "name_zh": "连续整面平墙",
+      "name_en": "Continuous Unbroken Wall Plane",
+      "aliases": [
+        "整面平板",
+        "无分割墙面",
+        "seamless wall"
+      ],
+      "visual_features": [
+        "主要面保持完整、平整，缺少明显框线或重复分缝",
+        "阴影来自墙面转角和顶部交接，不依靠装饰纹样",
+        "以大面积留白突出空间纵深和邻近家具"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "走廊",
+        "卧室"
+      ],
+      "style_tags": [
+        "现代简约",
+        "意式极简",
+        "侘寂",
+        "当代"
+      ],
+      "combinations": [
+        "与通顶门和齐平柜形成安静背景",
+        "与线性灯槽、简洁踢脚线相配",
+        "可用家具或艺术品承担视觉焦点"
+      ],
+      "distinctions": "与竖向分板相比没有连续可读的板缝；与格栅墙相比没有重复凸起。案例中为连续浅色墙面，不把墙面材质推断为板材。",
+      "source_ids": [
+        "src-ceiling-sinan"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-sinan",
+          "image_url": "https://oss.gooood.cn/uploads/2024/06/032-east-garden-apartment-of-sinan-mansion-by-lm.jpg",
+          "gallery_url": "https://www.gooood.cn/east-garden-apartment-of-sinan-mansion-by-lm.htm",
+          "observation": "狭长走道两侧为大块连续浅色平墙，墙面基本不见分缝，右侧体块以直角向走道凸出。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "wall-square-slat-rhythm",
+      "category": "wall",
+      "name_zh": "方条格栅覆墙",
+      "name_en": "Square-slat Wall Cladding",
+      "aliases": [
+        "竖向格栅",
+        "条板墙",
+        "slatted wall"
+      ],
+      "visual_features": [
+        "密集且间距规则的窄条沿同一方向排布",
+        "窄条正面较平，条间有稳定暗缝",
+        "条纹形成连续覆面，能跨越局部隐藏开口"
+      ],
+      "spatial_applications": [
+        "卧室",
+        "玄关",
+        "客厅",
+        "餐厅"
+      ],
+      "style_tags": [
+        "现代简约",
+        "北欧风格",
+        "中古风",
+        "当代"
+      ],
+      "combinations": [
+        "与平板墙面形成疏密对比",
+        "与隐藏门或柜门统一条纹",
+        "可由斜向光加强条间阴影"
+      ],
+      "distinctions": "与大块竖向分板相比条宽更细、重复密度更高；与 V形肋相比条的正面更平，避免把所有竖纹都称为凹槽。",
+      "source_ids": [
+        "src-wall-letna"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-wall-letna",
+          "image_url": "https://images.adsttc.com/media/images/63f3/a0fe/e8da/b00b/f97b/8ab0/medium_jpg/letna-apartment-marketa-bromova_11.jpg?1676910884",
+          "gallery_url": "https://www.archdaily.com/996779/letna-apartment-marketa-bromova",
+          "observation": "卧室床边一整片青绿色竖向窄条界面，条与条之间有细暗缝；条纹在界面的右端折回。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "wall-storage-integrated-plane",
+      "category": "wall",
+      "name_zh": "墙柜一体连续界面",
+      "name_en": "Storage-integrated Wall Plane",
+      "aliases": [
+        "墙柜一体",
+        "门墙柜一体",
+        "integrated wall cabinetry"
+      ],
+      "visual_features": [
+        "固定墙面、柜门和功能开口组成同一立面系统",
+        "柜体以通高或大范围覆盖削弱独立家具边界",
+        "局部凹槽和门缝可读，但整体先被理解为建筑界面"
+      ],
+      "spatial_applications": [
+        "厨房",
+        "客厅",
+        "卧室",
+        "玄关"
+      ],
+      "style_tags": [
+        "现代简约",
+        "意式极简",
+        "北欧风格",
+        "当代"
+      ],
+      "combinations": [
+        "可容纳厨房工作区、座位和设备",
+        "与相同基准线的门洞或高柜连接",
+        "通过少量深凹块区分功能"
+      ],
+      "distinctions": "与嵌入式齐平柜相比，本条关注一整幅墙面与多功能之间的视觉连续；柜体条关注单个柜体相对墙厚的嵌入关系。与普通贴墙柜相比墙面和家具边界被弱化。",
+      "source_ids": [
+        "src-cabinet-function-walls"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-cabinet-function-walls",
+          "image_url": "https://images.adsttc.com/media/images/5c17/94ed/08a5/e5c8/b900/00c8/newsletter/-_Featured_Image.jpg?1545049310",
+          "gallery_url": "https://www.archdaily.com/907814/function-walls-lookofsky-architecture",
+          "observation": "白色通高分板将厨房、烤箱和右侧坐榻包在一整幅立面内；黄色深凹开口区分工作区与休息区。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "wall-v-ribbed-panel",
+      "category": "wall",
+      "name_zh": "V形肋纹墙板",
+      "name_en": "V-ribbed Wall Panel",
+      "aliases": [
+        "三角肋",
+        "锯齿肋纹",
+        "V-ribbed"
+      ],
+      "visual_features": [
+        "连续窄肋呈尖锐折面，明暗带交替",
+        "肋线可沿高处、门面和工作区周围连续延伸",
+        "尖角节奏较方条格栅更锐利，侧光产生强阴影"
+      ],
+      "spatial_applications": [
+        "厨房",
+        "餐厅",
+        "走廊",
+        "商业空间"
+      ],
+      "style_tags": [
+        "工业风",
+        "当代",
+        "现代简约"
+      ],
+      "combinations": [
+        "与粗糙混凝土形成细密/粗大对比",
+        "与同纹柜门及岛台立面统一语言",
+        "在转角处沿曲线连续可减弱厚重感"
+      ],
+      "distinctions": "与方条格栅相比截面是锐角折线而非平顶矩形；与圆凸肋和凹圆槽相比其明暗边界更硬。照片与项目报道共同支持 V形肋识别，不据此推断施工截面尺寸。",
+      "source_ids": [
+        "src-wall-burgatoi"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-wall-burgatoi",
+          "image_url": "https://images.adsttc.com/media/images/64d2/8c5a/7647/c424/9bf7/ea78/newsletter/renovacion-burgatoi-tenka_2.jpg?1691520109",
+          "gallery_url": "https://www.archdaily.com/1005187/burgatoi-renovation-tenka",
+          "observation": "厨房后方蓝色界面是密集竖向肋，侧光下明暗边界锐利；墙板、柜门和岛台底座使用同一组竖向节奏。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "wall-vertical-flat-panels",
+      "category": "wall",
+      "name_zh": "竖向分板墙面",
+      "name_en": "Vertical Flat-panel Wall",
+      "aliases": [
+        "竖向分割",
+        "竖向墙板"
+      ],
+      "visual_features": [
+        "大块平板按竖向长条组织",
+        "分缝窄而浅，板面保持连续的平整感",
+        "竖缝把墙高分成细长比例，可与隐藏门和柜门对齐"
+      ],
+      "spatial_applications": [
+        "玄关",
+        "走廊",
+        "客厅",
+        "卧室"
+      ],
+      "style_tags": [
+        "现代简约",
+        "意式极简",
+        "北欧风格",
+        "当代"
+      ],
+      "combinations": [
+        "与同面门扇和柜门整合",
+        "木纹或色泽保持跨板协调",
+        "与水平地板或台面形成方向对比"
+      ],
+      "distinctions": "与竖向格栅的区别是大板之间只有少量分缝，非密集窄凸条；与整面平墙相比具有明确竖向模块。案例是收纳界面，分类取其墙面的分板几何。",
+      "source_ids": [
+        "src-wall-guomao"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-wall-guomao",
+          "image_url": "https://oss.gooood.cn/uploads/2026/07/013-Home-in-Guomao-CBD-byr-960x640.jpg",
+          "gallery_url": "https://www.gooood.cn/en/home-in-guomao-cbd-by-mars-studio.htm",
+          "observation": "画面后部浅木色通高界面有少数几条清晰竖缝，单块板宽远大于格栅；左侧镜面重复反映这组板块。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "wall-wide-panel-battens",
+      "category": "wall",
+      "name_zh": "宽板竖肋墙面",
+      "name_en": "Wide-panel Battened Wall",
+      "aliases": [
+        "宽板竖条组合墙",
+        "板肋组合墙",
+        "board and batten wall"
+      ],
+      "visual_features": [
+        "宽幅平面板块与较窄凸出竖肋交替",
+        "宽板保留大面积安静面，竖肋形成有深度的分隔",
+        "竖肋在顶部和底部连续，影子强化板块的模块节奏"
+      ],
+      "spatial_applications": [
+        "玄关",
+        "走廊",
+        "餐厅",
+        "卧室"
+      ],
+      "style_tags": [
+        "当代",
+        "现代简约",
+        "北欧风格"
+      ],
+      "combinations": [
+        "可与齐平门扇及厨房通高柜整合",
+        "与裸露混凝土梁形成粗细对比",
+        "板面与竖肋采用同材同色可减少视觉杂乱"
+      ],
+      "distinctions": "与竖向平板分割的区别是分隔处有可见凸出棱条和阴影；与密集方条格栅相比重复模数更大，宽平板是主体。原文称 diagonal rhythm，不将这句话误写成照片中的斜线分缝，也不推断未见的截面角度。",
+      "source_ids": [
+        "src-cabinet-aim"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-cabinet-aim",
+          "image_url": "https://images.adsttc.com/media/images/6752/0105/3bbf/7001/7ecf/58d0/medium_jpg/living-without-boundaries-a-i-m_7.jpg?1733427515",
+          "gallery_url": "https://www.archdaily.com/1024419/living-without-boundaries-apartment-a-i-m",
+          "observation": "木墙由宽幅板面组成，板块之间有凸出而窄的竖向棱条；棱条在地面处可看到厚度，墙板表面不是密集窄条。只能确定这一可见几何，不确定棱条截面的具体角度。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "island-inline-dining-continuation",
+      "category": "island",
+      "name_zh": "纵向连续岛台餐桌",
+      "name_en": "Inline island-to-table continuation",
+      "aliases": [
+        "纵向岛台餐桌一体",
+        "Linear island table"
+      ],
+      "visual_features": [
+        "操作面与餐桌沿同一长轴延伸",
+        "中央形成连续水平表面",
+        "餐座位于两侧，强化长桌聚集感"
+      ],
+      "spatial_applications": [
+        "狭长客餐厨",
+        "错层客餐厅"
+      ],
+      "style_tags": [
+        "现代简约",
+        "当代",
+        "工业风"
+      ],
+      "combinations": [
+        "平行侧柜",
+        "轴线吊灯",
+        "错层起居地坪"
+      ],
+      "distinctions": "与平行双高度餐桌岛台相比，餐桌沿岛台轴线延伸；本案例还与较高起居地坪形成连续，不能直接套用于普通同层空间。",
+      "source_ids": [
+        "src-island-casa-4x30"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-casa-4x30",
+          "image_url": "https://images.adsttc.com/media/images/6423/5525/36d7/3d2f/12ce/5b3f/newsletter/espacos-multifuncionais-integrando-ambientes-com-bancadas_1.jpg?1680037163",
+          "gallery_url": "https://www.archdaily.com/1000280/multifunctional-spaces-integrating-home-environments-with-countertops",
+          "observation": "长条白色中央面从前景操作区向远端餐桌延续，两侧放木餐椅，远端再接较高的白色起居地坪；这是错层项目的视觉案例。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "layout": "integrated_island_table",
+        "plan_geometry": "inline_rectangle",
+        "counter_relation": "continuous_plane_with_split_level_floor"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "island-l-shaped-split",
+      "category": "island",
+      "name_zh": "L形分体岛台",
+      "name_en": "L-shaped split island",
+      "aliases": [
+        "L形岛台",
+        "Split island"
+      ],
+      "visual_features": [
+        "两段台面以直角形成L形",
+        "操作段与社交段通过材质变化被区分",
+        "社交段有独立粗脚与开放座席空隙"
+      ],
+      "spatial_applications": [
+        "大型客餐厨",
+        "家庭活动厨房"
+      ],
+      "style_tags": [
+        "当代",
+        "传统",
+        "中古风"
+      ],
+      "combinations": [
+        "框线柜门",
+        "铜色台面",
+        "多盏吊灯"
+      ],
+      "distinctions": "与单一直线岛台相比，平面增加直角支臂；与纯L形连续柜体相比，两段呈家具拼接与材质分区。",
+      "source_ids": [
+        "src-island-braw"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-braw",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/S8LTSLkRbMpFnpnN4yjfMj-768-80.png",
+          "gallery_url": "https://www.livingetc.com/features/studio-braw-chislehurst-kitchen",
+          "observation": "浅色操作台右侧接铜色矩形吧台，铜色段向前伸出形成L形，黑色粗腿下有高脚椅，材质交界清楚。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "layout": "freestanding",
+        "plan_geometry": "L",
+        "counter_relation": "split_material_sections"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "island-offset-slab-blocks",
+      "category": "island",
+      "name_zh": "错位叠板分块岛台",
+      "name_en": "Offset-slab segmented-block island",
+      "aliases": [
+        "分块岛台",
+        "Stacked offset island"
+      ],
+      "visual_features": [
+        "底座以重复方块形成节奏",
+        "相邻方块之间有深色竖向分隔",
+        "上层薄板偏置叠放，保留较低灰色平台"
+      ],
+      "spatial_applications": [
+        "大型开放客餐厨",
+        "艺术收藏住宅"
+      ],
+      "style_tags": [
+        "意式极简",
+        "当代",
+        "现代简约"
+      ],
+      "combinations": [
+        "极简柜墙",
+        "连续格栅背景",
+        "几何家具"
+      ],
+      "distinctions": "与完整单一石盒不同，底座刻意分块；与常规双高度吧台不同，上层面偏置形成抽象叠板。",
+      "source_ids": [
+        "src-island-shallmar"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-shallmar",
+          "image_url": "https://images.squarespace-cdn.com/content/v1/5aeb23b896e76f85a302c289/1588950327135-QI42LZ7R89GAXW46RDQE/19.11.14_StudioAC-79.jpg?format=1000w",
+          "gallery_url": "https://www.archcollab.com/shallmar",
+          "observation": "灰色长方体顶面左侧出现重复退缝，白色长薄板偏向右侧叠放，水槽和龙头集中在远端。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "layout": "freestanding",
+        "plan_geometry": "rectangle",
+        "base_form": "segmented_blocks",
+        "counter_relation": "offset_stacked_slab"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "island-open-grid-base",
+      "category": "island",
+      "name_zh": "开放格架底座岛台",
+      "name_en": "Open-grid base island",
+      "aliases": [
+        "开放格柜岛台",
+        "Open shelving island"
+      ],
+      "visual_features": [
+        "下部以薄竖板和横板形成格架",
+        "台面下方能直接看到器皿和穿透空间",
+        "实体封闭柜段与开放格段交替"
+      ],
+      "spatial_applications": [
+        "开放客餐厨",
+        "家庭展示厨房"
+      ],
+      "style_tags": [
+        "北欧风格",
+        "当代",
+        "现代简约"
+      ],
+      "combinations": [
+        "开放墙架",
+        "浅色木柜",
+        "透光门窗"
+      ],
+      "distinctions": "与封闭柜体岛台相比，底部有可穿透的格架和可见物品；与金属腿架岛台相比，分格本身承担展示收纳。",
+      "source_ids": [
+        "src-island-venus-sol"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-venus-sol",
+          "image_url": "https://images.adsttc.com/media/images/6423/5526/36d7/3d2f/12ce/5b45/newsletter/espacos-multifuncionais-integrando-ambientes-com-bancadas_8.jpg?1680037175",
+          "gallery_url": "https://www.archdaily.com/1000280/multifunctional-spaces-integrating-home-environments-with-countertops",
+          "observation": "白色长台面下方多格木架可直接看到碗盘和玻璃杯，中间部分为封闭板，左侧水槽下亦留空。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "layout": "linear_island",
+        "plan_geometry": "rectangle",
+        "base_form": "open_grid"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "island-oval-freestanding",
+      "category": "island",
+      "name_zh": "椭圆独立岛台",
+      "name_en": "Oval freestanding island",
+      "aliases": [
+        "杏仁形岛台",
+        "Almond-shaped island"
+      ],
+      "visual_features": [
+        "平面呈细长椭圆或杏仁轮廓",
+        "两端连续弧曲，减少正交端面",
+        "台面与弧形底座均延续圆润轮廓"
+      ],
+      "spatial_applications": [
+        "狭长开放厨房",
+        "客餐厨过渡区"
+      ],
+      "style_tags": [
+        "当代",
+        "中古风",
+        "意式极简"
+      ],
+      "combinations": [
+        "圆桌",
+        "弧顶玻璃门",
+        "圆形吊灯"
+      ],
+      "distinctions": "与圆角长方岛台相比，长边也以曲线参与轮廓；与半岛相比，案例体量独立。",
+      "source_ids": [
+        "src-island-primrose"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-primrose",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/6csjC58FGJoCgaZ9kwqUdR-768-80.jpg",
+          "gallery_url": "https://www.livingetc.com/features/uncanny-studios-primrose-penthouse",
+          "observation": "图中厨房中央为细长曲面金属色底座，浅色石材面端头圆润，周围有通行空间，与弧顶双门和圆形小桌呼应。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "layout": "freestanding",
+        "plan_geometry": "oval_or_almond",
+        "counter_relation": "single_level"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "island-overhang-breakfast-counter",
+      "category": "island",
+      "name_zh": "单侧外挑吧台岛台",
+      "name_en": "Single-sided overhang breakfast island",
+      "aliases": [
+        "外挑吧台",
+        "Overhanging island counter"
+      ],
+      "visual_features": [
+        "薄台面向座席一侧外挑",
+        "实体底座退后形成腿部空隙",
+        "连续横向面强调简洁长线条"
+      ],
+      "spatial_applications": [
+        "开放厨房",
+        "紧凑客餐厨"
+      ],
+      "style_tags": [
+        "现代简约",
+        "意式极简",
+        "当代"
+      ],
+      "combinations": [
+        "高脚椅",
+        "简洁吊灯",
+        "连续浅色柜面"
+      ],
+      "distinctions": "与桌脚支撑的餐桌岛台相比，主体仍是实体柜体；座席通过台面与底座的退让形成。",
+      "source_ids": [
+        "src-island-monolito"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-monolito",
+          "image_url": "https://images.adsttc.com/media/images/6423/5525/9fb6/b76c/d839/1ada/newsletter/espacos-multifuncionais-integrando-ambientes-com-bancadas_12.jpg?1680037172",
+          "gallery_url": "https://www.archdaily.com/1000280/multifunctional-spaces-integrating-home-environments-with-countertops",
+          "observation": "深色薄台面从浅灰柜体上外挑，三把高椅位于前方；底座边缘与石材面边缘存在明显后退。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "layout": "island_or_peninsula_endpoint_not_resolved_in_view",
+        "plan_geometry": "long_rectangle_with_soft_edges",
+        "counter_relation": "single_level_overhang"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "island-two-level-table-extension",
+      "category": "island",
+      "name_zh": "高低台面拼接岛台餐桌",
+      "name_en": "Two-level island-to-table extension",
+      "aliases": [
+        "岛台餐桌一体",
+        "高低岛台餐桌",
+        "Two-level table extension"
+      ],
+      "visual_features": [
+        "较低餐桌从较高操作岛台的端部向外延伸",
+        "高柜体与低桌板之间形成清楚的高低错接",
+        "餐桌侧保留普通高度座椅和桌下腿部空隙"
+      ],
+      "spatial_applications": [
+        "客餐厨一体",
+        "家庭餐厅"
+      ],
+      "style_tags": [
+        "当代",
+        "北欧风格",
+        "中古风"
+      ],
+      "combinations": [
+        "木制餐椅",
+        "吊灯",
+        "厨房高台背板"
+      ],
+      "distinctions": "与同标高纵向连续岛台餐桌相比，本例工作面与餐桌面有清楚高差；与沿长边平行摆放的独立餐桌不同，这里低桌在操作岛台端部连续延伸。",
+      "source_ids": [
+        "src-island-sumauma"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-sumauma",
+          "image_url": "https://images.adsttc.com/media/images/6423/5525/9fb6/b76c/d839/1ad9/newsletter/espacos-multifuncionais-integrando-ambientes-com-bancadas_13.jpg?1680037164",
+          "gallery_url": "https://www.archdaily.com/1000280/multifunctional-spaces-integrating-home-environments-with-countertops",
+          "observation": "图中木餐桌在厨房工作台前方形成低一层的长板，三把普通高度餐椅面向客厅，下方黑色体块支撑。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "source_id": "src-island-sumauma",
+          "image_url": "https://images.adsttc.com/media/images/63cb/03e5/7643/4a34/5b31/1482/medium_jpg/apartamento-sumauma-cota760_16.jpg?1674249254",
+          "gallery_url": "https://www.archdaily.com/pt/995319/apartamento-sumauma-cota760",
+          "observation": "原项目第16号照片可见岛台较高柜体及其右端继续延伸的较低木餐桌，确认高低台面的端头衔接。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot_multimodal_content_recheck",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "source_id": "src-island-sumauma",
+          "image_url": "https://images.adsttc.com/media/images/63cb/03e5/760d/d26c/79b7/382a/medium_jpg/apartamento-sumauma-cota760_21.jpg?1674249350",
+          "gallery_url": "https://www.archdaily.com/pt/995319/apartamento-sumauma-cota760",
+          "observation": "原项目第21号照片沿厨房通道看，低桌由操作岛台远端继续伸出，排除沿长边平行的旧判断。原项目文字支持操作台与餐桌组合。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot_multimodal_content_recheck",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "layout": "integrated_island_table",
+        "plan_geometry": "end_extension_with_height_step",
+        "counter_relation": "two_levels"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "island-rectangular-freestanding",
+      "category": "island",
+      "name_zh": "独立长方形岛台",
+      "name_en": "Rectangular freestanding island",
+      "aliases": [
+        "直线岛台",
+        "Rectilinear island"
+      ],
+      "visual_features": [
+        "岛台主体为独立直线矩形",
+        "长边通常平行于厨房柜墙",
+        "四周留有可识别的通行空间"
+      ],
+      "spatial_applications": [
+        "开放厨房",
+        "客餐厨一体"
+      ],
+      "style_tags": [
+        "现代简约",
+        "北欧风格",
+        "当代",
+        "侘寂"
+      ],
+      "combinations": [
+        "平行餐桌",
+        "直线后柜",
+        "吊灯"
+      ],
+      "distinctions": "与半岛相比，矩形台体不靠墙连接；与椭圆或异形岛台相比，四角和长边保持正交。",
+      "source_ids": [
+        "src-island-chiripa"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-chiripa",
+          "image_url": "https://images.adsttc.com/media/images/633b/60bd/4dba/6e15/cfb1/23b2/medium_jpg/o-que-considerar-ao-inserir-uma-ilha-na-cozinha_1.jpg?1664835779",
+          "gallery_url": "https://www.archdaily.com/990298/what-to-consider-when-designing-a-kitchen-island",
+          "observation": "远端厨房中，白色矩形岛台与后柜分离，矩形木餐桌在前方平行放置，右侧可见通向后部的空间。该视图为宽景，台面细节不做判定。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "layout": "freestanding",
+        "plan_geometry": "rectangle"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "island-rounded-peninsula",
+      "category": "island",
+      "name_zh": "圆弧端头半岛",
+      "name_en": "Rounded-end peninsula",
+      "aliases": [
+        "圆角半岛",
+        "Capsule-ended peninsula",
+        "弧形端头半岛"
+      ],
+      "visual_features": [
+        "直线长台面在外端收为圆弧",
+        "端头柜体随台面弯曲，形成包裹感",
+        "台面向座席外挑，底部局部留空"
+      ],
+      "spatial_applications": [
+        "开放客餐厨",
+        "公寓厨房"
+      ],
+      "style_tags": [
+        "当代",
+        "现代简约",
+        "北欧风格"
+      ],
+      "combinations": [
+        "连续电视低柜与吧台",
+        "直线厨房背柜",
+        "圆角单椅"
+      ],
+      "distinctions": "与全椭圆独立岛台相比，半岛一端与连续低柜相连；圆角集中在游离端。",
+      "source_ids": [
+        "src-island-curva"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-curva",
+          "image_url": "https://images.adsttc.com/media/images/6423/5526/36d7/3d2f/12ce/5b44/newsletter/espacos-multifuncionais-integrando-ambientes-com-bancadas_11.jpg?1680037168",
+          "gallery_url": "https://www.archdaily.com/1000280/multifunctional-spaces-integrating-home-environments-with-countertops",
+          "observation": "图中蓝色低柜从电视墙延伸到餐厨，右端半圆弧柜体与白台面相叠，两把高椅坐于外挑面下。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "layout": "peninsula",
+        "plan_geometry": "straight_with_rounded_end",
+        "counter_relation": "single_level_overhang"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "island-sculptural-column-legs",
+      "category": "island",
+      "name_zh": "雕塑柱脚桌式岛台",
+      "name_en": "Sculptural column-leg island",
+      "aliases": [
+        "家具式岛台",
+        "Column-leg table island"
+      ],
+      "visual_features": [
+        "厚台面与底部柱脚形成分离的构件感",
+        "夸张圆柱脚呈柔和大体量",
+        "台面边缘外展，座席下可见空隙"
+      ],
+      "spatial_applications": [
+        "开放厨房",
+        "度假住宅客餐厨"
+      ],
+      "style_tags": [
+        "中古风",
+        "当代",
+        "北欧风格"
+      ],
+      "combinations": [
+        "木墙与木柜",
+        "黑色高椅",
+        "圆形单吊灯"
+      ],
+      "distinctions": "与整块柜体岛台相比，柱脚独立可辨；与普通细腿工作桌相比，支脚体量大且承担雕塑焦点。",
+      "source_ids": [
+        "src-island-amagansett"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-amagansett",
+          "image_url": "https://media.architecturaldigest.com/photos/6430482d591096fcb6441064/master/w_1024%2Cc_limit/220921-EricPetschek-AmagansettDunes-016_1-Web.jpg",
+          "gallery_url": "https://www.architecturaldigest.com/gallery/tour-a-serene-amagansett-house-thats-oriented-around-a-central-pool",
+          "observation": "图中浅木宽台面由数个粗圆柱与中央木体支撑，台面前沿向外伸展，与两把高椅形成腿部空间。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "layout": "freestanding",
+        "plan_geometry": "tapered_quadrilateral",
+        "base_form": "sculptural_column_legs"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "island-straight-peninsula",
+      "category": "island",
+      "name_zh": "直角连接半岛",
+      "name_en": "Straight attached peninsula",
+      "aliases": [
+        "直线半岛",
+        "Attached peninsula"
+      ],
+      "visual_features": [
+        "长台体的一端连接厨房墙柜区域",
+        "三侧朝向开放空间",
+        "封闭前面可嵌入开放小龛而保持整面关系"
+      ],
+      "spatial_applications": [
+        "紧凑开放厨房",
+        "家庭客餐厨"
+      ],
+      "style_tags": [
+        "现代简约",
+        "北欧风格",
+        "当代"
+      ],
+      "combinations": [
+        "沿墙高柜",
+        "壁龛",
+        "餐椅"
+      ],
+      "distinctions": "与独立岛台相比，端部连接工作台或墙柜；与圆弧半岛相比，游离端保持清楚直角。",
+      "source_ids": [
+        "src-island-crato"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-crato",
+          "image_url": "https://images.adsttc.com/media/images/633b/6130/7120/027a/9adb/09a8/medium_jpg/o-que-considerar-ao-inserir-uma-ilha-na-cozinha_1.jpg?1664835895",
+          "gallery_url": "https://www.archdaily.com/990298/what-to-consider-when-designing-a-kitchen-island",
+          "observation": "白色矩形台体从左侧厨房柜区延出，前面有双层开放小龛，右端方正；视图与策展文的 Island Derived From Counter 对应。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "layout": "peninsula",
+        "plan_geometry": "rectangle"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "island-thin-sheet-frame",
+      "category": "island",
+      "name_zh": "薄板框架岛台",
+      "name_en": "Thin-sheet frame island",
+      "aliases": [
+        "轻型骨架岛台",
+        "Sheet-metal frame island"
+      ],
+      "visual_features": [
+        "薄顶板与薄侧板形成轻质框架",
+        "一侧存在重复窄支板与局部开放段",
+        "底部空隙使体量轻于完整柜盒"
+      ],
+      "spatial_applications": [
+        "开放厨房",
+        "工业空间改造"
+      ],
+      "style_tags": [
+        "工业风",
+        "当代",
+        "现代简约"
+      ],
+      "combinations": [
+        "悬吊金属格架",
+        "裸露混凝土",
+        "同色轻型柜面"
+      ],
+      "distinctions": "与开放格柜岛台相比，主体更接近薄板框架而非储物格墙；与整块实体岛台相比，构件边缘薄且底部开放。",
+      "source_ids": [
+        "src-island-gapont"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-gapont",
+          "image_url": "https://images.adsttc.com/media/images/633b/60e6/7120/027a/9adb/09a5/medium_jpg/o-que-considerar-ao-inserir-uma-ilha-na-cozinha_1.jpg?1664835820",
+          "gallery_url": "https://www.archdaily.com/990298/what-to-consider-when-designing-a-kitchen-island",
+          "observation": "灰蓝色台体由薄面和薄侧板组成，左长边有重复窄竖板，上方悬吊黄色格架；局部封闭端面带圆形开孔。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "layout": "freestanding",
+        "plan_geometry": "rectangle",
+        "base_form": "thin_sheet_frame"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "island-waterfall-wrapped-slab",
+      "category": "island",
+      "name_zh": "瀑布边包覆岛台",
+      "name_en": "Waterfall-edge wrapped island",
+      "aliases": [
+        "瀑布边岛台",
+        "Waterfall island"
+      ],
+      "visual_features": [
+        "台面石材向端部或外立面连续转折",
+        "侧板下延到地面，形成包覆感",
+        "纹理跨水平与竖向面形成视觉连续"
+      ],
+      "spatial_applications": [
+        "客餐厨一体",
+        "紧凑开放厨房"
+      ],
+      "style_tags": [
+        "中古风",
+        "侘寂",
+        "意式极简",
+        "当代"
+      ],
+      "combinations": [
+        "木柜",
+        "同材厨房挡板",
+        "细腿高椅"
+      ],
+      "distinctions": "与仅铺台面岛台相比，石材在竖向面继续下延；与全封闭石盒相比，可以包覆外侧而保留木柜使用面。",
+      "source_ids": [
+        "src-island-botaniczna"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-botaniczna",
+          "image_url": "https://estliving.com/wp-content/uploads/2021/01/est-living-botaniczna-apartment-agnieszka-owsiany-studio-4.webp",
+          "gallery_url": "https://estliving.com/botaniczna-apartment-agnieszka-owsiany-studio/",
+          "observation": "洞石色水平顶面与前方竖向面形成连续折角，右端石材薄板下落至地面；木柜与同色石材后挡板相呼应。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "layout": "freestanding_or_peninsula_unresolved",
+        "plan_geometry": "rectangle",
+        "counter_relation": "waterfall"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "cabinet-alcove-banquette",
+      "category": "cabinet",
+      "name_zh": "坐榻一体柜",
+      "name_en": "Banquette-integrated Cabinet",
+      "aliases": [
+        "座位柜",
+        "坐榻柜",
+        "niche seating cabinetry"
+      ],
+      "visual_features": [
+        "柜体立面内留出可坐入的凹龛",
+        "座位两侧和上方的柜体形成包裹框",
+        "座面下与旁侧仍保留收纳模块，家具和休息位合并"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "餐厅",
+        "卧室",
+        "玄关"
+      ],
+      "style_tags": [
+        "现代简约",
+        "北欧风格",
+        "当代"
+      ],
+      "combinations": [
+        "与靠垫和局部阅读灯形成小休息区",
+        "与厨房或展示柜共享整体立面",
+        "龛内外颜色可形成前后层次"
+      ],
+      "distinctions": "与独立长凳相比，座位被收纳体块包围；与桥式床周柜相比凹龛容纳坐姿休息位，尺度和空间对象不同。",
+      "source_ids": [
+        "src-cabinet-function-walls"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-cabinet-function-walls",
+          "image_url": "https://images.adsttc.com/media/images/5c17/94ed/08a5/e5c8/b900/00c8/newsletter/-_Featured_Image.jpg?1545049310",
+          "gallery_url": "https://www.archdaily.com/907814/function-walls-lookofsky-architecture",
+          "observation": "右侧黄色开口内设置软垫和靠枕，顶面与右侧有灯光和小层板；其四周是白色柜门，座面下仍属于柜体基部。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "cabinet-bridge-surround",
+      "category": "cabinet",
+      "name_zh": "桥式床周柜",
+      "name_en": "Bridge Cabinet Surround",
+      "aliases": [
+        "桥式柜",
+        "床周柜",
+        "surround cabinetry"
+      ],
+      "visual_features": [
+        "两侧高柜与上部横柜连接成倒U形",
+        "中间留下床、桌或通道所需的大开口",
+        "横柜形成清晰顶边，侧柜形成两侧边界"
+      ],
+      "spatial_applications": [
+        "卧室",
+        "客房",
+        "书房"
+      ],
+      "style_tags": [
+        "传统",
+        "当代",
+        "现代简约",
+        "北欧风格"
+      ],
+      "combinations": [
+        "与床头墙、床头灯和床边台整合",
+        "侧柜中段可留小龛作床头置物",
+        "周边框线或板缝可与门墙统一"
+      ],
+      "distinctions": "与通顶柜相比，桥式柜以横跨床或开口定义；与坐榻一体柜相比开口承接床或工作区，横向跨度较大。",
+      "source_ids": [
+        "src-wall-fairlight"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-wall-fairlight",
+          "image_url": "https://intrimmouldings.com.au/wp-content/uploads/2023/07/mattmicheldesign_Bed2_5-1024x682.jpg",
+          "gallery_url": "https://intrimmouldings.com.au/our-work/residential/wainscoting-contemporary-apartment-reno/",
+          "observation": "白色两侧高柜与床上方横向柜连成倒U，床被木色内边框包住，左右床头台面和抽屉并入柜体。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "cabinet-curved-end",
+      "category": "cabinet",
+      "name_zh": "弧面包裹柜",
+      "name_en": "Curved-front / Rounded-end Cabinet",
+      "aliases": [
+        "弧形柜",
+        "圆弧转角柜",
+        "curved cabinetry"
+      ],
+      "visual_features": [
+        "柜体前沿或端部具有较大半径的圆弧",
+        "门面或肋纹沿曲面连续，减少生硬的直角端头",
+        "弧面可连接两个正面方向并引导绕行"
+      ],
+      "spatial_applications": [
+        "厨房",
+        "餐厅",
+        "玄关",
+        "客厅"
+      ],
+      "style_tags": [
+        "当代",
+        "现代简约",
+        "中古风",
+        "意式极简"
+      ],
+      "combinations": [
+        "与弧墙、圆角岛台和椭圆桌呼应",
+        "与直线高柜形成曲直对比",
+        "弧形端头可用于走道转弯处"
+      ],
+      "distinctions": "与小圆角柜门相比弧线属于整个柜体端部或正面轮廓；与弧形墙相比仍具有柜门、设备或可辨收纳模块。",
+      "source_ids": [
+        "src-wall-burgatoi"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-wall-burgatoi",
+          "image_url": "https://images.adsttc.com/media/images/64d2/8c5a/7647/c424/9bf7/ea78/newsletter/renovacion-burgatoi-tenka_2.jpg?1691520109",
+          "gallery_url": "https://www.archdaily.com/1005187/burgatoi-renovation-tenka",
+          "observation": "蓝色高柜左端绕成圆弧，密集肋纹在圆弧处持续包裹；柜面下部可见分缝并与中间工作区连接。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "cabinet-floating-low",
+      "category": "cabinet",
+      "name_zh": "悬浮低柜",
+      "name_en": "Floating Low Cabinet",
+      "aliases": [
+        "悬浮式",
+        "壁挂低柜",
+        "floating console"
+      ],
+      "visual_features": [
+        "低柜底部明显脱离地面，保持可读空带",
+        "长条体量以水平线强化轻盈感",
+        "侧板和柜门属于一个独立盒体，支承关系被隐藏"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "玄关",
+        "卧室",
+        "浴室"
+      ],
+      "style_tags": [
+        "现代简约",
+        "意式极简",
+        "北欧风格",
+        "当代"
+      ],
+      "combinations": [
+        "可固定在低隔墙或背景墙上",
+        "与电视、长台面或镜子共享中线",
+        "地面连续通过柜底维持通透"
+      ],
+      "distinctions": "与内缩踢脚的落地柜相比，悬浮柜有更宽且明显连续的底部空带；案例为低隔墙前悬空盒体，不把所有有阴影的柜体都叫悬浮。",
+      "source_ids": [
+        "src-cabinet-life-creator"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-cabinet-life-creator",
+          "image_url": "https://www.contemporist.com/wp-content/uploads/2021/07/apartment-with-home-office-in-living-room-160712-1156-02.jpg",
+          "gallery_url": "https://www.contemporist.com/partition-in-the-living-room-creates-space-for-a-home-office-in-this-apartment/",
+          "observation": "低隔墙前的木色长柜下方可以看到连续空隙和地面阴影，柜体没有落地侧脚；浅色封闭门与开放格口并列。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "cabinet-flush-recessed",
+      "category": "cabinet",
+      "name_zh": "嵌入式齐平柜",
+      "name_en": "Flush Recessed Cabinet",
+      "aliases": [
+        "嵌入式",
+        "齐平柜",
+        "built-in cabinet"
+      ],
+      "visual_features": [
+        "柜体被纳入建筑界面，柜门接近周边墙板平面",
+        "正面以窄门缝代替外露厚柜侧",
+        "局部设备和工作台嵌入统一柜面"
+      ],
+      "spatial_applications": [
+        "厨房",
+        "卧室",
+        "玄关",
+        "餐厅"
+      ],
+      "style_tags": [
+        "现代简约",
+        "意式极简",
+        "北欧风格",
+        "当代"
+      ],
+      "combinations": [
+        "与隐藏门或整面墙板对齐",
+        "与深凹壁龛形成虚实关系",
+        "可用少量颜色标识功能"
+      ],
+      "distinctions": "与通顶式相比，嵌入式强调相对于周边墙面的齐平关系，通顶式强调竖向长度；与墙柜一体界面相比关注可读的柜门模块。",
+      "source_ids": [
+        "src-cabinet-function-walls"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-cabinet-function-walls",
+          "image_url": "https://images.adsttc.com/media/images/5c17/94ed/08a5/e5c8/b900/00c8/newsletter/-_Featured_Image.jpg?1545049310",
+          "gallery_url": "https://www.archdaily.com/907814/function-walls-lookofsky-architecture",
+          "observation": "白色柜门与周围同色板面接近齐平，无突出柜顶或大面积外露侧板；中央烤箱嵌入一条窄柜柱。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "cabinet-full-height",
+      "category": "cabinet",
+      "name_zh": "通顶柜",
+      "name_en": "Floor-to-ceiling Cabinet",
+      "aliases": [
+        "通顶式",
+        "通高柜",
+        "full-height cabinet"
+      ],
+      "visual_features": [
+        "柜面从近地面连续伸到顶面",
+        "顶部少留空隙，柜体与建筑高度统一",
+        "竖向长柜门可配上部短柜门，形成稳定分割"
+      ],
+      "spatial_applications": [
+        "厨房",
+        "卧室",
+        "玄关",
+        "衣帽间"
+      ],
+      "style_tags": [
+        "现代简约",
+        "意式极简",
+        "北欧风格",
+        "当代"
+      ],
+      "combinations": [
+        "可把工作台或设备包入通高柜群",
+        "与通顶门保持上沿一致",
+        "与低岛台或矮柜形成高低对比"
+      ],
+      "distinctions": "与嵌入式齐平柜相比，本条不要求柜体藏入墙厚，只要求竖向延伸到顶；与桥式柜相比不以横跨特定开口为定义。",
+      "source_ids": [
+        "src-cabinet-nnu"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-cabinet-nnu",
+          "image_url": "https://images.adsttc.com/media/images/6227/5ee2/fee3/a30d/579b/801e/medium_jpg/studiojayga-nnu-house-08.jpg?1646747409",
+          "gallery_url": "https://www.archdaily.com/978118/nnu-house-studio-jayga-architects",
+          "observation": "绿色柜体侧面从地面延伸到平顶，上方短柜门横跨工作区，两侧是长高柜门；中间嵌入台面和浅色上柜。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "cabinet-independent-core",
+      "category": "cabinet",
+      "name_zh": "独立多面收纳核心",
+      "name_en": "Freestanding Multifunctional Storage Core",
+      "aliases": [
+        "收纳核心",
+        "柜体核心筒",
+        "storage core"
+      ],
+      "visual_features": [
+        "收纳体块独立立于室内，可从多侧绕行",
+        "不同侧面承载柜门、开放架、设备或通道",
+        "体量读作建筑中的小体块，而非仅附着在墙上的家具"
+      ],
+      "spatial_applications": [
+        "开放式公寓",
+        "客餐厨一体空间",
+        "工作室",
+        "小户型"
+      ],
+      "style_tags": [
+        "当代",
+        "工业风",
+        "现代简约",
+        "意式极简"
+      ],
+      "combinations": [
+        "可与结构柱共同组织循环动线",
+        "各面按邻接区域设置展示、储藏和设备",
+        "材质和间隙能区分一个核心内的多个体块"
+      ],
+      "distinctions": "与L形贴墙柜相比，多面核心的主要边界与动线围绕体块展开；与单幅隔断柜相比它通常具有显著厚度并组合多种功能。",
+      "source_ids": [
+        "src-cabinet-aim"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-cabinet-aim",
+          "image_url": "https://images.adsttc.com/media/images/6752/0105/c61c/4b01/8965/f4fa/medium_jpg/living-without-boundaries-a-i-m_6.jpg?1733427490",
+          "gallery_url": "https://www.archdaily.com/1024419/living-without-boundaries-apartment-a-i-m",
+          "observation": "中央体块的浅灰面有开放层架，邻接深灰面有整面门和上方横向缝，两块之间有竖向退让；原文明确核心各面服务书架、酒架、食品储藏及洗衣房。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "cabinet-l-shaped-wrap",
+      "category": "cabinet",
+      "name_zh": "L形转角包裹柜",
+      "name_en": "L-shaped Corner-wrap Cabinet",
+      "aliases": [
+        "转角柜",
+        "包角书柜",
+        "corner shelving"
+      ],
+      "visual_features": [
+        "柜体沿两条相交的墙面或边界展开",
+        "层板或柜面在转角延续，转角作为视觉连接点",
+        "主面和侧面形成可绕行的体量，而非单一平立面"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "书房",
+        "卧室",
+        "餐厅"
+      ],
+      "style_tags": [
+        "北欧风格",
+        "中古风",
+        "当代",
+        "现代简约"
+      ],
+      "combinations": [
+        "可与阅读长桌、走廊或门洞相接",
+        "转角用圆端层板柔化交接",
+        "开放/封闭单元可分别布置在两面"
+      ],
+      "distinctions": "与U形围合柜群相比只展开两面，不形成三面内圈；与弧面柜相比主要体量是L形，圆端可只是转角细部。",
+      "source_ids": [
+        "src-cabinet-bookcases-house"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-cabinet-bookcases-house",
+          "image_url": "https://images.adsttc.com/media/images/61e8/e874/3522/8a01/670d/2546/newsletter/feat.jpg?1642653826",
+          "gallery_url": "https://www.archdaily.com/975392/bookcases-house-atelier-d-plus-y",
+          "observation": "木书架的正面格架在左侧转回，圆头层板与另一侧书架连接；读书桌沿其左侧方向延伸。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "cabinet-open-closed-combination",
+      "category": "cabinet",
+      "name_zh": "开放封闭组合柜",
+      "name_en": "Open-and-closed Combination Cabinet",
+      "aliases": [
+        "开放组合式",
+        "展示收纳组合柜"
+      ],
+      "visual_features": [
+        "开放格架与有柜门或抽屉的实体体块共存",
+        "通透上部与封闭下部形成层次",
+        "封闭单元可打断格架而不破坏整体基准线"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "书房",
+        "餐厅",
+        "工作室"
+      ],
+      "style_tags": [
+        "当代",
+        "中古风",
+        "工业风",
+        "北欧风格"
+      ],
+      "combinations": [
+        "封闭区收纳杂物，开放区展示书籍",
+        "可与长桌、钢琴或媒体设备整合",
+        "上下材料和颜色可形成轻重对比"
+      ],
+      "distinctions": "与纯开放格架相比有明确可关闭的收纳区；与纯封闭高柜相比开放区保留物件和通透感。",
+      "source_ids": [
+        "src-cabinet-bookshelf-apartment"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-cabinet-bookshelf-apartment",
+          "image_url": "https://images.adsttc.com/media/images/63d9/358c/0279/5c14/3077/fd2f/newsletter/apartamento-estantes-cota760_18.jpg?1675179430",
+          "gallery_url": "https://www.archdaily.com/995765/bookshelf-apartment-cota760",
+          "observation": "红色金属书架的下部嵌有多组木色抽屉和盒体，上部是露出的书架；两种单元共享水平定位。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "cabinet-open-grid",
+      "category": "cabinet",
+      "name_zh": "开放格架柜",
+      "name_en": "Open-grid Shelving",
+      "aliases": [
+        "开放柜",
+        "格架柜",
+        "open grid bookcase"
+      ],
+      "visual_features": [
+        "横层板与竖向支撑组成规则格架",
+        "大多数格口开放，物件构成可见的立面内容",
+        "多个格口沿共同基准连续展开，开放单元形成可读的网格秩序。"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "书房",
+        "音乐室",
+        "餐厅"
+      ],
+      "style_tags": [
+        "工业风",
+        "中古风",
+        "北欧风格",
+        "当代"
+      ],
+      "combinations": [
+        "与下方低柜或设备台组合",
+        "通过较大空格给乐器和画作留位",
+        "灯具可固定在格架旁但保持书架轮廓"
+      ],
+      "distinctions": "与方孔花墙不同，开放格架由较薄层板和支撑构成；与开放封闭组合相比，本条强调开放格口的主体秩序。 本案例读取开放格架单元；同一整幅柜方案下部还含封闭抽屉，其组合关系另见开放封闭组合柜，不宣称是纯开放的整套柜。",
+      "source_ids": [
+        "src-cabinet-bookshelf-apartment"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-cabinet-bookshelf-apartment",
+          "image_url": "https://images.adsttc.com/media/images/63d9/358c/0279/5c14/3077/fd2f/newsletter/apartamento-estantes-cota760_18.jpg?1675179430",
+          "gallery_url": "https://www.archdaily.com/995765/bookshelf-apartment-cota760",
+          "observation": "整面红色金属支架以多排横板和竖杆组成格架，书、唱片与音响直接暴露，中心留较大空格容纳钢琴区。 下部另有封闭木色收纳盒，本条关注可见的开放格架单元。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "cabinet-stepped-under-stair",
+      "category": "cabinet",
+      "name_zh": "阶梯式楼梯柜",
+      "name_en": "Stepped Under-stair Cabinet",
+      "aliases": [
+        "楼梯下柜",
+        "阶梯柜",
+        "under stair storage"
+      ],
+      "visual_features": [
+        "柜体上轮廓跟随楼梯逐级升降",
+        "不同高度的柜门或格口填入梯下空间",
+        "柜体、踏步和室内体块形成连续几何"
+      ],
+      "spatial_applications": [
+        "跃层住宅",
+        "阁楼",
+        "小户型",
+        "楼梯厅"
+      ],
+      "style_tags": [
+        "现代简约",
+        "当代",
+        "工业风"
+      ],
+      "combinations": [
+        "与楼梯侧面和线性照明协同",
+        "可把低格和高柜分配在不同高度",
+        "柜门线尽量与阶梯变化建立关系"
+      ],
+      "distinctions": "与斜顶梯下柜相比，阶梯式上沿是清晰的逐级折线；与普通阶梯陈列架相比主体被楼梯和使用动线限定。",
+      "source_ids": [
+        "src-cabinet-youth"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-cabinet-youth",
+          "image_url": "https://oss.gooood.cn/uploads/2017/02/4-stair2_youth-to-youth_batlab-architects-960x631.jpg",
+          "gallery_url": "https://www.gooood.cn/youth-to-youth-apartment-by-batlab-architects.htm",
+          "observation": "白色柜门按上方橙色踏步逐级降低，左右门高不同；最左高柜与上方床台组合，灯带勾出踏步折线。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "cabinet-u-shaped-wrap",
+      "category": "cabinet",
+      "name_zh": "U形围合柜群",
+      "name_en": "U-shaped Wraparound Cabinetry",
+      "aliases": [
+        "三面柜",
+        "U形柜",
+        "wraparound wardrobe"
+      ],
+      "visual_features": [
+        "柜群沿三面墙连续展开成U形",
+        "门缝和上部柜带跨转角维持统一",
+        "中央保留走动或取物空间，柜体构成房间内圈"
+      ],
+      "spatial_applications": [
+        "衣帽间",
+        "储藏室",
+        "书房",
+        "厨房"
+      ],
+      "style_tags": [
+        "现代简约",
+        "当代",
+        "传统"
+      ],
+      "combinations": [
+        "可与中间矮凳、岛台或穿衣镜组合",
+        "端墙与两侧柜同色可形成整体房间",
+        "一侧开龛或抽屉区调节连续柜面的封闭程度"
+      ],
+      "distinctions": "与L形包角柜相比围合三面，中央形成更明确内圈；与单幅通顶柜相比是平面布置关系而非高度分类。",
+      "source_ids": [
+        "src-wall-somerset"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-wall-somerset",
+          "image_url": "https://media.architecturaldigest.com/photos/6ab3eb7e2c02b09ee620ed46/master/w_1600%2Cc_limit/Dressingroom36860013%2520copy.jpg",
+          "gallery_url": "https://www.architecturaldigest.com/story/somerset-house-brooklyn-apartment-design",
+          "observation": "蓝色衣帽间左右及尽端三面均布置柜体，上部柜门连续；左侧有开放梳妆凹龛与抽屉，中央放软凳。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "door-arched-glazed-double",
+      "category": "door",
+      "name_zh": "弧顶上亮玻璃双扇门",
+      "name_en": "Glazed double door with arched transom",
+      "aliases": [
+        "弧顶玻璃双门",
+        "Arched French-style glazed door",
+        "拱顶玻璃双扇门",
+        "Arched glazed double door"
+      ],
+      "visual_features": [
+        "整体门洞上方为圆角或弧顶",
+        "玻璃面由细木框分格",
+        "双扇门与固定上亮共同形成透明隔断"
+      ],
+      "spatial_applications": [
+        "餐厅入口",
+        "客餐厅分隔",
+        "书房入口"
+      ],
+      "style_tags": [
+        "中古风",
+        "当代",
+        "传统"
+      ],
+      "combinations": [
+        "椭圆岛台",
+        "圆桌",
+        "暖木柜墙"
+      ],
+      "distinctions": "弧顶轮廓由固定上亮形成，活动双门扇为矩形；与无上亮双门相比，上部固定玻璃分格参与整个门洞的视觉轮廓。",
+      "source_ids": [
+        "src-island-primrose"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-primrose",
+          "image_url": "https://cdn.mos.cms.futurecdn.net/6csjC58FGJoCgaZ9kwqUdR-768-80.jpg",
+          "gallery_url": "https://www.livingetc.com/features/uncanny-studios-primrose-penthouse",
+          "observation": "餐厅与厨房之间为木色分格玻璃双扇门，门头圆角且有上部固定玻璃格；右侧叶片呈开启角度，可看到后方餐桌。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "leaf_visual": "rectangular_framed_glazing_with_arched_transom",
+        "operation": "double_leaf_swing_visible"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "door-arched-solid",
+      "category": "door",
+      "name_zh": "拱顶实心门",
+      "name_en": "Arched solid door",
+      "aliases": [
+        "圆拱门",
+        "Arched opaque door"
+      ],
+      "visual_features": [
+        "门扇顶部为连续圆拱",
+        "实心不透光门面形成完整色块",
+        "门框沿拱形轮廓贴合"
+      ],
+      "spatial_applications": [
+        "卧室入口",
+        "卫生间入口",
+        "走廊转场"
+      ],
+      "style_tags": [
+        "当代",
+        "中古风",
+        "传统",
+        "北欧风格"
+      ],
+      "combinations": [
+        "拱形壁龛",
+        "简洁白墙",
+        "柔和色彩"
+      ],
+      "distinctions": "与普通矩形平板门相比，门头轮廓形成拱；与拱顶玻璃门相比，门面是不透明实体。",
+      "source_ids": [
+        "src-island-chiripa"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-chiripa",
+          "image_url": "https://images.adsttc.com/media/images/633b/60bd/4dba/6e15/cfb1/23b2/medium_jpg/o-que-considerar-ao-inserir-uma-ilha-na-cozinha_1.jpg?1664835779",
+          "gallery_url": "https://www.archdaily.com/990298/what-to-consider-when-designing-a-kitchen-island",
+          "observation": "画面左侧为浅蓝色拱顶实心门，靠右侧可见门把手，颜色与白墙区分；未从关闭图推断开启轨迹。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "leaf_visual": "arched_opaque",
+        "operation": "not_confirmed_from_closed_view"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "door-bookcase-pivot",
+      "category": "door",
+      "name_zh": "书柜伪装枢轴门",
+      "name_en": "Bookcase pivot door",
+      "aliases": [
+        "书架暗门",
+        "Rotating bookcase door"
+      ],
+      "visual_features": [
+        "门体正面为可读的书架格",
+        "具有明显厚度与储物家具感",
+        "打开后书柜转为门洞两侧的边界"
+      ],
+      "spatial_applications": [
+        "书房入口",
+        "办公室与起居区",
+        "隐蔽通道"
+      ],
+      "style_tags": [
+        "中古风",
+        "当代",
+        "现代简约"
+      ],
+      "combinations": [
+        "整面书墙",
+        "客厅家具",
+        "连续门洞"
+      ],
+      "distinctions": "与平板隐藏门相比，门扇伪装成有深度的家具；与书柜推拉门相比，开放时书架面旋转到侧向。",
+      "source_ids": [
+        "src-door-pivot-cases"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-door-pivot-cases",
+          "image_url": "https://images.adsttc.com/media/images/5f6b/ce91/63c0/176b/3f00/03a8/newsletter/204.6_FritsJurgens_Bookcase.jpg?1600900745",
+          "gallery_url": "https://www.archdaily.cn/cn/949264/qiao-yong-xuan-zhuan-men-de-6chong-fang-fa-wei-she-ji-jin-shang-tian-hua",
+          "observation": "Hoek en de Wit architecten 的媒体实例：两个装满书的厚柜体已转到大门洞左右，柜面朝侧方，露出后方起居室。项目完整记录未知。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "leaf_visual": "bookcase_disguise",
+        "operation": "pivot_open_leaf_visible"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "door-flush-flat-leaf",
+      "category": "door",
+      "name_zh": "齐墙平板门",
+      "name_en": "Flush flat-panel door",
+      "aliases": [
+        "平板室内门",
+        "Flush slab door"
+      ],
+      "visual_features": [
+        "门扇为无框线的整块平面",
+        "门面与邻接木板以相同色调形成连续",
+        "窄缝与把手是主要可识别的门迹"
+      ],
+      "spatial_applications": [
+        "卧室入口",
+        "厨房后场",
+        "走廊"
+      ],
+      "style_tags": [
+        "现代简约",
+        "北欧风格",
+        "意式极简",
+        "当代"
+      ],
+      "combinations": [
+        "通顶木柜",
+        "整面木墙",
+        "开放格架"
+      ],
+      "distinctions": "与框线嵌板门相比，门扇无装饰凹凸；与彻底隐藏门相比，案例仍保留明显把手与门缝。",
+      "source_ids": [
+        "src-island-venus-sol"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-island-venus-sol",
+          "image_url": "https://images.adsttc.com/media/images/6423/5526/36d7/3d2f/12ce/5b45/newsletter/espacos-multifuncionais-integrando-ambientes-com-bancadas_8.jpg?1680037175",
+          "gallery_url": "https://www.archdaily.com/1000280/multifunctional-spaces-integrating-home-environments-with-countertops",
+          "observation": "厨房右后方木门处于浅木柜墙之间，面板无装饰框线，黑把手与竖缝提示入口，关闭状态不能据此判定铰链形式。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "leaf_visual": "flat_flush",
+        "operation": "not_confirmed_from_closed_view"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "door-slim-frame-frosted-folding",
+      "category": "door",
+      "name_zh": "窄框磨砂玻璃折叠门",
+      "name_en": "Slim-frame frosted-glass folding door",
+      "aliases": [
+        "玻璃折叠隔断门",
+        "Frosted bifold partition"
+      ],
+      "visual_features": [
+        "多个窄框玻璃扇沿门洞组成连续竖面",
+        "磨砂面透光但模糊背后物体",
+        "多个门扇展开后靠侧叠起"
+      ],
+      "spatial_applications": [
+        "小公寓卧室",
+        "书房",
+        "起居区分隔"
+      ],
+      "style_tags": [
+        "现代简约",
+        "当代",
+        "工业风"
+      ],
+      "combinations": [
+        "台阶",
+        "木墙",
+        "镜面走廊"
+      ],
+      "distinctions": "与磨砂单扇平开门相比，多个铰接扇可整组折叠；与推拉叠收门相比，叠起处可见门扇折角和铰链。 照片上缘裁切，不能据此认定门叶通房间顶。",
+      "source_ids": [
+        "src-door-folded-apartment"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-door-folded-apartment",
+          "image_url": "https://images.adsttc.com/media/images/56ae/ab6a/e58e/cefa/d300/04f7/medium_jpg/MD-Apartment-0108.jpg?1454287712",
+          "gallery_url": "https://www.archdaily.com/781341/the-folded-apartment-moredesignoffice",
+          "observation": "开放照片右侧可见玻璃叶片叠成折角及多处铰链；另实际查看 MDO-Apartment-001.jpg 的关闭状态，磨砂竖面与细框形成完整分隔。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "source_id": "src-door-folded-apartment",
+          "image_url": "https://images.adsttc.com/media/images/56ae/abaf/e58e/cee7/e100/0560/medium_jpg/MDO-Apartment-001.jpg?1454287782",
+          "gallery_url": "https://www.archdaily.com/781341/the-folded-apartment-moredesignoffice",
+          "observation": "关闭状态的磨砂玻璃面透光不透景，门扇边框清楚。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "leaf_visual": "slim_frame_frosted_glazing",
+        "operation": "folding_visible"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "door-grid-glazed-pivot",
+      "category": "door",
+      "name_zh": "黑框分格玻璃枢轴门",
+      "name_en": "Grid-glazed steel pivot door",
+      "aliases": [
+        "黑框玻璃门",
+        "Steel grid pivot partition"
+      ],
+      "visual_features": [
+        "细黑金属框形成重复矩形网格",
+        "透明玻璃保持跨房间视线",
+        "旋转叶片与固定玻璃墙共享分格节奏"
+      ],
+      "spatial_applications": [
+        "客厅与会客区",
+        "书房",
+        "大开间隔断"
+      ],
+      "style_tags": [
+        "工业风",
+        "中古风",
+        "当代"
+      ],
+      "combinations": [
+        "黑框窗",
+        "裸露混凝土",
+        "木家具"
+      ],
+      "distinctions": "与普通玻璃推拉门相比，开放叶片旋转成角度；与无分格玻璃枢轴门相比，细框网格是主要识别特征。",
+      "source_ids": [
+        "src-door-pivot-cases"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-door-pivot-cases",
+          "image_url": "https://images.adsttc.com/media/images/5f6b/da06/63c0/176b/3f00/03da/newsletter/csamay_Axis_Pivot_Tu%CC%88ren_industrial_halboffen_Kamin.jpg?1600903675",
+          "gallery_url": "https://www.archdaily.cn/cn/949264/qiao-yong-xuan-zhuan-men-de-6chong-fang-fa-wei-she-ji-jin-shang-tian-hua",
+          "observation": "Csamay 的媒体实例：黑色网格玻璃墙中至少两扇叶片已旋转，与固定玻璃墙的细框连续；背景会客区透过玻璃可见。竣工时间未知。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "leaf_visual": "black_steel_grid_glazing",
+        "operation": "pivot_open_leaf_visible"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "door-multiple-stacking-sliding",
+      "category": "door",
+      "name_zh": "多片叠收隔断移门",
+      "name_en": "Multi-panel stacking sliding partition",
+      "aliases": [
+        "多轨叠收门",
+        "Stacking room-divider panels"
+      ],
+      "visual_features": [
+        "大量窄板沿平行轨迹叠收",
+        "顶面与地面轨线参与整体秩序",
+        "打开后房间边界缩为一束窄板"
+      ],
+      "spatial_applications": [
+        "可变小公寓",
+        "工作与卧室兼用空间",
+        "家庭多功能区"
+      ],
+      "style_tags": [
+        "当代",
+        "现代简约",
+        "工业风"
+      ],
+      "combinations": [
+        "移动书柜",
+        "开放厨房",
+        "裸露梁与混凝土"
+      ],
+      "distinctions": "与两扇普通推拉门相比，门组由多个叶片叠收；与折叠门相比，可见多条平行轨迹，未将图中叠收形式误称为口袋门。",
+      "source_ids": [
+        "src-door-sakurazaka"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-door-sakurazaka",
+          "image_url": "https://images.adsttc.com/media/images/6a71/9dc5/eb02/9f01/882a/1e0f/newsletter/rooms-that-appear-sliding-partitions-and-conditional-domestic-space-in-apac-interiors_2.jpg?1785830860",
+          "gallery_url": "https://www.archdaily.com/1182161/rooms-that-appear-sliding-partitions-and-conditional-domestic-space",
+          "observation": "图中白色多片叶板整束叠到梁边，顶部与橙色地面可见平行长轨线，客餐空间与右侧工作区打开。完整单扇边缘和关闭纹理未在此图观察。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "leaf_visual": "multiple_narrow_panels",
+        "operation": "stacking_sliding_source_and_tracks"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "door-slatted-concealed-pivot",
+      "category": "door",
+      "name_zh": "格栅齐墙隐藏枢轴门",
+      "name_en": "Slatted concealed pivot door",
+      "aliases": [
+        "格栅暗门",
+        "Ribbed hidden pivot door"
+      ],
+      "visual_features": [
+        "竖向细密条纹跨门面与墙面连续",
+        "门缝藏在条纹节奏中",
+        "开放时叶片仍保留同样条纹和厚度"
+      ],
+      "spatial_applications": [
+        "起居区入口",
+        "卧室过渡",
+        "走廊"
+      ],
+      "style_tags": [
+        "意式极简",
+        "当代",
+        "现代简约"
+      ],
+      "combinations": [
+        "整面格栅墙",
+        "极简平顶",
+        "低对比地坪"
+      ],
+      "distinctions": "与平板齐墙门相比，以条纹掩饰门缝；与独立装饰格栅屏风相比，案例叶片可关闭成为实墙入口。",
+      "source_ids": [
+        "src-door-pivot-cases"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-door-pivot-cases",
+          "image_url": "https://images.adsttc.com/media/images/5f6b/cedc/63c0/177d/1000/051b/medium_jpg/225.2_09_taouk_architects_bramley_court_veeral_6125_edit_p_2.jpg?1600900817",
+          "gallery_url": "https://www.archdaily.cn/cn/949264/qiao-yong-xuan-zhuan-men-de-6chong-fang-fa-wei-she-ji-jin-shang-tian-hua",
+          "observation": "Taouk Architects 的媒体实例：深色细竖纹墙中门扇已旋转，门面与侧墙纹理同向；门洞上仍有墙段，因此该例不宣称门叶真正通顶。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "leaf_visual": "continuous_vertical_ribs",
+        "operation": "pivot_source_and_open_leaf"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "door-stone-faced-pivot",
+      "category": "door",
+      "name_zh": "整板暗缝枢轴门",
+      "name_en": "Concealed slab pivot door",
+      "aliases": [
+        "石材隐藏门",
+        "Marble pivot door",
+        "石材整面枢轴门",
+        "Stone-faced pivot door"
+      ],
+      "visual_features": [
+        "门面延续邻墙石材纹理",
+        "厚重整面体量以窄缝分离",
+        "把手可收为凹入开口，减弱附加物"
+      ],
+      "spatial_applications": [
+        "套房入口",
+        "卫生间入口",
+        "大尺度室内过渡"
+      ],
+      "style_tags": [
+        "意式极简",
+        "当代"
+      ],
+      "combinations": [
+        "同材石墙",
+        "石材地坪",
+        "低对比背景"
+      ],
+      "distinctions": "与格栅隐藏枢轴门相比，视觉重心是连续整板与细暗缝；该照片采用石材纹理，其他材质也可形成整板。开启方式由已转动门叶与来源说明交叉确认。",
+      "source_ids": [
+        "src-door-pivot-cases"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-door-pivot-cases",
+          "image_url": "https://images.adsttc.com/media/images/5f6b/cf23/63c0/177d/1000/051c/medium_jpg/235.1_P1022567.jpg?1600900891",
+          "gallery_url": "https://www.archdaily.cn/cn/949264/qiao-yong-xuan-zhuan-men-de-6chong-fang-fa-wei-she-ji-jin-shang-tian-hua",
+          "observation": "Exceptis Interior Design 的媒体实例：石材叶片已转出墙面，右侧窄开口与凹入手位可见，纹理沿门面延续。项目名称和竣工记录未确认。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "leaf_visual": "stone_continuous_plane",
+        "operation": "pivot_source_and_open_leaf"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "door-wide-glossy-sliding",
+      "category": "door",
+      "name_zh": "宽幅整板移门",
+      "name_en": "Wide slab sliding door",
+      "aliases": [
+        "整板移门",
+        "宽幅厨房移门",
+        "宽幅整板光泽移门",
+        "Wide glossy-panel sliding door"
+      ],
+      "visual_features": [
+        "宽大单板控制整段室内开口",
+        "表面完整光泽色面，框线很弱",
+        "打开后仍以大色块停留在开口一侧"
+      ],
+      "spatial_applications": [
+        "可封闭厨房",
+        "客餐厅分隔",
+        "宽门洞"
+      ],
+      "style_tags": [
+        "当代",
+        "意式极简",
+        "现代简约"
+      ],
+      "combinations": [
+        "连续厨房柜面",
+        "白色顶面",
+        "隐藏照明"
+      ],
+      "distinctions": "与多扇分格移门相比，该例用一块大整板；与齐墙隐藏门相比，开启后大色面仍明确可见。",
+      "source_ids": [
+        "src-door-moscow"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-door-moscow",
+          "image_url": "https://images.adsttc.com/media/images/5f3b/3f28/b357/6527/3300/00b0/medium_jpg/_VLX1428.jpg?1597718275",
+          "gallery_url": "https://www.archdaily.com/945901/moscow-apartment-nicolas-dahan-arquitectes",
+          "observation": "浅绿色宽大光泽板位于厨房开口左侧，右侧厨房已露出；正文确认这是3米×3米清漆木质滑门，关闭照片不据此推断为口袋结构。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "form_dimensions": {
+        "leaf_visual": "wide_opaque_glossy_slab",
+        "operation": "sliding_confirmed_by_project_text"
+      },
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-floating-single-plane",
+      "category": "ceiling",
+      "name_zh": "整面退让悬浮平顶",
+      "name_en": "Single-plane Floating Ceiling",
+      "aliases": [
+        "整面悬浮顶",
+        "悬浮大平顶",
+        "单块悬浮平板",
+        "floating single ceiling"
+      ],
+      "visual_features": [
+        "一个连续水平平板构成客厅的主要顶面，不由多个独立岛板拼成。",
+        "可见侧边与相邻墙面分离，退让空带和暗缝使主体边界清楚。",
+        "整体靠平面和边缘阴影形成层次，平板内可见少量点状嵌灯。"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "餐厅",
+        "卧室"
+      ],
+      "style_tags": [
+        "现代简约",
+        "中古风",
+        "北欧风格",
+        "当代",
+        "东南亚风格"
+      ],
+      "combinations": [
+        "可与简洁通顶柜、水平低柜和独立餐桌吊灯组合；材料按本案风格适配。",
+        "灯位服务活动区域，退让缝是否加灯带由本案照明设计确定，不从源图推断。"
+      ],
+      "distinctions": "与多块悬浮岛板相比，主体是一块连续平面；与周边降板顶相比，低主体位于中部且边缘退让，而不是墙边低带框住中央高顶。本案照片可见两侧退让和远侧边界，近侧边缘在画幅外，不能把完整四侧、尺寸及隐藏支承写成已观察事实。",
+      "source_ids": [
+        "src-ceiling-soho-vance"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-soho-vance",
+          "image_url": "https://archinect.gumlet.io/uploads/9b/9b566a2cd461f60fe522bce7a0345dbd.jpg?auto=compress%2Cformat&enlarge=true&fit=crop&w=615",
+          "gallery_url": "https://archinect.com/jvarchitects/project/soho-penthouse-duplex",
+          "observation": "客厅上方为一块完整白色水平顶板，左、右边缘与侧墙之间可见较深退让空带，远侧在落地窗前结束；顶板内少量小嵌灯可见。近侧边缘在画幅外，未核验四侧完整收口。",
+          "visual_status": "observed",
+          "view_method": "本轮Cua浏览器在线照片截图多模态观察；未下载原图或上传给图像模型",
+          "checked_at": "2026-10-12"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "形式特征由本轮看图及作者floating-ceiling描述确认；应用空间、风格与组合为编辑建议，不代表源项目标签、尺寸或施工节点。"
+    },
+    {
+      "id": "ceiling-local-bulkhead",
+      "category": "ceiling",
+      "name_zh": "局部边吊",
+      "name_en": "Local Edge Bulkhead Ceiling",
+      "aliases": [
+        "局部低顶",
+        "柜顶边吊",
+        "单侧边吊",
+        "partial bulkhead"
+      ],
+      "visual_features": [
+        "较低的水平顶面只覆盖一侧或一段功能区域，不围绕整个房间。",
+        "低顶的竖向端面与水平底面形成清晰高低边界。",
+        "相邻主体区域保留较高顶面，局部低顶可与柜体或设备区衔接。"
+      ],
+      "spatial_applications": [
+        "卧室",
+        "客厅",
+        "玄关",
+        "书房"
+      ],
+      "style_tags": [
+        "现代简约",
+        "中古风",
+        "北欧风格",
+        "当代",
+        "东南亚风格"
+      ],
+      "combinations": [
+        "在本案需要的柜/设备区设置局部低边带，其余位置保留平顶。",
+        "照明只布在有用途的局部低顶或主体区域，不要求围一圈灯带。"
+      ],
+      "distinctions": "与周边降板顶相比仅覆盖局部，而不是四周完整边带；与整面悬浮平顶相比不是独立的中央平板。本来源主体为原有浅拱肋顶，仅借用局部低顶的范围、高低及收口，不能将拱肋、原梁或红色核心体块带入本案。",
+      "source_ids": [
+        "src-ceiling-viladomat-colombo"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-viladomat-colombo",
+          "image_url": "https://colomboarchitecture.com/wp-content/uploads/2026/08/viladomat-apartment-barcelona-30.jpg",
+          "gallery_url": "https://colomboarchitecture.com/viladomat-apartment-barcelona/",
+          "observation": "卧室侧边柜/功能体块上方为局部白色低顶，低顶端面有线性风口，底面有一只小嵌灯；旁侧原浅拱肋顶明显较高。照片能确认局部覆盖与相对高低，不能给出风管尺寸或吊顶内部做法。",
+          "visual_status": "observed",
+          "view_method": "本轮Cua浏览器在线照片截图多模态观察；未下载原图或上传给图像模型",
+          "checked_at": "2026-10-12"
+        },
+        {
+          "source_id": "src-ceiling-viladomat-colombo",
+          "image_url": "https://colomboarchitecture.com/wp-content/uploads/2026/08/viladomat-apartment-barcelona-31.jpg",
+          "gallery_url": "https://colomboarchitecture.com/viladomat-apartment-barcelona/",
+          "observation": "同一卧室从另一角度看到局部白色低顶端面、柜/帘区和相邻高顶；这里只读取低顶范围，不把上方原有梁肋当作新增装饰吊顶。",
+          "visual_status": "observed",
+          "view_method": "本轮Cua浏览器在线照片截图多模态观察；未下载原图或上传给图像模型",
+          "checked_at": "2026-10-12"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "视觉关系来自两张原项目照片；适用房间、风格与平顶适配为本案设计建议，不冒充来源项目已有平顶。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-ceiling-sinan",
+      "title": "思南公馆东苑住宅，上海 / 立木设计",
+      "url": "https://www.gooood.cn/east-garden-apartment-of-sinan-mansion-by-lm.htm",
+      "publisher": "谷德设计网",
+      "project": "思南公馆东苑住宅",
+      "designer": "立木设计 / L&M",
+      "project_status": "built",
+      "status_basis": "项目记录明确列出设计及完成年份2022–2024，描述完成后的空间，并列出摄影版权。",
+      "attribution": "照片 © 朱清言（项目总摄影版权：朱清言 / 陈子茜）",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_selected_image_accessible"
+    },
+    {
+      "id": "src-ceiling-folk",
+      "title": "Homely restaurant in Copenhagen Zoo / Restaurant FOLK",
+      "url": "https://www.troldtekt.com/references/hotel-restaurant/restaurant-folk",
+      "publisher": "Troldtekt",
+      "project": "Restaurant FOLK, Copenhagen Zoo",
+      "designer": "ATM Design",
+      "project_status": "built",
+      "status_basis": "厂商真实项目记录描述已改造餐厅，明确写出声学板已作为 floating acoustic clouds 安装，并列出摄影者。",
+      "attribution": "照片 © Helene Høyer Mikkelsen",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_selected_image_accessible"
+    },
+    {
+      "id": "src-ceiling-paris",
+      "title": "Apartment in Paris / Pascal Grasso Architectures",
+      "url": "https://www.archdaily.com/104101/apartment-in-paris-pascal-grasso-architectures",
+      "publisher": "ArchDaily",
+      "project": "Apartment in Paris",
+      "designer": "Pascal Grasso Architectures",
+      "project_status": "built",
+      "status_basis": "ArchDaily Built Projects 项目标签；项目年份2011、面积280㎡及摄影Nicolas Dorval-Bory；正文明确描述悬挂石膏盒子。",
+      "attribution": "照片 © Nicolas Dorval-Bory",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_selected_image_accessible"
+    },
+    {
+      "id": "src-ceiling-noodle",
+      "title": "高桌子低板凳面馆，成都 / 大麦设计",
+      "url": "https://www.gooood.cn/gao-zhuo-zi-di-ban-deng-noodle-restaurant-china-by-damai-interior-design.htm",
+      "publisher": "谷德设计网",
+      "project": "高桌子低板凳面馆，成都太古里金融汇",
+      "designer": "杭州大麦设计 / Damai Interior Design",
+      "project_status": "built",
+      "status_basis": "项目表明确列出开放时间及 Completion Date: June 2018，摄影师贺川。",
+      "attribution": "照片 © 贺川 / He Chuan",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_selected_image_accessible"
+    },
+    {
+      "id": "src-ceiling-moscow",
+      "title": "莫斯科公寓 / Nicolas Dahan",
+      "url": "https://www.gooood.cn/moscow-apartment-by-nicolas-dahan.htm",
+      "publisher": "谷德设计网",
+      "project": "Moscow Apartment",
+      "designer": "Nicolas Dahan",
+      "project_status": "built",
+      "status_basis": "谷德页面HTML及图片可访问，同名ArchDaily项目 https://www.archdaily.com/945901/moscow-apartment-nicolas-dahan-arquitectes 列为Built Projects、Year 2018、450㎡及摄影Vincent Leroux。",
+      "attribution": "照片 © Vincent Leroux",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "rights": "reference_only_no_download",
+      "original_access_status": "html_and_image_accessible_web_reader_timeout"
+    },
+    {
+      "id": "src-ceiling-stanbridge",
+      "title": "The Library Stanbridge Mill / Crawshaw Architects",
+      "url": "https://www.archdaily.com/968369/the-library-stanbridge-mill-crawshaw-architects",
+      "publisher": "ArchDaily",
+      "project": "The Library Stanbridge Mill",
+      "designer": "Crawshaw Architects",
+      "project_status": "built",
+      "status_basis": "ArchDaily Built Projects 标签；Year 2021；正文描述牛棚已改造成图书馆、筒拱中厅及摄影者。",
+      "attribution": "照片 © Ingrid Rasmussen",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_selected_image_accessible"
+    },
+    {
+      "id": "src-ceiling-tarentum",
+      "title": "萄木餐厅酒吧，深圳 / 星球建筑事务所",
+      "url": "https://www.gooood.cn/tarentum-bar-restaurant-china-by-mars-studio.htm",
+      "publisher": "谷德设计网",
+      "project": "TARENTUM Bar & Restaurant",
+      "designer": "MARS Studio / 星球设计",
+      "project_status": "built",
+      "status_basis": "事务所提供项目说明，列出230㎡深圳餐厅、2021–2022设计时间及Wen Studio实景摄影；正文描述实际就餐区及空间使用。页面没有明确竣工日期，设计日期不作为竣工日期。",
+      "attribution": "照片 © Wen Studio",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_selected_image_accessible"
+    },
+    {
+      "id": "src-ceiling-71above",
+      "title": "71 Above 餐厅，洛杉矶 / Tag Front",
+      "url": "https://www.gooood.cn/71-above-los-angeles-by-tag-front.htm",
+      "publisher": "谷德设计网",
+      "project": "71 Above Restaurant",
+      "designer": "Tag Front Architects",
+      "project_status": "built",
+      "status_basis": "谷德项目表明确列出 Completion date: 2016；ArchDaily同名项目补充六边形声学凹格说明及摄影Paul Vu。",
+      "attribution": "照片 © Paul Vu（ArchDaily同名项目署名）",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_selected_image_accessible"
+    },
+    {
+      "id": "src-ceiling-camparino",
+      "title": "Camparino in Galleria, Milan",
+      "url": "https://www.lissoniandpartners.com/en/interiors/commercial-public/europe/completed/camparino-in-galleria-milano/311",
+      "publisher": "Lissoni & Partners",
+      "project": "Camparino in Galleria",
+      "designer": "Lissoni Casal Ribeiro / Piero Lissoni",
+      "project_status": "built",
+      "status_basis": "事务所官网completed项目路径及2019项目记录，描述Bar di Passo修复和已更新的Sala Spiritello，明确摄影Santi Caleca。",
+      "attribution": "照片 © Santi Caleca；Lissoni & Partners保留全部版权",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_selected_image_accessible"
+    },
+    {
+      "id": "src-ceiling-sonelo",
+      "title": "Gable Clerestory House / Sonelo Design Studio",
+      "url": "https://www.archdaily.com/1001479/gable-clerestory-house-sonelo-design-studio",
+      "publisher": "ArchDaily",
+      "project": "Gable Clerestory House",
+      "designer": "Sonelo Design Studio",
+      "project_status": "built",
+      "status_basis": "ArchDaily Built Projects 标签；Year 2022、170㎡、摄影Pier Carthew；正文描述完成的人字屋顶及家庭使用。",
+      "attribution": "照片 © Pier Carthew",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_selected_image_accessible"
+    },
+    {
+      "id": "src-ceiling-jd",
+      "title": "JD House / Studio Arthur Casas",
+      "url": "https://www.arthurcasas.com/projects/jd-house",
+      "publisher": "Studio Arthur Casas",
+      "project": "JD House, São Sebastião",
+      "designer": "Studio Arthur Casas",
+      "project_status": "built",
+      "status_basis": "事务所项目页记录2015–2020住宅、966㎡、Complete；正文描述中央双层高及天顶采光开口。",
+      "attribution": "照片由Studio Arthur Casas官网发布；本次读取页面未核到单张摄影署名，使用时保留项目官网出处",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_selected_image_accessible"
+    },
+    {
+      "id": "src-ceiling-grid",
+      "title": "Grid / APOLLO Architects & Associates",
+      "url": "https://www.archdaily.com/867503/grid-apollo-architects-and-associates",
+      "publisher": "ArchDaily",
+      "project": "Grid House",
+      "designer": "APOLLO Architects & Associates / Satoshi Kurosaki",
+      "project_status": "built",
+      "status_basis": "ArchDaily Built Projects标签，Year 2016；正文明确方形井格顶及1.2m方格；同名Designboom项目确认2016年12月完成。",
+      "attribution": "照片 © Masao Nishikawa",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_selected_image_accessible"
+    },
+    {
+      "id": "src-ceiling-three-stages",
+      "title": "Three Stages for Air Apartment / Pencil Office",
+      "url": "https://www.archdaily.com/965036/three-stages-for-air-pencil-office",
+      "publisher": "ArchDaily",
+      "project": "Three Stages for Air Apartment",
+      "designer": "Pencil Office / Erik L’Heureux",
+      "project_status": "built",
+      "status_basis": "ArchDaily Built Projects标签，Year 2021、249㎡、摄影Ong Chan Hao；正文明确厨房采用较低平顶。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "照片 © Ong Chan Hao",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_selected_image_accessible"
+    },
+    {
+      "id": "src-cabinet-function-walls",
+      "title": "Function Walls / Lookofsky Architecture",
+      "url": "https://www.archdaily.com/907814/function-walls-lookofsky-architecture",
+      "publisher": "ArchDaily",
+      "project": "Function Walls",
+      "designer": "Lookofsky Architecture",
+      "project_status": "built",
+      "status_basis": "项目页标记 Built Projects，Year 2018；建筑师描述既有公寓的完成改造。 2026-10-09浏览器补核已成功打开原项目页面，核对建成年份、项目标签与图集。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Mattias Hamrén",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_image_accessible",
+      "browser_rechecked_at": "2026-10-09",
+      "browser_recheck_status": "original_project_page_accessible"
+    },
+    {
+      "id": "src-cabinet-bookshelf-apartment",
+      "title": "Bookshelf Apartment / COTA760",
+      "url": "https://www.archdaily.com/995765/bookshelf-apartment-cota760",
+      "publisher": "ArchDaily",
+      "project": "Bookshelf Apartment",
+      "designer": "COTA760",
+      "project_status": "built",
+      "status_basis": "项目页标记 Built Projects，Year 2022，并列明施工公司及摄影。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Cris Farhat",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_image_accessible"
+    },
+    {
+      "id": "src-wall-burgatoi",
+      "title": "Burgatoi Renovation / Tenka Arkitektura",
+      "url": "https://www.archdaily.com/1005187/burgatoi-renovation-tenka",
+      "publisher": "ArchDaily",
+      "project": "Burgatoi Renovation",
+      "designer": "Tenka Arkitektura",
+      "project_status": "built",
+      "status_basis": "项目页标记 Built Projects、Renovation，Year 2022，摄影 Biderbost Photo。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Biderbost Photo",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_image_accessible"
+    },
+    {
+      "id": "src-wall-letna",
+      "title": "Letná Apartment / Markéta Bromová",
+      "url": "https://www.archdaily.com/996779/letna-apartment-marketa-bromova",
+      "publisher": "ArchDaily",
+      "project": "Letná Apartment",
+      "designer": "Markéta Bromová",
+      "project_status": "built",
+      "status_basis": "项目页标记 Built Projects，Year 2022；建筑师描述完成的开放式公寓改造。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Veronika Raffajová",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_image_accessible"
+    },
+    {
+      "id": "src-cabinet-nnu",
+      "title": "nnU House / Studio Jayga Architects",
+      "url": "https://www.archdaily.com/978118/nnu-house-studio-jayga-architects",
+      "publisher": "ArchDaily",
+      "project": "nnU House",
+      "designer": "Studio Jayga Architects",
+      "project_status": "built",
+      "status_basis": "项目页标记 Built Projects，Year 2021；另列施工单位，图为 Marcus Peel 实景摄影。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Marcus Peel",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_image_accessible"
+    },
+    {
+      "id": "src-wall-somerset",
+      "title": "Plywood Wainscoting Brought Character and Warmth to Cookie-Cutter Walls In This Spacious Brooklyn Home",
+      "url": "https://www.architecturaldigest.com/story/somerset-house-brooklyn-apartment-design",
+      "publisher": "Architectural Digest",
+      "project": "Somerset House Brooklyn home",
+      "designer": "Somerset House / Studio BAD",
+      "project_status": "built",
+      "status_basis": "2026-09-29 Home Tour；业主描述已入住生活，正文说明墙裙与楼梯包覆的完成过程。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "Photography by Clement Pascal",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_image_accessible"
+    },
+    {
+      "id": "src-wall-fairlight",
+      "title": "Wainscoting Contemporary Apartment Reno",
+      "url": "https://intrimmouldings.com.au/our-work/residential/wainscoting-contemporary-apartment-reno",
+      "publisher": "Intrim Mouldings（项目供应商官方案例）",
+      "project": "Fairlight apartment renovation",
+      "designer": "Matt Michel Design",
+      "project_status": "built",
+      "status_basis": "官方项目页说明悉尼 Fairlight 公寓已完成全面翻新，并列设计师、摄影师、柜体厂及施工方。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "Photographer: Mark Burrough; Cabinetmaker: Rivergum Joinery; Builder: Whitlock Constructions",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_image_accessible"
+    },
+    {
+      "id": "src-wall-leisure",
+      "title": "“闲”父母住宅，启东 / 游牧林工作室",
+      "url": "https://www.gooood.cn/leisure-residence-by-yumalin-studio.htm",
+      "publisher": "谷德设计网",
+      "project": "“闲”父母住宅",
+      "designer": "游牧林工作室 YUMALIN STUDIO",
+      "project_status": "built",
+      "status_basis": "设计师提供的父母住宅改造记录，配完整室内实景摄影及使用情景。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© 自在建筑摄影 郑杰",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_image_accessible"
+    },
+    {
+      "id": "src-cabinet-youth",
+      "title": "匈牙利小巧夫妻公寓 / batlab architects",
+      "url": "https://www.gooood.cn/youth-to-youth-apartment-by-batlab-architects.htm",
+      "publisher": "谷德设计网",
+      "project": "Youth to Youth apartment",
+      "designer": "batlab architects",
+      "project_status": "built",
+      "status_basis": "项目资料明确 Design and construction: 2014，照片 Norbert Juhász。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "Photo: Norbert Juhász / juhász norbert photography",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_image_accessible"
+    },
+    {
+      "id": "src-cabinet-life-creator",
+      "title": "A Partition In The Living Room Creates Space For A Home Office In This Apartment",
+      "url": "https://www.contemporist.com/partition-in-the-living-room-creates-space-for-a-home-office-in-this-apartment",
+      "publisher": "Contemporist",
+      "project": "Taiwan multifunctional apartment",
+      "designer": "Life Creator Design",
+      "project_status": "built",
+      "status_basis": "2021-07-17 项目报道说明设计师在台湾公寓实施的居住及工作空间；实景照片显示人在客厅使用。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "Design: Life Creator Design；页面未单列摄影署名，不作推定",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_image_accessible"
+    },
+    {
+      "id": "src-cabinet-bookcases-house",
+      "title": "Bookcases House / Atelier D+Y",
+      "url": "https://www.archdaily.com/975392/bookcases-house-atelier-d-plus-y",
+      "publisher": "ArchDaily",
+      "project": "Bookcases House",
+      "designer": "Atelier D+Y",
+      "project_status": "built",
+      "status_basis": "项目页标记 Built Projects，Year 2021，地点 Shanghai，并列实景摄影。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Donghai Guo",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_image_accessible"
+    },
+    {
+      "id": "src-cabinet-aim",
+      "title": "Living Without Boundaries Apartment / A I M",
+      "url": "https://www.archdaily.com/1024419/living-without-boundaries-apartment-a-i-m",
+      "publisher": "ArchDaily",
+      "project": "Living Without Boundaries Apartment",
+      "designer": "A I M",
+      "project_status": "built",
+      "status_basis": "项目页标记 Built Projects，Year 2024；建筑师说明完成的顶层公寓改造及各面功能。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Francesca Iovene",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_image_accessible"
+    },
+    {
+      "id": "src-wall-guomao",
+      "title": "Home in Guomao CBD by MARS Studio / 国贸CBD住宅",
+      "url": "https://www.gooood.cn/en/home-in-guomao-cbd-by-mars-studio.htm",
+      "publisher": "谷德设计网",
+      "project": "国贸CBD住宅",
+      "designer": "MARS星球建筑 MARS Studio",
+      "project_status": "built",
+      "status_basis": "项目资料明确完成时间 2024.12–2025.02，面积138平方米，摄影/视频 Coppakstudio。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Coppakstudio",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_image_accessible"
+    },
+    {
+      "id": "src-wall-sunny-gymnasium",
+      "title": "Sunny Gymnasium / Tekhnê Architectes",
+      "url": "https://www.archdaily.com/286338/sunny-gymnasium-tekhne-architectes",
+      "publisher": "ArchDaily",
+      "project": "Sunny Gymnasium",
+      "designer": "Tekhnê Architectes",
+      "project_status": "built",
+      "status_basis": "项目页标记 Built Projects，Year 2012，列实景摄影师 Renaud Araud；建筑师说明室内横向条板覆墙。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Renaud Araud",
+      "rights": "reference_only_no_download",
+      "original_access_status": "page_and_image_accessible"
+    },
+    {
+      "id": "src-island-curva",
+      "title": "Apartamento Curva / Isabela Bandeira + Gabriela Lauria",
+      "url": "https://www.archdaily.com/pt/997610/apartamento-curva-isabela-bandeira-plus-gabriela-lauria",
+      "publisher": "ArchDaily",
+      "project": "Apartamento Curva",
+      "designer": "Isabela Bandeira + Gabriela Lauria",
+      "project_status": "built",
+      "status_basis": "项目页列2022年、摄影与 Projetos Construídos；直接打开超时，搜索索引及策展文章可读。 2026-10-09浏览器补核已成功打开原项目页面，核对建成年份、项目标签与图集。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Júlia Tótoli",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible",
+      "browser_rechecked_at": "2026-10-09",
+      "browser_recheck_status": "original_project_page_accessible"
+    },
+    {
+      "id": "src-island-sumauma",
+      "title": "Apartamento Sumaúma / COTA760",
+      "url": "https://www.archdaily.com/pt/995319/apartamento-sumauma-cota760",
+      "publisher": "ArchDaily",
+      "project": "Apartamento Sumaúma",
+      "designer": "COTA760",
+      "project_status": "built",
+      "status_basis": "项目页列2021年、120平方米、摄影及 Projetos Construídos。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Cris Farhat",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible"
+    },
+    {
+      "id": "src-island-monolito",
+      "title": "Apartamento Monolito / Estúdio Minke",
+      "url": "https://www.archdaily.com.br/br/989767/apartamento-monolito-estudio-minke",
+      "publisher": "ArchDaily",
+      "project": "Apartamento Monolito",
+      "designer": "Estúdio Minke",
+      "project_status": "built",
+      "status_basis": "项目页列2022年、摄影、施工参与者与 Projetos Construídos。 2026-10-09浏览器补核已成功打开原项目页面，核对建成年份、项目标签与图集。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Maíra Acayaba",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible",
+      "browser_rechecked_at": "2026-10-09",
+      "browser_recheck_status": "original_project_page_accessible"
+    },
+    {
+      "id": "src-island-venus-sol",
+      "title": "Vila Venus Sol Apartment / COM/O atelier",
+      "url": "https://www.archdaily.com/997904/vila-venus-sol-apartment-com-o-atelier",
+      "publisher": "ArchDaily",
+      "project": "Vila Venus Sol",
+      "designer": "COM/O atelier",
+      "project_status": "built",
+      "status_basis": "项目页列2020年、摄影，正文描述完成的改造，标签 Built Projects。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Mariana Lopes",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible"
+    },
+    {
+      "id": "src-island-amagansett",
+      "title": "Tour an Amagansett House That’s Oriented Around a Central Pool",
+      "url": "https://www.architecturaldigest.com/gallery/tour-a-serene-amagansett-house-thats-oriented-around-a-central-pool",
+      "publisher": "Architectural Digest",
+      "project": "Amagansett Beach House",
+      "designer": "Starling Architecture + Emily Lindberg Design",
+      "project_status": "built",
+      "status_basis": "真实住宅专访与摄影；岛台由 Armada 制造，事务所官网同时有项目照片。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Eric Petschek",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible"
+    },
+    {
+      "id": "src-island-shallmar",
+      "title": "Shallmar — StudioAC",
+      "url": "https://www.archcollab.com/shallmar",
+      "publisher": "StudioAC official",
+      "project": "Shallmar Residence",
+      "designer": "StudioAC",
+      "project_status": "built",
+      "status_basis": "官网明确 Status: Completed 2019、Build: Whitaker Construction。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Jeremie Warshafsky",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible"
+    },
+    {
+      "id": "src-island-botaniczna",
+      "title": "Botaniczna Apartment by Agnieszka Owsiany Studio",
+      "url": "https://estliving.com/botaniczna-apartment-agnieszka-owsiany-studio",
+      "publisher": "est living",
+      "project": "Botaniczna Apartment",
+      "designer": "Agnieszka Owsiany Studio",
+      "project_status": "built",
+      "status_basis": "文章描述已完成的90平方米公寓改造，列摄影和屋主需求。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© PION Studio",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible"
+    },
+    {
+      "id": "src-island-primrose",
+      "title": "The Genius Almond-Shaped Kitchen Island of This London Residence",
+      "url": "https://www.livingetc.com/features/uncanny-studios-primrose-penthouse",
+      "publisher": "Livingetc",
+      "project": "Primrose Penthouse",
+      "designer": "Uncanny Studio",
+      "project_status": "built",
+      "status_basis": "2026-05-13真实住宅专访、已改造生活空间照片及设计师谈话；无独立竣工文件。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Kensington Leverne; design Uncanny Studio",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible"
+    },
+    {
+      "id": "src-island-braw",
+      "title": "An Open-Plan Kitchen Designed to Feel Like A True Room",
+      "url": "https://www.livingetc.com/features/studio-braw-chislehurst-kitchen",
+      "publisher": "Livingetc",
+      "project": "Chislehurst family-home kitchen",
+      "designer": "Studio Braw",
+      "project_status": "built",
+      "status_basis": "2026-03-16文章采访设计师，描述一家五口实际使用的已改造厨房并列项目摄影。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "Image credit: Studio Braw",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible"
+    },
+    {
+      "id": "src-island-chiripa",
+      "title": "Chiripa Building / PALMA",
+      "url": "https://www.archdaily.com/980265/chiripa-building-palma",
+      "publisher": "ArchDaily",
+      "project": "Chiripa Building",
+      "designer": "PALMA",
+      "project_status": "built",
+      "status_basis": "项目列2022年、施工方 Joel Peréz、摄影及 Built Projects。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Luis Young",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible"
+    },
+    {
+      "id": "src-island-gapont",
+      "title": "Gapont House / uli mayer urs hüssy architekten",
+      "url": "https://www.archdaily.com/989112/gapont-house-uli-mayer-urs-hussy-architekten",
+      "publisher": "ArchDaily",
+      "project": "Gapont House",
+      "designer": "uli mayer urs hüssy architekten",
+      "project_status": "built",
+      "status_basis": "项目列2021年，正文描述建造后的建筑，标签 Built Projects。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Future Documentation / EO",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible"
+    },
+    {
+      "id": "src-island-crato",
+      "title": "House in Crato / Inês Brandão Arquitectura",
+      "url": "https://www.archdaily.com/989048/house-in-crato-ines-brandao-arquitectura",
+      "publisher": "ArchDaily",
+      "project": "House in Crato",
+      "designer": "Inês Brandão Arquitectura",
+      "project_status": "built",
+      "status_basis": "ArchDaily标签 Built Projects；事务所官网 https://www.inesbrandao.com/en/casa-crato 明确 Status: Built, Year: 2018–2021。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Alexander Bogorodskiy",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible"
+    },
+    {
+      "id": "src-island-casa-4x30",
+      "title": "Casa 4x30 / CR2 Arquitetura + FGMF Architects",
+      "url": "https://www.archdaily.com/169857/casa-4x30-cr2-arquitetos-fgmf-architects",
+      "publisher": "ArchDaily",
+      "project": "Casa 4x30",
+      "designer": "CR2 Arquitetura + FGMF Architects",
+      "project_status": "built",
+      "status_basis": "项目页列2011年、摄影与 Built Projects；策展文章说明餐桌与岛台及起居地坪的联系。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Fran Parente",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible"
+    },
+    {
+      "id": "src-door-folded-apartment",
+      "title": "The Folded Apartment / More Design Office",
+      "url": "https://www.archdaily.com/781341/the-folded-apartment-moredesignoffice",
+      "publisher": "ArchDaily",
+      "project": "The Folded Apartment",
+      "designer": "More Design Office",
+      "project_status": "built",
+      "status_basis": "正文明确 designed and built by MDO in 2014/15，标签 Built Projects。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Raphael Olivier",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible"
+    },
+    {
+      "id": "src-door-pivot-cases",
+      "title": "巧用旋转门的6种方法，为空间增加惊喜",
+      "url": "https://www.archdaily.cn/cn/949264/qiao-yong-xuan-zhuan-men-de-6chong-fang-fa-wei-she-ji-jin-shang-tian-hua",
+      "publisher": "ArchDaily 中文版 / FritsJurgens sponsored case roundup",
+      "project": "Exceptis / Csamay / Hoek en de Wit / Taouk 门案例合集",
+      "designer": null,
+      "project_status": "unknown",
+      "status_basis": "媒体注明各实例设计者与 FritsJurgens 图片提供方；照片可见安装于真实室内，但部分项目没有名称、竣工时间或完整记录，项目状态保留 unknown。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "Courtesy of FritsJurgens；各实例作者见 observation",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible"
+    },
+    {
+      "id": "src-door-moscow",
+      "title": "Moscow Apartment / Nicolas Dahan Architectes",
+      "url": "https://www.archdaily.com/945901/moscow-apartment-nicolas-dahan-arquitectes",
+      "publisher": "ArchDaily",
+      "project": "Moscow Apartment",
+      "designer": "Nicolas Dahan Architectes",
+      "project_status": "built",
+      "status_basis": "项目列2018年、450平方米、摄影与建成项目记录；正文明确厨房3米×3米木质移门。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "© Vincent Leroux",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible"
+    },
+    {
+      "id": "src-door-sakurazaka",
+      "title": "Flat Renovation in Sakurazaka / ICADA + Masaaki Iwamoto Laboratory",
+      "url": "https://www.archdaily.com/981824/flat-renovation-in-sakurazaka-icada-plus-masaaki-iwamoto-laboratory",
+      "publisher": "ArchDaily",
+      "project": "Flat Renovation in Sakurazaka",
+      "designer": "ICADA + Masaaki Iwamoto Laboratory",
+      "project_status": "built",
+      "status_basis": "项目列2021年、86平方米、摄影及 Built Projects；正文称建筑师一家四口的家。",
+      "verified_at": "2026-10-09",
+      "access_status": "verified",
+      "attribution": "该观察图由 © YASHIRO PHOTO OFFICE 摄影；项目其他图也署 Yurika Kono",
+      "rights": "reference_only_no_download",
+      "original_access_status": "verified_page_or_search_index_and_image_accessible"
+    },
+    {
+      "id": "src-ceiling-soho-vance",
+      "title": "Soho Penthouse Duplex / Joseph Vance Architects",
+      "url": "https://archinect.com/jvarchitects/project/soho-penthouse-duplex",
+      "publisher": "Archinect · architect profile",
+      "project": "Soho Penthouse Duplex",
+      "designer": "Joseph Vance Architects",
+      "project_status": "built",
+      "status_basis": "事务所项目页明确标注 Status: Built、Firm Role: Architect；作者描述在客厅设计 floating ceiling，列出实景摄影。",
+      "verified_at": "2026-10-12",
+      "access_status": "verified",
+      "attribution": "照片 © Mikiko Kikuyama",
+      "rights": "reference_only_no_download",
+      "original_access_status": "项目页文字已读取；指定照片经浏览器像素观察"
+    },
+    {
+      "id": "src-ceiling-viladomat-colombo",
+      "title": "Viladomat Apartment / Colombo Architecture",
+      "url": "https://colomboarchitecture.com/viladomat-apartment-barcelona/",
+      "publisher": "Colombo Architecture",
+      "project": "Viladomat Apartment",
+      "designer": "Matteo Colombo / Colombo Architecture",
+      "project_status": "built",
+      "status_basis": "事务所官网明确标注 Completed / RESIDENTIAL，列出摄影 David Zarzoso，并描述中央功能体块上方的局部较低白色顶面。",
+      "verified_at": "2026-10-12",
+      "access_status": "verified",
+      "attribution": "照片 © David Zarzoso",
+      "rights": "reference_only_no_download",
+      "original_access_status": "项目页文字已读取；指定照片经浏览器像素观察"
+    }
+  ],
+  "coverage_gaps": [
+    {
+      "category": "ceiling",
+      "name_zh": "双眼皮顶",
+      "reason": "尚未核实足够清晰且能追溯到真实项目的目标实景；不以无出处装修图片凑数。"
+    },
+    {
+      "category": "ceiling",
+      "name_zh": "整面四周退让悬浮平顶",
+      "reason": "已补住宅整面退让悬浮平顶条目（ceiling-floating-single-plane），照片可见两侧退让；同一案例完整四侧、尺寸与隐藏支承仍未多角度核验，不从单图推断。"
+    },
+    {
+      "category": "ceiling",
+      "name_zh": "多层跌级顶",
+      "reason": "本版周边降板形式不等于已覆盖所有多层层级组合。"
+    },
+    {
+      "category": "island",
+      "name_zh": "T形岛台",
+      "reason": "本版已有L形分体岛台，仍缺能明确展示T形整体关系的实景。"
+    },
+    {
+      "category": "door",
+      "name_zh": "口袋门、复杂联动移门",
+      "reason": "开启结构不能从单张关闭照片推出；需要原项目明确文字或连续开闭图片。"
+    },
+    {
+      "category": "door",
+      "name_zh": "通顶门／通高门",
+      "reason": "现有磨砂玻璃折叠门照片不能证明通房间顶；不把普通门洞高度归为通顶。"
+    }
+  ]
+}

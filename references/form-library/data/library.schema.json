@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:interior-form-library:1.0",
+  "title": "Interior Design Form Library",
+  "type": "object",
+  "required": ["schema", "version", "forms", "sources"],
+  "properties": {
+    "schema": {"const": "interior-form-library/1.0"},
+    "version": {"type": "string"},
+    "verified_at": {"type": "string", "format": "date"},
+    "forms": {"type": "array", "items": {"$ref": "#/$defs/form"}},
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}}
+  },
+  "$defs": {
+    "strings": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "url": {"type": "string", "pattern": "^https://", "format": "uri"},
+    "form": {
+      "type": "object",
+      "required": ["id", "category", "name_zh", "name_en", "aliases", "visual_features", "spatial_applications", "style_tags", "combinations", "distinctions", "source_ids", "evidence", "status"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)+$"},
+        "category": {"type": "string", "description": "ID must be registered in taxonomy.json; no fixed five-category ceiling."},
+        "name_zh": {"type": "string", "minLength": 1},
+        "name_en": {"type": "string", "minLength": 1},
+        "aliases": {"$ref": "#/$defs/strings"},
+        "visual_features": {"allOf": [{"$ref": "#/$defs/strings"}], "minItems": 3},
+        "spatial_applications": {"$ref": "#/$defs/strings"},
+        "style_tags": {"$ref": "#/$defs/strings"},
+        "combinations": {"$ref": "#/$defs/strings"},
+        "distinctions": {"type": "string", "minLength": 1},
+        "source_ids": {"$ref": "#/$defs/strings"},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}},
+        "status": {"enum": ["verified_visual", "source_only", "needs_evidence"]}
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["source_id", "image_url", "gallery_url", "observation", "visual_status", "view_method", "checked_at"],
+      "properties": {
+        "source_id": {"type": "string"},
+        "image_url": {"anyOf": [{"$ref": "#/$defs/url"}, {"type": "null"}]},
+        "gallery_url": {"$ref": "#/$defs/url"},
+        "observation": {"type": "string"},
+        "visual_status": {"enum": ["observed", "unverified"]},
+        "view_method": {"type": "string"},
+        "checked_at": {"type": "string"}
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["id", "title", "url", "publisher", "project", "designer", "project_status", "status_basis", "verified_at", "access_status", "attribution", "rights"],
+      "properties": {
+        "id": {"type": "string"},
+        "title": {"type": "string"},
+        "url": {"$ref": "#/$defs/url"},
+        "publisher": {"type": "string"},
+        "project": {"type": "string"},
+        "designer": {"type": ["string", "null"]},
+        "project_status": {"enum": ["built", "concept", "render", "unknown"]},
+        "status_basis": {"type": "string"},
+        "verified_at": {"type": "string"},
+        "access_status": {"enum": ["verified", "restricted", "unavailable", "discovery_only"]},
+        "attribution": {"type": ["string", "object", "null"]},
+        "rights": {"const": "reference_only_no_download"}
+      }
+    }
+  }
+}

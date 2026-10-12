@@ -1,0 +1,180 @@
+{
+  "schema": "interior-form-taxonomy/1.0",
+  "categories": [
+    {
+      "id": "ceiling",
+      "name_zh": "吊顶",
+      "name_en": "Ceiling",
+      "aliases": [
+        "天花",
+        "天花板",
+        "ceilings"
+      ]
+    },
+    {
+      "id": "wall",
+      "name_zh": "墙面与墙板",
+      "name_en": "Wall and wall panels",
+      "aliases": [
+        "墙面",
+        "墙板",
+        "墙",
+        "wall panel",
+        "walls"
+      ]
+    },
+    {
+      "id": "island",
+      "name_zh": "厨房岛台",
+      "name_en": "Kitchen island",
+      "aliases": [
+        "岛台",
+        "中岛",
+        "半岛",
+        "kitchen islands"
+      ]
+    },
+    {
+      "id": "cabinet",
+      "name_zh": "柜体",
+      "name_en": "Cabinetry",
+      "aliases": [
+        "柜子",
+        "收纳",
+        "橱柜",
+        "衣柜",
+        "cabinets"
+      ]
+    },
+    {
+      "id": "door",
+      "name_zh": "室内门",
+      "name_en": "Interior doors",
+      "aliases": [
+        "门",
+        "房门",
+        "内门",
+        "doors"
+      ]
+    }
+  ],
+  "styles": [
+    {
+      "name": "当代新中式",
+      "aliases": [
+        "新中式",
+        "contemporary Chinese"
+      ]
+    },
+    {
+      "name": "宋式美学",
+      "aliases": [
+        "宋式",
+        "Song aesthetics"
+      ]
+    },
+    {
+      "name": "奶油风",
+      "aliases": [
+        "奶油",
+        "cream"
+      ]
+    },
+    {
+      "name": "中古风",
+      "aliases": [
+        "中古",
+        "mid-century",
+        "mid century",
+        "midcentury"
+      ]
+    },
+    {
+      "name": "法式复古",
+      "aliases": [
+        "法式",
+        "French classic",
+        "French vintage"
+      ]
+    },
+    {
+      "name": "现代简约",
+      "aliases": [
+        "现代",
+        "modern minimalist",
+        "minimalist",
+        "modern"
+      ]
+    },
+    {
+      "name": "意式极简",
+      "aliases": [
+        "Italian minimalist",
+        "Italian minimalism"
+      ]
+    },
+    {
+      "name": "意式轻奢",
+      "aliases": [
+        "Italian luxury"
+      ]
+    },
+    {
+      "name": "东南亚风格",
+      "aliases": [
+        "东南亚",
+        "Southeast Asian"
+      ]
+    },
+    {
+      "name": "北欧风格",
+      "aliases": [
+        "北欧",
+        "Scandinavian",
+        "Nordic"
+      ]
+    },
+    {
+      "name": "侘寂",
+      "aliases": [
+        "侘寂风",
+        "wabi-sabi",
+        "wabi sabi"
+      ]
+    },
+    {
+      "name": "工业风",
+      "aliases": [
+        "工业",
+        "industrial"
+      ]
+    },
+    {
+      "name": "当代",
+      "aliases": [
+        "contemporary"
+      ]
+    },
+    {
+      "name": "传统",
+      "aliases": [
+        "traditional"
+      ]
+    }
+  ],
+  "form_dimensions": [
+    "整体轮廓",
+    "分割节奏",
+    "体量与空隙",
+    "边缘形态",
+    "构件之间的空间关系",
+    "可见开启形式"
+  ],
+  "classification_policy": "造型按几何与视觉关系分类，风格作为多值建议。材料换色本身不新增造型。跨类别关系可以交叉出现，但需说明观察对象与区别。",
+  "style_basis": "编辑推荐，不宣称项目原作者使用了这些风格名称。",
+  "extension_policy": "新增类别时登记稳定英文 ID、中文名、英文名和别名，再按现有 form/source/evidence 字段导入案例。",
+  "spatial_aliases": {
+    "过道": "走廊",
+    "主卧": "卧室"
+  }
+}
