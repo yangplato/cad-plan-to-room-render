@@ -3,7 +3,7 @@ name: cad-plan-to-room-render
 description: 将住宅 CAD、PDF 或平面图片整理为带房间编号的干净平面，经用户确认后生成多风格写实彩平，再延伸各房间摄影级效果图。用于按既有空间与家具占位制作室内设计图，也可只执行其中一个阶段。
 license: MIT
 metadata:
-  version: "1.4.0-dev"
+  version: "1.4.0"
   author: "yangplato"
 ---
 

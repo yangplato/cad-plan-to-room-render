@@ -1,12 +1,12 @@
 # 住宅平面转彩平与效果图
 
-**主分支：v1.4.0-dev 候选 · 正式下载版：v1.3.3 · MIT**
+**当前正式版：v1.4.0 · MIT**
 
 上传 CAD、PDF 或平面图片。AI 先整理平面，与你确认疑点，再制作彩平和室内效果图。
 
 可以完成全流程。也可以从已确认的整理平面或彩平继续。
 
-[下载正式版](https://github.com/yangplato/cad-plan-to-room-render/releases/tag/v1.3.3) · [查看 Skill](SKILL.md) · [查看参考图](references/image-references.md)
+[下载正式版](https://github.com/yangplato/cad-plan-to-room-render/releases/tag/v1.4.0) · [查看 Skill](SKILL.md) · [查看参考图](references/image-references.md)
 
 ![完整流程：CAD平面、整理平面、东南亚与北欧彩平、四张效果图](assets/workflow-overview.jpg)
 
