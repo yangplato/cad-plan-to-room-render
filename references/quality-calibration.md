@@ -2,7 +2,7 @@
 
 本文件记录2026-10-04的有参考图和无参考图试验。历史结果用于说明方法的收益和限制，不作为当前任务的执行模板。
 
-当前任务按 [彩平母版](color-plan.md)、完整 [风格模块](style-modules.md) 和 [参考说明](image-references.md) 执行。
+当前任务按 [彩平母版](color-plan.md)、按本案物件提取的[风格要求](style-modules.md) 和 [参考说明](image-references.md) 执行。
 
 ## 2026-10-04 的实际对照
 

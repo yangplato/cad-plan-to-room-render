@@ -1,0 +1,23 @@
+test_transformed_block_inventory_and_source_protection (test_dxf_inventory.DxfInventoryIntegration) ... skipped 'Optional ezdxf is absent; synthetic DXF integration was not run'
+test_bad_explicit_configuration_does_not_fall_back (test_form_library.PortableFormLibraryTests) ... ok
+test_build_uses_bundled_template_and_embeds_current_data (test_form_library.PortableFormLibraryTests) ... ok
+test_explicit_library_overrides_legacy_and_bundle (test_form_library.PortableFormLibraryTests) ... ok
+test_export_does_not_overwrite_records_or_library (test_form_library.PortableFormLibraryTests) ... ok
+test_legacy_project_library_is_preserved (test_form_library.PortableFormLibraryTests) ... ok
+test_relocated_bundle_validates_without_configuration (test_form_library.PortableFormLibraryTests) ... ok
+test_search_preserves_actual_form_and_sources (test_form_library.PortableFormLibraryTests) ... ok
+test_show_and_select_export_candidate_from_real_data (test_form_library.PortableFormLibraryTests) ... ok
+test_cli_roundtrip_output_protection_and_source_failure (test_scene_tools.SceneChecks) ... ok
+test_example_unknown_category_is_preserved (test_scene_tools.SceneChecks) ... ok
+test_far_coordinates_dynamic_viewbox_and_holes (test_scene_tools.SceneChecks) ... ok
+test_hardlink_and_symlink_cannot_overwrite_input (test_scene_tools.SceneChecks) ... ok
+test_json_nonfinite_duplicate_keys_and_exponent_overflow (test_scene_tools.SceneChecks) ... ok
+test_report_unperformed_checks_are_not_checked (test_scene_tools.SceneChecks) ... ok
+test_source_hash_change_and_report_scene_binding (test_scene_tools.SceneChecks) ... ok
+test_units_duplicate_id_bad_direction_and_nan_rejected (test_scene_tools.SceneChecks) ... ok
+test_xml_text_and_attributes_are_escaped (test_scene_tools.SceneChecks) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.808s
+
+OK (skipped=1)

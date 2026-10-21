@@ -1,0 +1,34 @@
+{
+  "outputs": [
+    {
+      "case": "P2",
+      "native": "/Users/huaceyang/.codex/generated_images/01a15ca8-be98-7fb3-8f1d-ffad155bb3a7/exec-9c199908-5e63-43d0-8e1d-2850239ac3aa.png",
+      "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/模型表达试验/P2-效果图.png",
+      "inputs": [
+        "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/模型表达试验/P2-空间约束图.png"
+      ],
+      "prompt": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/模型表达试验/P2-实际提示词.txt",
+      "sha256": "0d351546a9108b09278533f69526d9b2b80e1fd0cb4205ced1de38b1d385fdbf"
+    },
+    {
+      "case": "D3",
+      "native": "/Users/huaceyang/.codex/generated_images/01a15ca8-be98-7fb3-8f1d-ffad155bb3a7/exec-57316f47-046c-43e0-bf43-7cbad52a4479.png",
+      "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/模型表达试验/D3-效果图.png",
+      "inputs": [
+        "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/模型表达试验/D3-空间约束图.png"
+      ],
+      "prompt": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/模型表达试验/D3-实际提示词.txt",
+      "sha256": "0f4252fd81776027458a0a6237110f278913878cc0e5f51bd29946c606d2c88e"
+    }
+  ],
+  "comparison_scope": "同平面同机位；同时改变模型表达、输入附件及提示词，因此只能比较流程整体，不能归因为单一变量。各一张，无修正。",
+  "self_check": {
+    "P2": "靠背和坐垫分离，底座变薄，端部边几不再软包化；双面座席部分可见；设计可用性与审美待用户评判。",
+    "D3": "台面、水槽龙头与岛台区域变得可辨；餐椅仍多于两把，未通过数量要求。"
+  },
+  "status": "待用户审阅；未发布或修改Skill；未验证跨视角延续",
+  "后续修订": {
+    "record": "../../共同场景复核/案例续接记录.json",
+    "说明": "后续规则取消以原平面两椅锁定D3席位的判定；本轮共用四席配置。旧记录保留为历史证据。"
+  }
+}

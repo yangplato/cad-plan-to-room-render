@@ -1,0 +1,429 @@
+{
+  "status": "完成本轮候选规则与两组双视角，待用户审阅；未正式发布",
+  "formal_release": false,
+  "source_provenance": {
+    "P2": "历史图片整理，非CAD实体提取",
+    "D3": "历史CAD转换后整理图，本轮不重新提取CAD实体"
+  },
+  "design_authority": "用户本轮明确委托合理调整未锁定活动家具；以下是Agent设计决定，非用户最终接受",
+  "cases": {
+    "P2": {
+      "style": "奶油风",
+      "changes": [
+        "保留双面沙发，两侧各三坐垫，共同靠背",
+        "移开与沙发相交的边几，设置北端独立边几",
+        "去掉两个未锁定脚凳，保留两侧各一休闲椅",
+        "扩大两机位取景以交代双面座席与电视关系"
+      ],
+      "materials": "彩平提取为文字，因其沙发表达与双面配置不同，本轮不传彩平图像",
+      "tasks": [
+        "M01 双面沙发与双窗",
+        "M02 同一沙发另一侧与电视柜体"
+      ],
+      "semantic_scene": {
+        "双面沙发": {
+          "count": 1,
+          "type": "南北向共同窄靠背，东西各三坐垫，燕麦织物薄底座短腿",
+          "model_prefix": "double-sided / separate seat cushion / separate back cushion"
+        },
+        "休闲椅": {
+          "count": 2,
+          "locations": "东北、西南",
+          "type": "奶白软座、浅木腿"
+        },
+        "圆几": {
+          "count": 3,
+          "roles": [
+            "东侧圆茶几",
+            "西侧小圆茶几",
+            "北端独立边几"
+          ],
+          "type": "浅米石面；北端独立几浅木圆底座"
+        },
+        "灯具": {
+          "downlights": 4,
+          "ceiling_lights": 2,
+          "type": "周边防眩筒灯、东西两侧同款扁圆白吸顶灯"
+        },
+        "未入镜餐区": {
+          "dining_chairs": 6,
+          "barstools": 2
+        },
+        "固定构件": "东侧电视隔断与茶室边界按整理平面；全场景坐标见场景配置-v2.json"
+      }
+    },
+    "D3": {
+      "style": "现代北欧",
+      "changes": [
+        "约1.19米圆桌选四餐椅，不以原图两个符号锁席位",
+        "保留柜体与岛台范围，复用三个厨房器具，补真实水槽开孔",
+        "补沙发坐垫与圆边，区分器具、台面和下柜"
+      ],
+      "materials": "实际传入原彩平，只提供材料与风格",
+      "tasks": [
+        "M01 会客、餐桌与厨房操作区",
+        "M02 电视墙、入口与阳台关系"
+      ],
+      "clearance_basis": "按历史比例估算：东西侧餐椅外缘至柜约0.71/0.64米；南椅至休闲椅约0.64米。为比例检查，未计动态拉椅包络，非施工校核。",
+      "semantic_scene": {
+        "主沙发": {
+          "count": 1,
+          "type": "浅灰低靠背模块，南端斜转角",
+          "position": "客厅东侧，面向西侧电视"
+        },
+        "休闲椅": {
+          "count": 1,
+          "type": "浅木框架灰软座木扶手",
+          "position": "会客北侧"
+        },
+        "圆茶几": {
+          "count": 1,
+          "type": "浅橡木圆面、方形中央底座"
+        },
+        "餐区": {
+          "table_count": 1,
+          "table_diameter_m": 1.1875,
+          "chair_count": 4,
+          "chair_type": "同款浅木灰软座",
+          "positions": "圆桌北、东、南、西"
+        },
+        "厨房": {
+          "counter_groups": [
+            "西侧柜体与台面",
+            "北侧窗下柜体与台面"
+          ],
+          "island_count": 1,
+          "fixtures": [
+            "北侧水槽",
+            "水槽龙头",
+            "西侧灶面"
+          ],
+          "tall_storage": "东侧原范围保留"
+        },
+        "灯具": {
+          "downlights": 4,
+          "pendants": 2,
+          "type": "客厅扁椭圆白纸灯笼；餐桌小型白色木顶灯"
+        },
+        "geometry": "相关物件含未入镜餐厨均记录于场景配置-v3.json"
+      }
+    }
+  },
+  "shared_scene": "各案例场景配置.json记录全部已建物件及两个机位；相同几何摘要证明生成约束图时仅切换相机",
+  "style_extraction": {
+    "source": "references/style-modules.md 奶油风/现代北欧",
+    "removed": [
+      "单面连续弧背、直排与转角的冲突描述",
+      "不存在的吧凳与卧室厨卫通用段",
+      "按彩平摆放但未传彩平的引用",
+      "D3强制两餐椅"
+    ],
+    "kept": [
+      "本案家具材料、配色、基本构造、植物陈设及光线"
+    ]
+  },
+  "checks": [
+    {
+      "category": "空间与功能",
+      "P2": "叠合检查保留客厅双窗、电视隔断、相邻茶室与双向座席关系；桌椅调整已单独记录。图像未见改变主功能关系。",
+      "D3": "柜体、台面、岛台与水槽位置按整理平面；主图台面与龙头可辨，第二图电视墙与阳台可辨。",
+      "limits": "本轮核对相关房间与邻区，不是全屋测量。D3岛台下柜和灶具部分被遮挡，不能标完整通过。"
+    },
+    {
+      "category": "主要物件合理性",
+      "P2": "两侧坐垫、共同靠背、薄底座与独立边几可辨，移除相交体块；两椅位置一致。",
+      "D3": "四席圆桌是本轮合理设计选择；浅灰转角沙发、圆茶几和独立木框椅可辨。",
+      "limits": "动态拉椅、人体工学及制造构造没有实测；P2双面沙发不是经核验的商品型号。"
+    },
+    {
+      "category": "同方案一致性",
+      "P2": "两机位同一双面沙发、两休闲椅、三个不同用途圆几；可见差异可由遮挡和裁切解释。主材与边吊延续。",
+      "D3": "主要家具、转角组合、圆茶几、木框椅和地毯延续。纸灯罩在修正上游简模后统一；最终M02仅保留模型可见的两只筒灯。",
+      "limits": "不能用图像确认每个隐藏物件、灯位的工程坐标。未入镜物件依据共同配置，不因图像隐藏而判通过。"
+    },
+    {
+      "category": "视觉表现",
+      "P2": "奶白、燕麦和浅木方向连续，完整居住氛围；两侧坐面能够识别。",
+      "D3": "浅灰、浅木、蓝黄靠垫与红白织物延续；客餐厨与反向电视景别互补。",
+      "limits": "图像仍存在局部尺度及材质细分变化；未指定木纹、褶皱和小摆件不继续生图。"
+    }
+  ],
+  "generations": [
+    {
+      "case": "P2",
+      "camera": "M01",
+      "attempt": "R1",
+      "scene_version": "shared-v1",
+      "tool": "built-in imagegen",
+      "exact_model": null,
+      "seed": null,
+      "prompt": "P2/客厅-M01-实际提示词.txt",
+      "inputs": [
+        {
+          "path": "共同场景复核/P2/客厅-M01-约束图-v1.png",
+          "sha256": "ea1c85ca75ebff461314c5e0da70bc9373a05fe8e0b11c572c3cb49223af8ac2"
+        }
+      ],
+      "output": "P2/客厅-M01-R1.png",
+      "sha256": "7fb71eb1babd903ea26b4f29f92cc6e0eacb1dc462f17c3e36b8b53117bb9a18",
+      "status": "Agent选为本轮主图，非用户接受",
+      "corrections": 0,
+      "prompt_sha256": "9ebf4c505d40b67ef34f185c43987bf872a81746f01b76fcf0181547a6b787f4"
+    },
+    {
+      "case": "D3",
+      "camera": "M01",
+      "attempt": "R1",
+      "scene_version": "shared-v1",
+      "tool": "built-in imagegen",
+      "exact_model": null,
+      "seed": null,
+      "prompt": "D3/客厅-M01-实际提示词.txt",
+      "inputs": [
+        {
+          "path": "共同场景复核/D3/客厅-M01-约束图-v1.png",
+          "sha256": "b1e9b0070f83077e52837187442c9a1d5f5ad827a0973aabe5a90333154df3ff"
+        },
+        {
+          "path": "D3/彩平/彩平-R1.png",
+          "sha256": "5c96019933c6c9bd1063b78911dc852cee5eb609f95d84619eb8217882c0af3d"
+        }
+      ],
+      "output": "D3/客厅-M01-R1.png",
+      "sha256": "ebbc783dd9901cbe202e0d351bc8243066db61694ce3004db0e8e03836a2bd04",
+      "status": "Agent选为本轮主图，非用户接受",
+      "corrections": 0,
+      "prompt_sha256": "5d2e7659af09ce344ea0a3644cbf8fb9325906435be9de882f8bcf6ef9761b1c"
+    },
+    {
+      "case": "P2",
+      "camera": "M02",
+      "attempt": "R1",
+      "scene_version": "shared-v2",
+      "tool": "built-in imagegen",
+      "exact_model": null,
+      "seed": null,
+      "prompt": "P2/客厅-M02-实际提示词.txt",
+      "inputs": [
+        {
+          "path": "共同场景复核/P2/客厅-M02-约束图-v2.png",
+          "sha256": "075595f4106f441aa4afab0215dfdee216de07fe0586dcf5fd3608686c3596fd"
+        },
+        {
+          "path": "共同场景复核/P2/客厅-M01-R1.png",
+          "sha256": "7fb71eb1babd903ea26b4f29f92cc6e0eacb1dc462f17c3e36b8b53117bb9a18"
+        }
+      ],
+      "output": "P2/客厅-M02-R1.png",
+      "sha256": "38a1bb09752a3d659296196a07fa0f693563d830c4b49347ad91aec325a377cf",
+      "corrections": 0,
+      "status": "Agent自检，待用户审阅",
+      "prompt_sha256": "36a6026699a680e20452c5375fe37a12b76c8d1b6ab1789bbd731489b2140351"
+    },
+    {
+      "case": "D3",
+      "camera": "M02",
+      "attempt": "R1",
+      "scene_version": "shared-v2",
+      "tool": "built-in imagegen",
+      "exact_model": null,
+      "seed": null,
+      "prompt": "D3/客厅-M02-实际提示词.txt",
+      "inputs": [
+        {
+          "path": "共同场景复核/D3/客厅-M02-约束图-v2.png",
+          "sha256": "486dc7c973923927afaa7c1712eb9b31473f4bf8111c9c99f554b2482ce69530"
+        },
+        {
+          "path": "D3/彩平/彩平-R1.png",
+          "sha256": "5c96019933c6c9bd1063b78911dc852cee5eb609f95d84619eb8217882c0af3d"
+        },
+        {
+          "path": "共同场景复核/D3/客厅-M01-R1.png",
+          "sha256": "ebbc783dd9901cbe202e0d351bc8243066db61694ce3004db0e8e03836a2bd04"
+        }
+      ],
+      "output": "D3/客厅-M02-R1.png",
+      "sha256": "ba500ffeb0ba06780aee9d12846e2765163fc5a782cce3505c50633446fe803d",
+      "corrections": 0,
+      "status": "保留；D3灯罩形体待修正",
+      "prompt_sha256": "ef8235b2db01b6aceeb6516cdf24aa7445905f697e778a4c7854110cfc4b5591"
+    },
+    {
+      "case": "D3",
+      "camera": "M02",
+      "attempt": "R2",
+      "scene_version": "shared-v3",
+      "tool": "built-in imagegen",
+      "exact_model": null,
+      "seed": null,
+      "prompt": "D3/客厅-M02-R2-实际提示词.txt",
+      "inputs": [
+        {
+          "path": "共同场景复核/D3/客厅-M02-约束图-v3.png",
+          "sha256": "f303780b8602e1e01f929ed97b2ca43f67eebbf1bb43907d3cc293f4c48ec47f"
+        },
+        {
+          "path": "D3/彩平/彩平-R1.png",
+          "sha256": "5c96019933c6c9bd1063b78911dc852cee5eb609f95d84619eb8217882c0af3d"
+        },
+        {
+          "path": "共同场景复核/D3/客厅-M01-R1.png",
+          "sha256": "ebbc783dd9901cbe202e0d351bc8243066db61694ce3004db0e8e03836a2bd04"
+        }
+      ],
+      "output": "D3/客厅-M02-R2.png",
+      "sha256": "7a2901f0daf8a22a0c99ee52e005101e53aa9f9e5d8ea3490d4304fa97633248",
+      "corrections": 1,
+      "status": "保留过程",
+      "prompt_sha256": "28476a45a08e755118357a4c4a9df48221937f5bba143338faa45c748d364034"
+    },
+    {
+      "case": "D3",
+      "camera": "M02",
+      "attempt": "R3",
+      "scene_version": "shared-v3",
+      "tool": "built-in imagegen",
+      "exact_model": null,
+      "seed": null,
+      "prompt": "D3/客厅-M02-R3-实际提示词.txt",
+      "inputs": [
+        {
+          "path": "共同场景复核/D3/客厅-M02-R2.png",
+          "sha256": "7a2901f0daf8a22a0c99ee52e005101e53aa9f9e5d8ea3490d4304fa97633248"
+        },
+        {
+          "path": "共同场景复核/D3/客厅-M02-约束图-v3.png",
+          "sha256": "f303780b8602e1e01f929ed97b2ca43f67eebbf1bb43907d3cc293f4c48ec47f"
+        },
+        {
+          "path": "共同场景复核/D3/客厅-M01-R1.png",
+          "sha256": "ebbc783dd9901cbe202e0d351bc8243066db61694ce3004db0e8e03836a2bd04"
+        }
+      ],
+      "output": "D3/客厅-M02-R3.png",
+      "sha256": "8c3f56befefc4fc5d430d7ee053a3fe2c58478983c83194f1680285da63b09fc",
+      "corrections": 2,
+      "status": "Agent自检，待用户审阅",
+      "prompt_sha256": "4a4d122373e63c9bc91ad14eabb25a4c30d8c31dd6fe05a6435b1595054a0359"
+    }
+  ],
+  "correction_limit": 2,
+  "main_adoption": {
+    "P2": [
+      "独立边几木底座直径约340mm，回写简模",
+      "双面沙发及两椅位置沿用，地毯与织物外观从主图继承"
+    ],
+    "D3": [
+      "客厅纸灯罩更新约680mm直径、360mm高",
+      "餐灯罩更新为约400mm直径、300mm高",
+      "休闲椅木扶手补回简模",
+      "圆茶几主图选择圆面方底座，替换原提示词的收分腿要求；不改变位置和占地",
+      "岛台部分遮挡，不能标为完整验证"
+    ]
+  },
+  "necessary_correction": {
+    "case": "D3",
+    "camera": "M02",
+    "round": 1,
+    "earliest_error": "主图回写简模",
+    "problem": "主图为扁椭圆纸灯罩，v2仍用直筒圆柱，第二图跟随圆柱",
+    "action": "v3仅替换灯罩为扁椭球；家具与机位不变；重新生成M02，复核M01与新场景的相容性"
+  },
+  "selected": {
+    "P2": {
+      "M01": "P2/客厅-M01-R1.png",
+      "M02": "P2/客厅-M02-R1.png",
+      "scene": "P2/共用场景-v2.blend"
+    },
+    "D3": {
+      "M01": "D3/客厅-M01-R1.png",
+      "M02": "D3/客厅-M02-R3.png",
+      "scene": "D3/共用场景-v3.blend"
+    }
+  },
+  "corrections": {
+    "P2-M01": 0,
+    "P2-M02": 0,
+    "D3-M01": 0,
+    "D3-M02": 2
+  },
+  "correction_steps": [
+    {
+      "round": 1,
+      "earliest_error": "主图回写简模",
+      "change": "圆柱灯罩改扁椭球后重出约束图并生成M02",
+      "result": "灯罩一致；生成新增三只筒灯"
+    },
+    {
+      "round": 2,
+      "earliest_error": "图像生成",
+      "change": "以同机位约束图核对，局部移除三只多画筒灯",
+      "result": "最终M02可见两只，其他两只在视野外；保留全部版本，达到上限停止"
+    }
+  ],
+  "superseded_assessment": "旧评审材料把D3多于两把餐椅作为错误，这个判定已撤回。源图两个活动家具符号不等于用户锁定两席。旧提示词和历史结果原文保留，不追改成新规则。",
+  "rule_scenarios": [
+    {
+      "scenario": "原图两餐椅、用户未锁定、空间允许四席",
+      "expected": "设计阶段可选四席，记录理由并写入所有机位共用场景",
+      "result": "本轮D3实际采用四席"
+    },
+    {
+      "scenario": "四席场景，一机位只看见两把",
+      "expected": "有同一场景的遮挡解释则不判漏画，不搬椅子",
+      "result": "规则检查通过；本轮D3 M02餐区全部在相机后方，未强行补画"
+    },
+    {
+      "scenario": "主图看不到厨房或另一侧家具",
+      "expected": "仍由全场景配置确定，不由单张图片推定全场景",
+      "result": "P2未入镜餐区和D3 M02背后的餐厨保留在共用模型"
+    },
+    {
+      "scenario": "主图纸灯罩与粗模圆柱不同",
+      "expected": "回写形体再输出后续约束图",
+      "result": "首次回写不充分，已按最早错误步骤修复，记录失败"
+    },
+    {
+      "scenario": "某角度独立增加筒灯",
+      "expected": "根据共同配置与可见关系修正，不按总数凑齐",
+      "result": "D3 M02第二轮局部修正完成"
+    },
+    {
+      "scenario": "纹理、褶皱或小摆件不同",
+      "expected": "不为非指定细节反复生图",
+      "result": "停止，不消耗额外修正轮次"
+    }
+  ],
+  "scene_consistency_checks": [
+    {
+      "case": "P2",
+      "same_mesh_digest_for_both_cameras": true,
+      "cameras_unchanged_after_main_adoption": true,
+      "changed_geometry_from_v1": [
+        "independent side table pedestal"
+      ],
+      "added_objects": []
+    },
+    {
+      "case": "D3",
+      "same_mesh_digest_for_both_cameras": true,
+      "cameras_unchanged_after_main_adoption": true,
+      "changed_geometry_from_v1": [
+        "living pendant shade",
+        "dining pendant shade"
+      ],
+      "added_objects": [
+        "selected lounge wooden arm",
+        "selected lounge wooden arm.001"
+      ]
+    }
+  ],
+  "review_ui_check": {
+    "image_buttons": 41,
+    "figure_images_loaded": 39,
+    "dialog_and_arrow_keys": "passed",
+    "mobile_overflow": false,
+    "visual_screenshot": "人工查看桌面截屏，最新约束图与效果图并列，无裁切主体"
+  }
+}

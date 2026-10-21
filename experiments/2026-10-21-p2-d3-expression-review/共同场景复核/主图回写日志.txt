@@ -1,0 +1,11 @@
+00:00.419  blend            | Read blend: "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/03-Skill发布/cad-plan-to-room-render-pro-review/experiments/2026-10-21-p2-d3-expression-review/共同场景复核/P2/共用场景-v1.blend"
+00:00.740  render           | Saved: '/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/03-Skill发布/cad-plan-to-room-render-pro-review/experiments/2026-10-21-p2-d3-expression-review/共同场景复核/P2/客厅-M01-约束图-v2.png'
+00:00.844  render           | Saved: '/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/03-Skill发布/cad-plan-to-room-render-pro-review/experiments/2026-10-21-p2-d3-expression-review/共同场景复核/P2/客厅-M02-约束图-v2.png'
+00:00.853  blend            | Read blend: "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/03-Skill发布/cad-plan-to-room-render-pro-review/experiments/2026-10-21-p2-d3-expression-review/共同场景复核/D3/共用场景-v1.blend"
+00:00.996  render           | Saved: '/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/03-Skill发布/cad-plan-to-room-render-pro-review/experiments/2026-10-21-p2-d3-expression-review/共同场景复核/D3/客厅-M01-约束图-v2.png'
+00:01.086  render           | Saved: '/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/03-Skill发布/cad-plan-to-room-render-pro-review/experiments/2026-10-21-p2-d3-expression-review/共同场景复核/D3/客厅-M02-约束图-v2.png'
+信息: 已另存为 "共用场景-v2.blend"
+信息: 已另存为 "共用场景-v2.blend"
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

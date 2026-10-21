@@ -1,0 +1,372 @@
+{
+  "方式": "本轮使用库内已有观察文字，未打开原照片，未作为附件",
+  "条目": [
+    {
+      "id": "ceiling-flat-plane",
+      "category": "ceiling",
+      "name_zh": "连续平顶",
+      "name_en": "Continuous Flat Ceiling",
+      "aliases": [
+        "平顶",
+        "大平顶",
+        "平整顶面"
+      ],
+      "visual_features": [
+        "主体顶面保持同一水平高度，形成连续完整的平面。",
+        "视觉重点是大面积留白与均匀延展，而不是凹腔或体块。",
+        "点状灯具或细窄边槽可以嵌入平面，但不改变整体平顶的主形态。"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "餐厅",
+        "卧室",
+        "书房",
+        "厨房"
+      ],
+      "style_tags": [
+        "现代简约",
+        "意式极简",
+        "北欧风格",
+        "当代"
+      ],
+      "combinations": [
+        "与通顶墙柜或整面墙板共同形成完整边界。",
+        "适合用独立吊灯、家具和材料成为空间主角。"
+      ],
+      "distinctions": "与周边降板顶相比，平顶主体没有用于构图的明显高低落差；照片右侧虽有窄线性槽，不能据此判定双眼皮或悬浮顶。",
+      "source_ids": [
+        "src-ceiling-sinan",
+        "src-ceiling-three-stages"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-sinan",
+          "image_url": "https://oss.gooood.cn/uploads/2024/06/035-east-garden-apartment-of-sinan-mansion-by-lm-960x640.jpg",
+          "gallery_url": "https://www.gooood.cn/east-garden-apartment-of-sinan-mansion-by-lm.htm",
+          "observation": "照片中书房/餐厅顶部是完整浅色水平平面，分布少量嵌灯；右侧沿墙柜有窄黑槽及细边带，整体仍以大平面为主。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "source_id": "src-ceiling-three-stages",
+          "image_url": "https://images.adsttc.com/media/images/60ed/cba3/d05e/f601/6475/0c2c/medium_jpg/10.jpg?1626196943",
+          "gallery_url": "https://www.archdaily.com/965036/three-stages-for-air-pencil-office",
+          "observation": "厨房上方为完整水平白色平顶，少量小型圆筒灯具布于同一平面，下方三面木质柜体齐顶；没有可见井格、条栅或曲面起伏。根任务与本子任务均独立看过像素。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_screenshot (root and ceiling research independently observed)",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-perimeter-bulkhead",
+      "category": "ceiling",
+      "name_zh": "周边降板顶",
+      "name_en": "Perimeter Bulkhead Ceiling",
+      "aliases": [
+        "边带吊顶",
+        "周边跌级顶",
+        "围边吊顶"
+      ],
+      "visual_features": [
+        "沿墙周边设置连续或半连续较低的水平边带。",
+        "中央区域保持较高，使顶面形成高低两层的框景关系。",
+        "边带的直角端面和下沿构成清晰水平线。"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "餐厅",
+        "卧室",
+        "书房"
+      ],
+      "style_tags": [
+        "现代简约",
+        "意式极简",
+        "中古风",
+        "当代"
+      ],
+      "combinations": [
+        "边带可与通顶墙柜顶部或墙面水平分割线对齐。",
+        "中央可搭配平顶、坡顶或其他较高顶面。"
+      ],
+      "distinctions": "与平顶相比，周边有明显低边带；与浮岛顶相比，低边带贴近墙边而非脱离墙面。代表案例中央为人字坡顶，这是围边形式的变化实例，不能当作整套平面托盘顶或双眼皮顶的证据。",
+      "source_ids": [
+        "src-ceiling-sonelo"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-sonelo",
+          "image_url": "https://images.adsttc.com/media/images/646e/06bf/8e31/b81c/d317/1cc2/medium_jpg/gable-clerestory-house-sonelo-design-studio_13.jpg?1684932337",
+          "gallery_url": "https://www.archdaily.com/1001479/gable-clerestory-house-sonelo-design-studio",
+          "observation": "白色水平低边带沿客厅三侧墙顶转折延伸，清楚框住中央较高的人字坡顶；边带端面厚度和水平下沿可见。",
+          "visual_status": "observed",
+          "view_method": "Codex multimodal visual reading of online CUA browser screenshot; no image file saved",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "wall-vertical-flat-panels",
+      "category": "wall",
+      "name_zh": "竖向分板墙面",
+      "name_en": "Vertical Flat-panel Wall",
+      "aliases": [
+        "竖向分割",
+        "竖向墙板"
+      ],
+      "visual_features": [
+        "大块平板按竖向长条组织",
+        "分缝窄而浅，板面保持连续的平整感",
+        "竖缝把墙高分成细长比例，可与隐藏门和柜门对齐"
+      ],
+      "spatial_applications": [
+        "玄关",
+        "走廊",
+        "客厅",
+        "卧室"
+      ],
+      "style_tags": [
+        "现代简约",
+        "意式极简",
+        "北欧风格",
+        "当代"
+      ],
+      "combinations": [
+        "与同面门扇和柜门整合",
+        "木纹或色泽保持跨板协调",
+        "与水平地板或台面形成方向对比"
+      ],
+      "distinctions": "与竖向格栅的区别是大板之间只有少量分缝，非密集窄凸条；与整面平墙相比具有明确竖向模块。案例是收纳界面，分类取其墙面的分板几何。",
+      "source_ids": [
+        "src-wall-guomao"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-wall-guomao",
+          "image_url": "https://oss.gooood.cn/uploads/2026/07/013-Home-in-Guomao-CBD-byr-960x640.jpg",
+          "gallery_url": "https://www.gooood.cn/en/home-in-guomao-cbd-by-mars-studio.htm",
+          "observation": "画面后部浅木色通高界面有少数几条清晰竖缝，单块板宽远大于格栅；左侧镜面重复反映这组板块。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "cabinet-flush-recessed",
+      "category": "cabinet",
+      "name_zh": "嵌入式齐平柜",
+      "name_en": "Flush Recessed Cabinet",
+      "aliases": [
+        "嵌入式",
+        "齐平柜",
+        "built-in cabinet"
+      ],
+      "visual_features": [
+        "柜体被纳入建筑界面，柜门接近周边墙板平面",
+        "正面以窄门缝代替外露厚柜侧",
+        "局部设备和工作台嵌入统一柜面"
+      ],
+      "spatial_applications": [
+        "厨房",
+        "卧室",
+        "玄关",
+        "餐厅"
+      ],
+      "style_tags": [
+        "现代简约",
+        "意式极简",
+        "北欧风格",
+        "当代"
+      ],
+      "combinations": [
+        "与隐藏门或整面墙板对齐",
+        "与深凹壁龛形成虚实关系",
+        "可用少量颜色标识功能"
+      ],
+      "distinctions": "与通顶式相比，嵌入式强调相对于周边墙面的齐平关系，通顶式强调竖向长度；与墙柜一体界面相比关注可读的柜门模块。",
+      "source_ids": [
+        "src-cabinet-function-walls"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-cabinet-function-walls",
+          "image_url": "https://images.adsttc.com/media/images/5c17/94ed/08a5/e5c8/b900/00c8/newsletter/-_Featured_Image.jpg?1545049310",
+          "gallery_url": "https://www.archdaily.com/907814/function-walls-lookofsky-architecture",
+          "observation": "白色柜门与周围同色板面接近齐平，无突出柜顶或大面积外露侧板；中央烤箱嵌入一条窄柜柱。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "cabinet-open-closed-combination",
+      "category": "cabinet",
+      "name_zh": "开放封闭组合柜",
+      "name_en": "Open-and-closed Combination Cabinet",
+      "aliases": [
+        "开放组合式",
+        "展示收纳组合柜"
+      ],
+      "visual_features": [
+        "开放格架与有柜门或抽屉的实体体块共存",
+        "通透上部与封闭下部形成层次",
+        "封闭单元可打断格架而不破坏整体基准线"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "书房",
+        "餐厅",
+        "工作室"
+      ],
+      "style_tags": [
+        "当代",
+        "中古风",
+        "工业风",
+        "北欧风格"
+      ],
+      "combinations": [
+        "封闭区收纳杂物，开放区展示书籍",
+        "可与长桌、钢琴或媒体设备整合",
+        "上下材料和颜色可形成轻重对比"
+      ],
+      "distinctions": "与纯开放格架相比有明确可关闭的收纳区；与纯封闭高柜相比开放区保留物件和通透感。",
+      "source_ids": [
+        "src-cabinet-bookshelf-apartment"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-cabinet-bookshelf-apartment",
+          "image_url": "https://images.adsttc.com/media/images/63d9/358c/0279/5c14/3077/fd2f/newsletter/apartamento-estantes-cota760_18.jpg?1675179430",
+          "gallery_url": "https://www.archdaily.com/995765/bookshelf-apartment-cota760",
+          "observation": "红色金属书架的下部嵌有多组木色抽屉和盒体，上部是露出的书架；两种单元共享水平定位。",
+          "visual_status": "observed",
+          "view_method": "cua_browser_image_screenshot_multimodal",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "visual_features: online image observation and curatorial abstraction; spatial_applications/style_tags/combinations: curator recommendations, not original-author claims"
+    },
+    {
+      "id": "ceiling-floating-single-plane",
+      "category": "ceiling",
+      "name_zh": "整面退让悬浮平顶",
+      "name_en": "Single-plane Floating Ceiling",
+      "aliases": [
+        "整面悬浮顶",
+        "悬浮大平顶",
+        "单块悬浮平板",
+        "floating single ceiling"
+      ],
+      "visual_features": [
+        "一个连续水平平板构成客厅的主要顶面，不由多个独立岛板拼成。",
+        "可见侧边与相邻墙面分离，退让空带和暗缝使主体边界清楚。",
+        "整体靠平面和边缘阴影形成层次，平板内可见少量点状嵌灯。"
+      ],
+      "spatial_applications": [
+        "客厅",
+        "餐厅",
+        "卧室"
+      ],
+      "style_tags": [
+        "现代简约",
+        "中古风",
+        "北欧风格",
+        "当代",
+        "东南亚风格"
+      ],
+      "combinations": [
+        "可与简洁通顶柜、水平低柜和独立餐桌吊灯组合；材料按本案风格适配。",
+        "灯位服务活动区域，退让缝是否加灯带由本案照明设计确定，不从源图推断。"
+      ],
+      "distinctions": "与多块悬浮岛板相比，主体是一块连续平面；与周边降板顶相比，低主体位于中部且边缘退让，而不是墙边低带框住中央高顶。本案照片可见两侧退让和远侧边界，近侧边缘在画幅外，不能把完整四侧、尺寸及隐藏支承写成已观察事实。",
+      "source_ids": [
+        "src-ceiling-soho-vance"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-soho-vance",
+          "image_url": "https://archinect.gumlet.io/uploads/9b/9b566a2cd461f60fe522bce7a0345dbd.jpg?auto=compress%2Cformat&enlarge=true&fit=crop&w=615",
+          "gallery_url": "https://archinect.com/jvarchitects/project/soho-penthouse-duplex",
+          "observation": "客厅上方为一块完整白色水平顶板，左、右边缘与侧墙之间可见较深退让空带，远侧在落地窗前结束；顶板内少量小嵌灯可见。近侧边缘在画幅外，未核验四侧完整收口。",
+          "visual_status": "observed",
+          "view_method": "本轮Cua浏览器在线照片截图多模态观察；未下载原图或上传给图像模型",
+          "checked_at": "2026-10-12"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "形式特征由本轮看图及作者floating-ceiling描述确认；应用空间、风格与组合为编辑建议，不代表源项目标签、尺寸或施工节点。"
+    },
+    {
+      "id": "ceiling-local-bulkhead",
+      "category": "ceiling",
+      "name_zh": "局部边吊",
+      "name_en": "Local Edge Bulkhead Ceiling",
+      "aliases": [
+        "局部低顶",
+        "柜顶边吊",
+        "单侧边吊",
+        "partial bulkhead"
+      ],
+      "visual_features": [
+        "较低的水平顶面只覆盖一侧或一段功能区域，不围绕整个房间。",
+        "低顶的竖向端面与水平底面形成清晰高低边界。",
+        "相邻主体区域保留较高顶面，局部低顶可与柜体或设备区衔接。"
+      ],
+      "spatial_applications": [
+        "卧室",
+        "客厅",
+        "玄关",
+        "书房"
+      ],
+      "style_tags": [
+        "现代简约",
+        "中古风",
+        "北欧风格",
+        "当代",
+        "东南亚风格"
+      ],
+      "combinations": [
+        "在本案需要的柜/设备区设置局部低边带，其余位置保留平顶。",
+        "照明只布在有用途的局部低顶或主体区域，不要求围一圈灯带。"
+      ],
+      "distinctions": "与周边降板顶相比仅覆盖局部，而不是四周完整边带；与整面悬浮平顶相比不是独立的中央平板。本来源主体为原有浅拱肋顶，仅借用局部低顶的范围、高低及收口，不能将拱肋、原梁或红色核心体块带入本案。",
+      "source_ids": [
+        "src-ceiling-viladomat-colombo"
+      ],
+      "evidence": [
+        {
+          "source_id": "src-ceiling-viladomat-colombo",
+          "image_url": "https://colomboarchitecture.com/wp-content/uploads/2026/08/viladomat-apartment-barcelona-30.jpg",
+          "gallery_url": "https://colomboarchitecture.com/viladomat-apartment-barcelona/",
+          "observation": "卧室侧边柜/功能体块上方为局部白色低顶，低顶端面有线性风口，底面有一只小嵌灯；旁侧原浅拱肋顶明显较高。照片能确认局部覆盖与相对高低，不能给出风管尺寸或吊顶内部做法。",
+          "visual_status": "observed",
+          "view_method": "本轮Cua浏览器在线照片截图多模态观察；未下载原图或上传给图像模型",
+          "checked_at": "2026-10-12"
+        },
+        {
+          "source_id": "src-ceiling-viladomat-colombo",
+          "image_url": "https://colomboarchitecture.com/wp-content/uploads/2026/08/viladomat-apartment-barcelona-31.jpg",
+          "gallery_url": "https://colomboarchitecture.com/viladomat-apartment-barcelona/",
+          "observation": "同一卧室从另一角度看到局部白色低顶端面、柜/帘区和相邻高顶；这里只读取低顶范围，不把上方原有梁肋当作新增装饰吊顶。",
+          "visual_status": "observed",
+          "view_method": "本轮Cua浏览器在线照片截图多模态观察；未下载原图或上传给图像模型",
+          "checked_at": "2026-10-12"
+        }
+      ],
+      "status": "verified_visual",
+      "interpretation_basis": "视觉关系来自两张原项目照片；适用房间、风格与平顶适配为本案设计建议，不冒充来源项目已有平顶。"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+00:00.586  render           | Saved: '/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/空间约束图/客厅-M01.png'
+00:00.673  render           | Saved: '/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/空间约束图/客厅-M02.png'
+00:00.782  render           | Saved: '/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/空间约束图/主卧-M01.png'
+00:00.970  render           | Saved: '/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/P2/空间约束图/客厅-M01.png'
+00:01.064  render           | Saved: '/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/P2/空间约束图/客厅-M02.png'
+00:01.164  render           | Saved: '/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/P2/空间约束图/主卧-M01.png'
+信息: 已另存为 "核对简模.blend"
+信息: 已另存为 "核对简模.blend"
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

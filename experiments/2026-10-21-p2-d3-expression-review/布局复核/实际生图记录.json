@@ -1,0 +1,181 @@
+[
+  {
+    "case": "P2",
+    "view": "客厅-M01",
+    "round": 1,
+    "native": "/Users/huaceyang/.codex/generated_images/01a15ca8-be98-7fb3-8f1d-ffad155bb3a7/exec-0583f2fd-0419-48fe-a172-777c05a64c10.png",
+    "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/P2/效果图/客厅-M01-R1.png",
+    "output_sha256": "648ca350de647ee7ba89aadd55fa5991b4a18cf14bba832c496555ed3830fdbc",
+    "prompt": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/P2/过程/客厅-M01-效果图-实际提示词.txt",
+    "inputs": [
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/P2/空间约束图/客厅-M01.png",
+        "sha256": "cb3a955d4680af3af5ae028a201ac90dfdfc480adfafacbaa59dda1c571e2980"
+      },
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/P2/输入/整理平面.png",
+        "sha256": "1f1c6b510706c3e782d5249a959d81830be01acd0b06bc86ad07d28ebeb13612"
+      },
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/P2/彩平/彩平-R2.png",
+        "sha256": "ed58bc61d10f3cf9e9f2e5e103f4ef5cb26dcf5be22fb31f699ba21fc401f70a"
+      }
+    ],
+    "model": "内置 image_gen；工具未返回具体模型版本、seed或质量参数",
+    "selected": true
+  },
+  {
+    "case": "P2",
+    "view": "主卧-M01",
+    "round": 1,
+    "native": "/Users/huaceyang/.codex/generated_images/01a15ca8-be98-7fb3-8f1d-ffad155bb3a7/exec-139fab69-e39a-48a4-9ecc-b627e4ac606a.png",
+    "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/P2/效果图/主卧-M01-R1.png",
+    "output_sha256": "971ac1052e4abad77180388878d4db09a3372dcd052f1a4e9de47a06b4bfcc20",
+    "prompt": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/P2/过程/主卧-M01-效果图-实际提示词.txt",
+    "inputs": [
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/P2/空间约束图/主卧-M01.png",
+        "sha256": "0fe029e9c56284750a33c51f5278d6aa8ddac5d925572e172fe21e30bb579c14"
+      },
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/P2/输入/整理平面.png",
+        "sha256": "1f1c6b510706c3e782d5249a959d81830be01acd0b06bc86ad07d28ebeb13612"
+      },
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/P2/彩平/彩平-R2.png",
+        "sha256": "ed58bc61d10f3cf9e9f2e5e103f4ef5cb26dcf5be22fb31f699ba21fc401f70a"
+      }
+    ],
+    "model": "内置 image_gen；工具未返回具体模型版本、seed或质量参数",
+    "selected": true
+  },
+  {
+    "case": "D3",
+    "view": "客厅-M01",
+    "round": 1,
+    "native": "/Users/huaceyang/.codex/generated_images/01a15ca8-be98-7fb3-8f1d-ffad155bb3a7/exec-71f97fb0-9ddd-48d5-a1bc-fc2770c8e997.png",
+    "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/效果图/客厅-M01-R1.png",
+    "output_sha256": "4c008fc850f09dd5e68583b1c127d5060d4be9d3588adaf1d634c247b1ee9a79",
+    "prompt": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/过程/客厅-M01-效果图-实际提示词.txt",
+    "inputs": [
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/空间约束图/客厅-M01.png",
+        "sha256": "7f6c9bf5b8163c87fd1ea6868ed616cad950035fd39921a338602c93aa7ff72b"
+      },
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/D3/输入/整理平面.png",
+        "sha256": "6c425cc7f4bc081d5c7c66911aa62a81b96733bcfa4f71cc9defe5cd3063a41e"
+      },
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/D3/彩平/彩平-R1.png",
+        "sha256": "5c96019933c6c9bd1063b78911dc852cee5eb609f95d84619eb8217882c0af3d"
+      }
+    ],
+    "model": "内置 image_gen；工具未返回具体模型版本、seed或质量参数",
+    "selected": true
+  },
+  {
+    "case": "D3",
+    "view": "主卧-M01",
+    "round": 1,
+    "native": "/Users/huaceyang/.codex/generated_images/01a15ca8-be98-7fb3-8f1d-ffad155bb3a7/exec-7fadc749-520b-49d9-ad36-103f7683cbd6.png",
+    "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/效果图/主卧-M01-R1.png",
+    "output_sha256": "ddf6e030d279d0de9de9a6c14429dfc83b2e399c666ad0e8eba34a7634aac019",
+    "prompt": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/过程/主卧-M01-效果图-实际提示词.txt",
+    "inputs": [
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/空间约束图/主卧-M01.png",
+        "sha256": "dcc58fb79697218a3c39cfe330aadd577a33592d920775e322d46349c875f476"
+      },
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/D3/输入/整理平面.png",
+        "sha256": "6c425cc7f4bc081d5c7c66911aa62a81b96733bcfa4f71cc9defe5cd3063a41e"
+      },
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/D3/彩平/彩平-R1.png",
+        "sha256": "5c96019933c6c9bd1063b78911dc852cee5eb609f95d84619eb8217882c0af3d"
+      }
+    ],
+    "model": "内置 image_gen；工具未返回具体模型版本、seed或质量参数",
+    "selected": true
+  },
+  {
+    "case": "P2",
+    "view": "客厅-M02",
+    "round": 1,
+    "native": "/Users/huaceyang/.codex/generated_images/01a15ca8-be98-7fb3-8f1d-ffad155bb3a7/exec-23321714-55fa-43b2-aed3-7015ae8cb90e.png",
+    "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/P2/效果图/客厅-M02-R1.png",
+    "output_sha256": "713fae8ae17e06c246eafd0abc105bdf529b6cf3eb73bb888c8378eff9a66424",
+    "prompt": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/P2/过程/客厅-M02-效果图-实际提示词.txt",
+    "inputs": [
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/P2/空间约束图/客厅-M02.png",
+        "sha256": "a0db75b8b66d7c6b48cf8d57211d3bfba5a760ba935824903c9db8d722741906"
+      },
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/P2/输入/整理平面.png",
+        "sha256": "1f1c6b510706c3e782d5249a959d81830be01acd0b06bc86ad07d28ebeb13612"
+      },
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/P2/彩平/彩平-R2.png",
+        "sha256": "ed58bc61d10f3cf9e9f2e5e103f4ef5cb26dcf5be22fb31f699ba21fc401f70a"
+      },
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/P2/效果图/客厅-M01-R1.png",
+        "sha256": "648ca350de647ee7ba89aadd55fa5991b4a18cf14bba832c496555ed3830fdbc"
+      }
+    ],
+    "model": "内置 image_gen；工具未返回具体模型版本、seed或质量参数",
+    "selected": true
+  },
+  {
+    "case": "D3",
+    "view": "客厅-M02",
+    "round": 1,
+    "native": "/Users/huaceyang/.codex/generated_images/01a15ca8-be98-7fb3-8f1d-ffad155bb3a7/exec-f77ed837-0cb9-43dc-a7d2-4b816a2b1fe5.png",
+    "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/效果图/客厅-M02-R1.png",
+    "output_sha256": "e0bce8875bda9039eda3bfaf6f06fbae7be9d3b623c9ae4f29e614425ce12a2f",
+    "prompt": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/过程/客厅-M02-效果图-实际提示词.txt",
+    "inputs": [
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/空间约束图/客厅-M02.png",
+        "sha256": "514e8035c7571565701d9b7cdfc3b9f018d0137ad0e90f83cfcc8b1b260b28a7"
+      },
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/D3/输入/整理平面.png",
+        "sha256": "6c425cc7f4bc081d5c7c66911aa62a81b96733bcfa4f71cc9defe5cd3063a41e"
+      },
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/D3/彩平/彩平-R1.png",
+        "sha256": "5c96019933c6c9bd1063b78911dc852cee5eb609f95d84619eb8217882c0af3d"
+      },
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/效果图/客厅-M01-R1.png",
+        "sha256": "4c008fc850f09dd5e68583b1c127d5060d4be9d3588adaf1d634c247b1ee9a79"
+      }
+    ],
+    "model": "内置 image_gen；工具未返回具体模型版本、seed或质量参数",
+    "selected": true
+  },
+  {
+    "case": "D3",
+    "view": "客厅-M01",
+    "round": 2,
+    "native": "/Users/huaceyang/.codex/generated_images/01a15ca8-be98-7fb3-8f1d-ffad155bb3a7/exec-4afb9915-ffbb-4ab0-a774-f0a114adbae2.png",
+    "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/效果图/客厅-M01-R2.png",
+    "output_sha256": "929d13671010dde813a0024be3e74607840da756a62d5cbab3d893bd545aea60",
+    "prompt": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/过程/客厅-M01-R2-修正提示词.txt",
+    "inputs": [
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/布局复核/D3/效果图/客厅-M01-R1.png",
+        "sha256": "4c008fc850f09dd5e68583b1c127d5060d4be9d3588adaf1d634c247b1ee9a79"
+      },
+      {
+        "path": "/Users/huaceyang/Documents/1.Projects/宜宾工作/04-AI数字转型和制度研究/AI制图部/04-多平面测试/20261021-v1.4.1跨户型复测/D3/输入/整理平面.png",
+        "sha256": "6c425cc7f4bc081d5c7c66911aa62a81b96733bcfa4f71cc9defe5cd3063a41e"
+      }
+    ],
+    "model": "内置 image_gen；工具未返回具体模型版本、seed或质量参数",
+    "selected": false
+  }
+]
