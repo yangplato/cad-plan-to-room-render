@@ -1,0 +1,282 @@
+[
+  {
+    "path": "D3/彩平/彩平-R1.png",
+    "bytes": 1689216,
+    "sha256": "5c96019933c6c9bd1063b78911dc852cee5eb609f95d84619eb8217882c0af3d"
+  },
+  {
+    "path": "D3/输入/整理平面.png",
+    "bytes": 268593,
+    "sha256": "6c425cc7f4bc081d5c7c66911aa62a81b96733bcfa4f71cc9defe5cd3063a41e"
+  },
+  {
+    "path": "P2/彩平/彩平-R2.png",
+    "bytes": 2000509,
+    "sha256": "ed58bc61d10f3cf9e9f2e5e103f4ef5cb26dcf5be22fb31f699ba21fc401f70a"
+  },
+  {
+    "path": "P2/输入/整理平面.png",
+    "bytes": 1934736,
+    "sha256": "1f1c6b510706c3e782d5249a959d81830be01acd0b06bc86ad07d28ebeb13612"
+  },
+  {
+    "path": "README.md",
+    "bytes": 5357,
+    "sha256": "a85ecf3c0cd8da607485ebf79d9f18bf554d10e3fd5e7a272dd98792a8daf2d7"
+  },
+  {
+    "path": "候选规则.patch",
+    "bytes": 8633,
+    "sha256": "3158802a636ea7a32a2ccab8a6ef477b17ad266c1a91850b729e3a045b056cba"
+  },
+  {
+    "path": "对话与回应.md",
+    "bytes": 4635,
+    "sha256": "5e4ccf4f2285673a6f6c86d4cc6bd63a24e11ebb3a10dbf5d7eec8acbeabf283"
+  },
+  {
+    "path": "布局复核/Blender日志.txt",
+    "bytes": 1554,
+    "sha256": "209a937d1836e86250491dcf092d6b62cc8ad19c447af1a2ac3bb25ff1ac83db"
+  },
+  {
+    "path": "布局复核/D3/效果图/主卧-M01-R1.png",
+    "bytes": 2806421,
+    "sha256": "ddf6e030d279d0de9de9a6c14429dfc83b2e399c666ad0e8eba34a7634aac019"
+  },
+  {
+    "path": "布局复核/D3/效果图/客厅-M01-R1.png",
+    "bytes": 2594714,
+    "sha256": "4c008fc850f09dd5e68583b1c127d5060d4be9d3588adaf1d634c247b1ee9a79"
+  },
+  {
+    "path": "布局复核/D3/效果图/客厅-M01-R2.png",
+    "bytes": 2467809,
+    "sha256": "929d13671010dde813a0024be3e74607840da756a62d5cbab3d893bd545aea60"
+  },
+  {
+    "path": "布局复核/D3/效果图/客厅-M02-R1.png",
+    "bytes": 2508540,
+    "sha256": "e0bce8875bda9039eda3bfaf6f06fbae7be9d3b623c9ae4f29e614425ce12a2f"
+  },
+  {
+    "path": "布局复核/D3/空间约束图/主卧-M01.png",
+    "bytes": 2051247,
+    "sha256": "dcc58fb79697218a3c39cfe330aadd577a33592d920775e322d46349c875f476"
+  },
+  {
+    "path": "布局复核/D3/空间约束图/客厅-M01.png",
+    "bytes": 1842097,
+    "sha256": "7f6c9bf5b8163c87fd1ea6868ed616cad950035fd39921a338602c93aa7ff72b"
+  },
+  {
+    "path": "布局复核/D3/空间约束图/客厅-M02.png",
+    "bytes": 1833768,
+    "sha256": "514e8035c7571565701d9b7cdfc3b9f018d0137ad0e90f83cfcc8b1b260b28a7"
+  },
+  {
+    "path": "布局复核/D3/过程/主卧-M01-效果图-实际提示词.txt",
+    "bytes": 3818,
+    "sha256": "800d00ab23c58bc1cce23d9cbac46ba559e7544d83be15b610b620e337b2a8a0"
+  },
+  {
+    "path": "布局复核/D3/过程/客厅-M01-R2-修正提示词.txt",
+    "bytes": 478,
+    "sha256": "45e0d7aa82fd7e203716bb5d6bb993aa823e73f71b2fe14dc84faa2d4dc21b45"
+  },
+  {
+    "path": "布局复核/D3/过程/客厅-M01-效果图-实际提示词.txt",
+    "bytes": 4720,
+    "sha256": "efe112430b71a28fc92ca871c56a62747aa9c413ea38e7922b53e00f5ccc4002"
+  },
+  {
+    "path": "布局复核/D3/过程/客厅-M02-效果图-实际提示词.txt",
+    "bytes": 4886,
+    "sha256": "35e24b565b701b818fb9e903861c4b9efb5266f6a62d23168fa498f6ac82bb9f"
+  },
+  {
+    "path": "布局复核/D3/过程/整理平面与简模叠合.png",
+    "bytes": 242440,
+    "sha256": "2a4491b4d8098ec4599d9cc319f98618e20b89acc676b092447f6b0ebcfa543e"
+  },
+  {
+    "path": "布局复核/D3/过程/机位总览.png",
+    "bytes": 813613,
+    "sha256": "91e156d381ebbfc084551eddff2b732c1d4eb817107bd8ef047dae0d6e69bfa6"
+  },
+  {
+    "path": "布局复核/D3/过程/核对简模.blend",
+    "bytes": 140571,
+    "sha256": "82a4b36888f959d2d3da15d27a07887d8ca6820ccc4ea4fb5c6e492783ddc0c4"
+  },
+  {
+    "path": "布局复核/D3/过程/模型投影.json",
+    "bytes": 39226,
+    "sha256": "f9ddd8eb506933c36aad72b11a058c289f4b1272603ef079390706e84cb64eaa"
+  },
+  {
+    "path": "布局复核/P2/效果图/主卧-M01-R1.png",
+    "bytes": 2854837,
+    "sha256": "971ac1052e4abad77180388878d4db09a3372dcd052f1a4e9de47a06b4bfcc20"
+  },
+  {
+    "path": "布局复核/P2/效果图/客厅-M01-R1.png",
+    "bytes": 2747414,
+    "sha256": "648ca350de647ee7ba89aadd55fa5991b4a18cf14bba832c496555ed3830fdbc"
+  },
+  {
+    "path": "布局复核/P2/效果图/客厅-M02-R1.png",
+    "bytes": 2513850,
+    "sha256": "713fae8ae17e06c246eafd0abc105bdf529b6cf3eb73bb888c8378eff9a66424"
+  },
+  {
+    "path": "布局复核/P2/空间约束图/主卧-M01.png",
+    "bytes": 2077486,
+    "sha256": "0fe029e9c56284750a33c51f5278d6aa8ddac5d925572e172fe21e30bb579c14"
+  },
+  {
+    "path": "布局复核/P2/空间约束图/客厅-M01.png",
+    "bytes": 1910793,
+    "sha256": "cb3a955d4680af3af5ae028a201ac90dfdfc480adfafacbaa59dda1c571e2980"
+  },
+  {
+    "path": "布局复核/P2/空间约束图/客厅-M02.png",
+    "bytes": 1963315,
+    "sha256": "a0db75b8b66d7c6b48cf8d57211d3bfba5a760ba935824903c9db8d722741906"
+  },
+  {
+    "path": "布局复核/P2/过程/主卧-M01-效果图-实际提示词.txt",
+    "bytes": 3760,
+    "sha256": "4561f082f5e5cf2f2fc7a3b5a67a0583bfd43125659c416a868a74e45513bb32"
+  },
+  {
+    "path": "布局复核/P2/过程/客厅-M01-效果图-实际提示词.txt",
+    "bytes": 4465,
+    "sha256": "b6069aaeddc59de6bc51de1c43c95080b7db01ccde326a08acd2048f6a6106e4"
+  },
+  {
+    "path": "布局复核/P2/过程/客厅-M02-效果图-实际提示词.txt",
+    "bytes": 4580,
+    "sha256": "258fadd89d3a1172e6cd740c22aae1a7a862d9ee4f64d99b3681340b2521d1f6"
+  },
+  {
+    "path": "布局复核/P2/过程/整理平面与简模叠合.png",
+    "bytes": 644125,
+    "sha256": "5dbe3fc0bf654551598bdbf2a0970c2d346ea2125298e23b60960eeec521b2fd"
+  },
+  {
+    "path": "布局复核/P2/过程/机位总览.png",
+    "bytes": 812972,
+    "sha256": "b63186d55f085905aa96b781a108bd2d17576e8f8c3ee7eb7cf7723cad63d6ba"
+  },
+  {
+    "path": "布局复核/P2/过程/核对简模.blend",
+    "bytes": 150870,
+    "sha256": "8863741d7eb985a6e8dd8f0f4bf86c932a3d624c06a45e49ed1f7a7715852a0d"
+  },
+  {
+    "path": "布局复核/P2/过程/模型投影.json",
+    "bytes": 53574,
+    "sha256": "873e2afeda76d3d4692d8bae2da4beaffd9f78d8d0850c5571f909874bbd9c54"
+  },
+  {
+    "path": "布局复核/实际生图记录.json",
+    "bytes": 12672,
+    "sha256": "bc59b9d4c9ce91ddd55b4229bc8359bc2ab88df97f86e236d4c9dacedf5addee"
+  },
+  {
+    "path": "布局复核/审阅.html",
+    "bytes": 21846,
+    "sha256": "99956012b1f7285b65d92458389d2b5b01fd9241f5d4899d37f7369071fa2a2f"
+  },
+  {
+    "path": "布局复核/模型表达试验/D3-实际提示词.txt",
+    "bytes": 4354,
+    "sha256": "77b7ca614a3a1bd40c59e18d272bf6056851620b76b79edb3c2e21027a2b83dc"
+  },
+  {
+    "path": "布局复核/模型表达试验/D3-改进模型.blend",
+    "bytes": 221211,
+    "sha256": "de17cb4648da4e5493843ed5e7c0dd53a51177ad904a9b752d09363d54238c82"
+  },
+  {
+    "path": "布局复核/模型表达试验/D3-效果图.png",
+    "bytes": 2428604,
+    "sha256": "0f4252fd81776027458a0a6237110f278913878cc0e5f51bd29946c606d2c88e"
+  },
+  {
+    "path": "布局复核/模型表达试验/D3-空间约束图.png",
+    "bytes": 1848448,
+    "sha256": "a4acc0f26635d71392078a5544af2121cf684e81a6311dfec73d6865584bd235"
+  },
+  {
+    "path": "布局复核/模型表达试验/P2-实际提示词.txt",
+    "bytes": 4056,
+    "sha256": "e81d6180d4fd3f593b631a51d60a3fc77b90edd210582b9647200e9450240198"
+  },
+  {
+    "path": "布局复核/模型表达试验/P2-改进模型.blend",
+    "bytes": 151720,
+    "sha256": "d2206cd40f64f3a0b32b666e629abd05ab09b2606639bb0caf89a5cd6dc93a88"
+  },
+  {
+    "path": "布局复核/模型表达试验/P2-效果图.png",
+    "bytes": 2493514,
+    "sha256": "0d351546a9108b09278533f69526d9b2b80e1fd0cb4205ced1de38b1d385fdbf"
+  },
+  {
+    "path": "布局复核/模型表达试验/P2-空间约束图.png",
+    "bytes": 1981102,
+    "sha256": "9583ce21946f69a42780868f249addd9492aab1d2db294ae376a697255addd28"
+  },
+  {
+    "path": "布局复核/模型表达试验/改进模型.py",
+    "bytes": 4654,
+    "sha256": "a24bda893c9a6e9eb4dd8f27591f79c15dae5302c2e3418ff757211952c64c9d"
+  },
+  {
+    "path": "布局复核/模型表达试验/模型使用记录.json",
+    "bytes": 1229,
+    "sha256": "2525a35d3b52c6b9e8552a403d329de22760329941aec1e2fbb798345f0885e4"
+  },
+  {
+    "path": "布局复核/模型表达试验/试验记录.json",
+    "bytes": 2438,
+    "sha256": "a448c848e4e4a3395e00b23ab061c9d680bdc228d7f00c1ab18cf2f8cf4cd344"
+  },
+  {
+    "path": "布局复核/生成核对简模.py",
+    "bytes": 11558,
+    "sha256": "e78a6a5efff1cd659d74a97e2edfe9d269c31f2828d8eeda3d055ecb9ffa1889"
+  },
+  {
+    "path": "布局复核/绘制平面叠合.py",
+    "bytes": 1801,
+    "sha256": "c7e190d5b7339d66e7549b6045b6c7b50028179e25b6408dae53446b28da84d1"
+  },
+  {
+    "path": "过程/D3-原图预览.png",
+    "bytes": 385497,
+    "sha256": "42b6e3466dd65e3d0cde1d87a07d834200cfc766128f1a724a24605d2d48a4cb"
+  },
+  {
+    "path": "过程/P2-原图.png",
+    "bytes": 530638,
+    "sha256": "e84a4d519fc02841339b16f5a58fac161d947432ce70698d74d6f6530675bf99"
+  },
+  {
+    "path": "过程/参考选型.json",
+    "bytes": 16873,
+    "sha256": "f2e322bca47105be8c1f757bf3eeb5aed70c5b78396a22fa642c0d4254a32fdc"
+  },
+  {
+    "path": "过程/本轮参考库应用.md",
+    "bytes": 563,
+    "sha256": "dd0544f40ae9e4b886082586c150cd0c7b971de103889afd76a5fcd413c99dc4"
+  },
+  {
+    "path": "过程/生成空间约束图.py",
+    "bytes": 8795,
+    "sha256": "45d0008fec7ef72659a6a647b11a03ec29279bd2bacae98e8a3268b1425055ed"
+  }
+]
