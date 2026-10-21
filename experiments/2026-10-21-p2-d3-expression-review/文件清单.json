@@ -21,13 +21,228 @@
   },
   {
     "path": "README.md",
-    "bytes": 5357,
-    "sha256": "a85ecf3c0cd8da607485ebf79d9f18bf554d10e3fd5e7a272dd98792a8daf2d7"
+    "bytes": 5755,
+    "sha256": "0bfb54ce6d8ed96924a05c8a294ca64873079aa5166e1784195a719a97925458"
   },
   {
     "path": "候选规则.patch",
     "bytes": 8633,
     "sha256": "3158802a636ea7a32a2ccab8a6ef477b17ad266c1a91850b729e3a045b056cba"
+  },
+  {
+    "path": "共同场景复核/D3/共用场景-v1.blend",
+    "bytes": 247167,
+    "sha256": "ad327320870bc4cd04c830873824b70f7cb5599cef422158d85d6694ae4cb0e8"
+  },
+  {
+    "path": "共同场景复核/D3/共用场景-v2.blend",
+    "bytes": 248832,
+    "sha256": "775f3de84d9d16a94566d80b904d8ee53194051b47da50fe8afbfadce434d41a"
+  },
+  {
+    "path": "共同场景复核/D3/共用场景-v3.blend",
+    "bytes": 289329,
+    "sha256": "fd3ab2e9e73ea0c650d6c8f49e5905f5d4de24d4608e34b1e646eb5132de098e"
+  },
+  {
+    "path": "共同场景复核/D3/场景配置-v2.json",
+    "bytes": 676471,
+    "sha256": "53f74a659196da3405b5caf514f86e3f5fc39f5e885e9fdc3a8d5fdf9bf6c26e"
+  },
+  {
+    "path": "共同场景复核/D3/场景配置-v3.json",
+    "bytes": 755867,
+    "sha256": "e43dbbd8812ea466aafde4c5c9e91c207a9347c108eb5a4a61197dab12a2fd01"
+  },
+  {
+    "path": "共同场景复核/D3/场景配置.json",
+    "bytes": 674244,
+    "sha256": "b1a53f5507abd1b8d9018cc04a883428427d30a715421792b68a53c3c6e1da08"
+  },
+  {
+    "path": "共同场景复核/D3/客厅-M01-R1.png",
+    "bytes": 2399538,
+    "sha256": "ebbc783dd9901cbe202e0d351bc8243066db61694ce3004db0e8e03836a2bd04"
+  },
+  {
+    "path": "共同场景复核/D3/客厅-M01-实际提示词.txt",
+    "bytes": 2737,
+    "sha256": "5d2e7659af09ce344ea0a3644cbf8fb9325906435be9de882f8bcf6ef9761b1c"
+  },
+  {
+    "path": "共同场景复核/D3/客厅-M01-约束图-v1.png",
+    "bytes": 1857162,
+    "sha256": "b1e9b0070f83077e52837187442c9a1d5f5ad827a0973aabe5a90333154df3ff"
+  },
+  {
+    "path": "共同场景复核/D3/客厅-M01-约束图-v2.png",
+    "bytes": 1859231,
+    "sha256": "ab68177ff8928fbe123465b7160a97743c11e2bdf0a5913a926cb53a092c3e64"
+  },
+  {
+    "path": "共同场景复核/D3/客厅-M01-约束图-v3.png",
+    "bytes": 1857930,
+    "sha256": "19bcb676ae7a8ed1b0d6569e64036494d6cf55c295e5c67b6fdb231cd77ee842"
+  },
+  {
+    "path": "共同场景复核/D3/客厅-M02-R1.png",
+    "bytes": 2400844,
+    "sha256": "ba500ffeb0ba06780aee9d12846e2765163fc5a782cce3505c50633446fe803d"
+  },
+  {
+    "path": "共同场景复核/D3/客厅-M02-R2-实际提示词.txt",
+    "bytes": 2993,
+    "sha256": "28476a45a08e755118357a4c4a9df48221937f5bba143338faa45c748d364034"
+  },
+  {
+    "path": "共同场景复核/D3/客厅-M02-R2.png",
+    "bytes": 2338921,
+    "sha256": "7a2901f0daf8a22a0c99ee52e005101e53aa9f9e5d8ea3490d4304fa97633248"
+  },
+  {
+    "path": "共同场景复核/D3/客厅-M02-R3-实际提示词.txt",
+    "bytes": 775,
+    "sha256": "4a4d122373e63c9bc91ad14eabb25a4c30d8c31dd6fe05a6435b1595054a0359"
+  },
+  {
+    "path": "共同场景复核/D3/客厅-M02-R3.png",
+    "bytes": 2249554,
+    "sha256": "8c3f56befefc4fc5d430d7ee053a3fe2c58478983c83194f1680285da63b09fc"
+  },
+  {
+    "path": "共同场景复核/D3/客厅-M02-实际提示词.txt",
+    "bytes": 2936,
+    "sha256": "ef8235b2db01b6aceeb6516cdf24aa7445905f697e778a4c7854110cfc4b5591"
+  },
+  {
+    "path": "共同场景复核/D3/客厅-M02-约束图-v1.png",
+    "bytes": 1839566,
+    "sha256": "e5edec24f2e15eb23730ff1df75b0cb32d014150c1a5051551a394aeca47e50d"
+  },
+  {
+    "path": "共同场景复核/D3/客厅-M02-约束图-v2.png",
+    "bytes": 1853905,
+    "sha256": "486dc7c973923927afaa7c1712eb9b31473f4bf8111c9c99f554b2482ce69530"
+  },
+  {
+    "path": "共同场景复核/D3/客厅-M02-约束图-v3.png",
+    "bytes": 1841625,
+    "sha256": "f303780b8602e1e01f929ed97b2ca43f67eebbf1bb43907d3cc293f4c48ec47f"
+  },
+  {
+    "path": "共同场景复核/D3/整理平面-场景叠合.png",
+    "bytes": 251482,
+    "sha256": "20f08474d44a9eb136f928601fd5d46cbcb83fa3d1f0beced331e404a90e78f4"
+  },
+  {
+    "path": "共同场景复核/P2/共用场景-v1.blend",
+    "bytes": 166281,
+    "sha256": "0cc81b5f68ef063eb55b1193a822b55980149f1b6c68aabb62bc3ef4cdcbab1b"
+  },
+  {
+    "path": "共同场景复核/P2/共用场景-v2.blend",
+    "bytes": 166110,
+    "sha256": "1f7af1ae53e28807d8b2821623aa38465b89be96a9bd5e47d52c2581a26a51a8"
+  },
+  {
+    "path": "共同场景复核/P2/场景配置-v2.json",
+    "bytes": 235252,
+    "sha256": "410c1b37f31fc01dcc4eb383eba9fa9b2531431c9641191fec750faa9e3d3bad"
+  },
+  {
+    "path": "共同场景复核/P2/场景配置.json",
+    "bytes": 235262,
+    "sha256": "0d2f6a89cdc0595e0b1e5d7a69d933838d918bd350f74a611043d4f313a68704"
+  },
+  {
+    "path": "共同场景复核/P2/客厅-M01-R1.png",
+    "bytes": 2535600,
+    "sha256": "7fb71eb1babd903ea26b4f29f92cc6e0eacb1dc462f17c3e36b8b53117bb9a18"
+  },
+  {
+    "path": "共同场景复核/P2/客厅-M01-实际提示词.txt",
+    "bytes": 2393,
+    "sha256": "9ebf4c505d40b67ef34f185c43987bf872a81746f01b76fcf0181547a6b787f4"
+  },
+  {
+    "path": "共同场景复核/P2/客厅-M01-约束图-v1.png",
+    "bytes": 1869712,
+    "sha256": "ea1c85ca75ebff461314c5e0da70bc9373a05fe8e0b11c572c3cb49223af8ac2"
+  },
+  {
+    "path": "共同场景复核/P2/客厅-M01-约束图-v2.png",
+    "bytes": 1870251,
+    "sha256": "c1187957fbcf8aedb420f77f2016a69b8e935c67846f39fe59e35c6c9bd88ef3"
+  },
+  {
+    "path": "共同场景复核/P2/客厅-M02-R1.png",
+    "bytes": 2382392,
+    "sha256": "38a1bb09752a3d659296196a07fa0f693563d830c4b49347ad91aec325a377cf"
+  },
+  {
+    "path": "共同场景复核/P2/客厅-M02-实际提示词.txt",
+    "bytes": 2514,
+    "sha256": "36a6026699a680e20452c5375fe37a12b76c8d1b6ab1789bbd731489b2140351"
+  },
+  {
+    "path": "共同场景复核/P2/客厅-M02-约束图-v1.png",
+    "bytes": 1920947,
+    "sha256": "7f7f79ebe6e965ad5081055cd1fd8d7940096e2d543d6b0247f2740894b6c0a7"
+  },
+  {
+    "path": "共同场景复核/P2/客厅-M02-约束图-v2.png",
+    "bytes": 1920815,
+    "sha256": "075595f4106f441aa4afab0215dfdee216de07fe0586dcf5fd3608686c3596fd"
+  },
+  {
+    "path": "共同场景复核/P2/整理平面-场景叠合.png",
+    "bytes": 633470,
+    "sha256": "53c70acfd01427881a3fe52238dc66b8f27e7ec334a81c472533cd960e1d7853"
+  },
+  {
+    "path": "共同场景复核/README.md",
+    "bytes": 3619,
+    "sha256": "b597f3996f888dd3a6a6c725c81e756bd494283ec3aac6d417b8c2741882bf3a"
+  },
+  {
+    "path": "共同场景复核/主图回写日志.txt",
+    "bytes": 1858,
+    "sha256": "6ae8c2cac0277507c30723d1e8bc207e6c561b1bd8fd5454ed060930f20c46ad"
+  },
+  {
+    "path": "共同场景复核/修正灯罩形体.py",
+    "bytes": 969,
+    "sha256": "0a9bb56daff7898f10df0da6c7907fd2ddd8304f54cd9814a8eb5fcd6b956ac6"
+  },
+  {
+    "path": "共同场景复核/回写主图.py",
+    "bytes": 1471,
+    "sha256": "6dd2b2bbf8f0725c069955e4306f9e482c3b238a6dcddaeec4569be948f5a018"
+  },
+  {
+    "path": "共同场景复核/案例续接记录.json",
+    "bytes": 16483,
+    "sha256": "673f71f67deeb86df580f27895b7746f6eaea8060c5c5b642e523b12bc65c0ae"
+  },
+  {
+    "path": "共同场景复核/灯罩修正日志.txt",
+    "bytes": 968,
+    "sha256": "05b86ffe04a037b8ff15688f0b0f699988ec22e3f73a3ee36b3b08890f56e34a"
+  },
+  {
+    "path": "共同场景复核/生成共同场景.py",
+    "bytes": 6597,
+    "sha256": "1767f45bee75c02d67ea6ce6ddc1dfa505b421336602038dce407fd6f4f5175f"
+  },
+  {
+    "path": "共同场景复核/简模生成日志.txt",
+    "bytes": 1956,
+    "sha256": "06619b416dfe1648e63c578eb1abc03e06e6414858cf8891edc6d6e55fee744e"
+  },
+  {
+    "path": "共同场景复核/规则回归检查.txt",
+    "bytes": 1893,
+    "sha256": "d313f9a1cbd1684e34acbc52b47502e1bdc6fbfa17511a150fec38bd4ff860de"
   },
   {
     "path": "对话与回应.md",
@@ -186,8 +401,8 @@
   },
   {
     "path": "布局复核/审阅.html",
-    "bytes": 21846,
-    "sha256": "99956012b1f7285b65d92458389d2b5b01fd9241f5d4899d37f7369071fa2a2f"
+    "bytes": 41871,
+    "sha256": "cc89656d2789cd704ff4787696c96521056ea7eb4ac0147efde196504ba815bb"
   },
   {
     "path": "布局复核/模型表达试验/D3-实际提示词.txt",
@@ -241,8 +456,8 @@
   },
   {
     "path": "布局复核/模型表达试验/试验记录.json",
-    "bytes": 2438,
-    "sha256": "a448c848e4e4a3395e00b23ab061c9d680bdc228d7f00c1ab18cf2f8cf4cd344"
+    "bytes": 2668,
+    "sha256": "d482ef88198ffa6a59b31e94474f0ce781c23ea5d448483db6bbe6e6fbe2692b"
   },
   {
     "path": "布局复核/生成核对简模.py",
